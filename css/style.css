@@ -118,6 +118,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .header-section .city__block span {
+    font-size: 14px;
+  }
+}
+
 .wrapper .marafon-title-section img {
   max-width: 100%;
   height: auto;
@@ -150,6 +156,25 @@
   .wrapper .ruvim-pro-section .img__build__fon {
     max-width: 660px;
     top: -276px;
+  }
+}
+
+@media (max-width: 686px) {
+  .wrapper .ruvim-pro-section .img__build__fon {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 659px) {
+  .wrapper .ruvim-pro-section .img__build__fon {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 622px) {
+  .wrapper .ruvim-pro-section .img__build__fon {
+    max-width: 510px;
+    top: -176px;
   }
 }
 
@@ -234,6 +259,18 @@
   }
 }
 
+@media (max-width: 660px) {
+  .wrapper .ruvim-pro-section .block__ruvim {
+    bottom: 611px;
+  }
+}
+
+@media (max-width: 622px) {
+  .wrapper .ruvim-pro-section .block__ruvim {
+    bottom: 520px;
+  }
+}
+
 .wrapper .ruvim-pro-section .block__ruvim h1 {
   /* Style for "Ruvim.PRO" */
   color: #f4222c;
@@ -263,6 +300,12 @@
   }
 }
 
+@media (max-width: 632px) {
+  .wrapper .ruvim-pro-section .block__ruvim h1 {
+    font-size: 22px;
+  }
+}
+
 .wrapper .ruvim-pro-section .block__ruvim .btn {
   margin-top: 20px;
   /* Style for "Кнопка" */
@@ -280,6 +323,13 @@
   .wrapper .ruvim-pro-section .block__ruvim .btn {
     width: 193px;
     height: 37px;
+  }
+}
+
+@media (max-width: 630px) {
+  .wrapper .ruvim-pro-section .block__ruvim .btn {
+    width: 132px;
+    height: 41px;
   }
 }
 
@@ -323,6 +373,13 @@
   .wrapper .ruvim-pro-section .block__ruvim .play {
     width: 40px;
     height: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .wrapper .ruvim-pro-section .block__ruvim .play {
+    width: 33px;
+    height: 29px;
   }
 }
 
@@ -398,6 +455,25 @@
   }
 }
 
+@media (max-width: 688px) {
+  .wrapper .ruvim-pro-section .img__speakers {
+    left: 20px;
+  }
+}
+
+@media (max-width: 660px) {
+  .wrapper .ruvim-pro-section .img__speakers {
+    bottom: 611px;
+  }
+}
+
+@media (max-width: 622px) {
+  .wrapper .ruvim-pro-section .img__speakers {
+    left: 0px;
+    bottom: 520px;
+  }
+}
+
 .wrapper .themes-section {
   margin-top: -680px;
 }
@@ -405,6 +481,12 @@
 @media (max-width: 768px) {
   .wrapper .themes-section {
     margin-top: -502px;
+  }
+}
+
+@media (max-width: 622px) {
+  .wrapper .themes-section {
+    margin-top: -332px;
   }
 }
 
@@ -436,6 +518,18 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .themes-section .img__fon__theme {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 637px) {
+  .wrapper .themes-section .img__fon__theme {
+    max-width: 500px;
+  }
+}
+
 .wrapper .themes-section .img__fon__theme__text {
   position: relative;
   top: -266px;
@@ -458,6 +552,12 @@
 @media (max-width: 768px) {
   .wrapper .themes-section .img__fon__theme__text {
     left: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper .themes-section .img__fon__theme__text {
+    left: 110px;
   }
 }
 
@@ -510,8 +610,9 @@
 
 @media (max-width: 768px) {
   .wrapper .card-section .card {
+    padding: 15px;
     margin-top: 20px;
-    max-width: 172px;
+    max-width: 240px;
     height: 275px;
   }
 }
@@ -524,6 +625,12 @@
 @media (max-width: 1168px) {
   .wrapper .card-section .card .text {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper .card-section .card .text {
+    text-align: left;
   }
 }
 
@@ -701,6 +808,18 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .section-getters img {
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 605px) {
+  .wrapper .section-getters img {
+    max-width: 490px;
+  }
+}
+
 .wrapper .section-useful {
   margin-top: 85px;
 }
@@ -747,6 +866,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .section-useful img {
+    max-width: 520px;
+  }
+}
+
 .wrapper .days-section {
   min-height: 1000px;
 }
@@ -784,6 +909,12 @@
 @media (max-width: 768px) {
   .wrapper .days-section img {
     max-width: 620px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper .days-section img {
+    max-width: 520px;
   }
 }
 
@@ -943,6 +1074,20 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .map-section .img__city {
+    max-width: 550px;
+    margin-bottom: 140px;
+  }
+}
+
+@media (max-width: 633px) {
+  .wrapper .map-section .img__city {
+    max-width: 490px;
+    margin-bottom: 170px;
+  }
+}
+
 .wrapper .map-section .block__map .go__map {
   z-index: 800;
   position: relative;
@@ -963,6 +1108,12 @@
 @media (max-width: 1142px) {
   .wrapper .partners-section {
     margin-top: -445px;
+  }
+}
+
+@media (max-width: 633px) {
+  .wrapper .partners-section {
+    margin-top: -378px;
   }
 }
 
@@ -999,6 +1150,18 @@
 @media (max-width: 774px) {
   .wrapper .partners-section img {
     max-width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper .partners-section img {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 633px) {
+  .wrapper .partners-section img {
+    max-width: 500px;
   }
 }
 
@@ -1098,6 +1261,20 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .youtube-section .block__frame .video .yt {
+    max-width: 290px;
+    height: 190px;
+  }
+}
+
+@media (max-width: 640px) {
+  .wrapper .youtube-section .block__frame .video .yt {
+    max-width: 240px;
+    height: 140px;
+  }
+}
+
 .wrapper .youtube-section .block__frame .video .stilus {
   position: relative;
   top: -340px;
@@ -1112,6 +1289,18 @@
 @media (max-width: 929px) {
   .wrapper .youtube-section .block__frame .video .stilus {
     top: -190px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper .youtube-section .block__frame .video .stilus {
+    top: -162px;
+  }
+}
+
+@media (max-width: 640px) {
+  .wrapper .youtube-section .block__frame .video .stilus {
+    top: -115px;
   }
 }
 
@@ -1191,6 +1380,18 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .youtube-section .block__frame .img__audince {
+    max-width: 110px;
+  }
+}
+
+@media (max-width: 649px) {
+  .wrapper .youtube-section .block__frame .img__audince {
+    display: none;
+  }
+}
+
 .wrapper .tickets-section {
   margin-top: -300px;
 }
@@ -1253,6 +1454,12 @@
 @media (max-width: 768px) {
   .wrapper .tickets-section img {
     max-width: 400px;
+  }
+}
+
+@media (max-width: 654px) {
+  .wrapper .tickets-section img {
+    max-width: 330px;
   }
 }
 
