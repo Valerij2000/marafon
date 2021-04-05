@@ -83,6 +83,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .header-section .city__block p {
+    margin-top: -43px;
+  }
+}
+
 .wrapper .header-section .city__block span {
   margin-left: 22px;
   /* Style for "Новосибирс" */
@@ -133,9 +139,17 @@
   top: -376px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1218px) {
   .wrapper .ruvim-pro-section .img__build__fon {
     max-width: 750px;
+    top: -326px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper .ruvim-pro-section .img__build__fon {
+    max-width: 660px;
+    top: -276px;
   }
 }
 
@@ -212,6 +226,12 @@
   position: relative;
   bottom: 780px;
   left: -30px;
+}
+
+@media (max-width: 768px) {
+  .wrapper .ruvim-pro-section .block__ruvim {
+    bottom: 651px;
+  }
 }
 
 .wrapper .ruvim-pro-section .block__ruvim h1 {
@@ -372,8 +392,20 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .ruvim-pro-section .img__speakers {
+    bottom: 650px;
+  }
+}
+
 .wrapper .themes-section {
   margin-top: -680px;
+}
+
+@media (max-width: 768px) {
+  .wrapper .themes-section {
+    margin-top: -502px;
+  }
 }
 
 .wrapper .themes-section .img__fon__theme {
@@ -423,6 +455,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .themes-section .img__fon__theme__text {
+    left: 180px;
+  }
+}
+
 .wrapper .themes-section .img__fon__round__red {
   position: relative;
   top: -501px;
@@ -467,6 +505,14 @@
 @media (max-width: 1168px) {
   .wrapper .card-section .card {
     max-width: 308px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper .card-section .card {
+    margin-top: 20px;
+    max-width: 172px;
+    height: 275px;
   }
 }
 
@@ -649,6 +695,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .section-getters img {
+    max-width: 600px;
+  }
+}
+
 .wrapper .section-useful {
   margin-top: 85px;
 }
@@ -689,6 +741,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .section-useful img {
+    max-width: 580px;
+  }
+}
+
 .wrapper .days-section {
   min-height: 1000px;
 }
@@ -720,6 +778,12 @@
 @media (max-width: 992px) {
   .wrapper .days-section img {
     max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper .days-section img {
+    max-width: 620px;
   }
 }
 
@@ -786,6 +850,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .days-section .main__block__practice .block__btn .btn {
+    max-width: 210px;
+  }
+}
+
 .wrapper .days-section .block__practice .header__title {
   color: white;
   margin-top: 30px;
@@ -821,6 +891,12 @@
 
 .wrapper .speakers-section {
   margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .wrapper .speakers-section img {
+    max-width: 400px;
+  }
 }
 
 .wrapper .speakers-photo-section .block__descr .block__txt__secrp {
@@ -874,6 +950,12 @@
   top: -289px;
 }
 
+@media (max-width: 844px) {
+  .wrapper .map-section .block__map .go__map {
+    height: 220px;
+  }
+}
+
 .wrapper .partners-section {
   margin-top: -505px;
 }
@@ -911,6 +993,12 @@
 @media (max-width: 847px) {
   .wrapper .partners-section img {
     max-width: 750px;
+  }
+}
+
+@media (max-width: 774px) {
+  .wrapper .partners-section img {
+    max-width: 700px;
   }
 }
 
@@ -1162,6 +1250,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .tickets-section img {
+    max-width: 400px;
+  }
+}
+
 .wrapper .buy-card-section {
   min-height: 500px;
 }
@@ -1204,6 +1298,12 @@
   line-height: normal;
 }
 
+@media (max-width: 768px) {
+  .wrapper .buy-card-section .main__block__card .title {
+    font-size: 40px;
+  }
+}
+
 .wrapper .buy-card-section .main__block__card .item__text {
   margin-top: 20px;
   color: #d0cece;
@@ -1218,6 +1318,12 @@
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .wrapper .buy-card-section .main__block__card .item__text {
+    font-size: 14px;
+  }
 }
 
 .wrapper .buy-card-section .main__block__card .item__price {
@@ -1243,6 +1349,12 @@
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .wrapper .buy-card-section .main__block__card .item__price {
+    font-size: 20px;
+  }
 }
 
 .wrapper .buy-card-section .main__block__card .item__button {
@@ -1276,6 +1388,13 @@
   font-weight: 900;
 }
 
+@media (max-width: 768px) {
+  .wrapper .buy-card-section .main__block__card .item__button .btn {
+    max-width: 140px;
+    height: 47px;
+  }
+}
+
 .wrapper .buy-card-section .card {
   z-index: 190;
   padding: 30px;
@@ -1292,6 +1411,12 @@
   border-image-slice: 1;
 }
 
+@media (max-width: 768px) {
+  .wrapper .buy-card-section .card {
+    max-width: 230px;
+  }
+}
+
 .wrapper .buy-card-section .card .text {
   color: #747272;
   text-align: center;
@@ -1306,6 +1431,12 @@
   min-height: 350px;
 }
 
+@media (max-width: 768px) {
+  .wrapper .footer-section {
+    margin-top: 0px;
+  }
+}
+
 @media (max-width: 1200px) {
   .wrapper .footer-section .logo__footer {
     max-width: 450px;
@@ -1318,6 +1449,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .wrapper .footer-section .logo__footer {
+    max-width: 200px;
+  }
+}
+
 .wrapper .footer-section .block__partners__footer img {
   margin-top: 20px;
 }
@@ -1325,6 +1462,12 @@
 @media (max-width: 992px) {
   .wrapper .footer-section .block__partners__footer img {
     max-width: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper .footer-section .block__partners__footer img {
+    max-width: 60px;
   }
 }
 
