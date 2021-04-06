@@ -33,10 +33,35 @@
 }
 
 .wrapper .header-section .nav-block .nav-link {
+  position: relative;
   display: block;
   padding: .5rem 1rem;
   color: white;
   margin-left: 70px;
+}
+
+.wrapper .header-section .nav-block .nav-link:after {
+  top: 52px;
+  margin-left: 12.9px;
+  display: block;
+  position: absolute;
+  left: 0;
+  /*изменить на right:0;, чтобы изменить направление подчёркивания */
+  width: 0;
+  /*задаём длинну линии до наведения курсора*/
+  height: 4px;
+  /*задаём ширину линии*/
+  background-color: #f4222c;
+  /*задаём цвет линии*/
+  content: "";
+  -webkit-transition: width 0.3s ease-out;
+  transition: width 0.3s ease-out;
+  /*задаём время анимации*/
+}
+
+.wrapper .header-section .nav-block .nav-link:hover:after, .wrapper .header-section .nav-block .nav-link:focus:after {
+  width: 80%;
+  /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
 }
 
 @media (max-width: 992px) {
@@ -45,19 +70,129 @@
   }
 }
 
+@media (max-width: 576px) {
+  .wrapper .header-section .nav-block .nav-link {
+    display: none;
+  }
+}
+
 .wrapper .header-section .nav-block .nav-link:focus {
   color: #f0222c;
 }
 
 .wrapper .header-section .back {
-  background-image: url("../../img/navbar.png");
-  background-repeat: no-repeat;
+  border: 2px solid transparent;
+  -o-border-image: linear-gradient(to bottom, transparent 40%, transparent 22%, #7b2124 76%);
+     border-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, transparent), color-stop(22%, transparent), color-stop(76%, #7b2124));
+     border-image: linear-gradient(to bottom, transparent 40%, transparent 22%, #7b2124 76%);
+  border-image-slice: 23;
   height: 57px;
 }
 
-@media (max-width: 992px) {
+.wrapper .header-section .back .burger {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .wrapper .header-section .back .burger {
+    display: block;
+  }
+  .wrapper .header-section .back .burger .header__menu.active {
+    top: 0px;
+  }
+  .wrapper .header-section .back .burger .header__menu {
+    background-color: #2c2e2f;
+    position: fixed;
+    top: -100%;
+    width: 100%;
+    height: 40%;
+    z-index: 900000;
+  }
+  .wrapper .header-section .back .burger .active:before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 11px !important;
+    -webkit-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+  }
+  .wrapper .header-section .back .burger .active span {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+  }
+  .wrapper .header-section .back .burger .header__list li {
+    list-style-type: none;
+  }
+  .wrapper .header-section .back .burger .header__list .nav-link {
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    color: white;
+    margin-left: 70px;
+    font-size: 23px;
+  }
+  .wrapper .header-section .back .burger .header__list .nav-link:after {
+    margin-left: 20px;
+    display: block;
+    position: absolute;
+    left: 0;
+    /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;
+    /*задаём длинну линии до наведения курсора*/
+    height: 4px;
+    /*задаём ширину линии*/
+    background-color: #f4222c;
+    /*задаём цвет линии*/
+    content: "";
+    -webkit-transition: width 0.3s ease-out;
+    transition: width 0.3s ease-out;
+    /*задаём время анимации*/
+  }
+  .wrapper .header-section .back .burger .header__list .nav-link:hover:after, .wrapper .header-section .back .burger .header__list .nav-link:focus:after {
+    width: 20%;
+    /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+  }
+  .wrapper .header-section .back .burger .header__burger {
+    position: relative;
+    width: 30px;
+    height: 20px;
+    top: 10px;
+  }
+  .wrapper .header-section .back .burger .header__burger span {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 10px;
+    -webkit-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+  }
+  .wrapper .header-section .back .burger .header__burger::before, .wrapper .header-section .back .burger .header__burger ::after {
+    content: '';
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+  }
+  .wrapper .header-section .back .burger .header__burger::before {
+    top: 20px;
+    -webkit-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+  }
+  .wrapper .header-section .back .burger .header__burger::after {
+    bottom: 0px;
+  }
+}
+
+@media (max-width: 575px) {
   .wrapper .header-section .back {
-    background-image: none;
+    border: none;
+    -o-border-image: none;
+       border-image: none;
+    border-image-slice: none;
   }
 }
 
@@ -586,25 +721,40 @@
   }
 }
 
+.wrapper .card-section .card__border {
+  border: 1px solid transparent;
+  -o-border-image: linear-gradient(to top, transparent 40%, transparent 22%, #7b2124 76%);
+     border-image: -webkit-gradient(linear, left bottom, left top, color-stop(40%, transparent), color-stop(22%, transparent), color-stop(76%, #7b2124));
+     border-image: linear-gradient(to top, transparent 40%, transparent 22%, #7b2124 76%);
+  border-image-slice: 23;
+}
+
 .wrapper .card-section .card {
   z-index: 190;
   padding: 30px;
   /* Style for "Прямоуголь" */
-  max-width: 378px;
+  width: 381px;
   height: 140px;
   -webkit-box-shadow: -9px 30px 25px 4px #222222;
           box-shadow: -9px 30px 25px 4px #222222;
   background-color: #262727;
-  border: 2px solid transparent;
-  -o-border-image: linear-gradient(to left top, #7b2124 10%, transparent 30%, transparent 70%, #7b2124 90%);
-     border-image: -webkit-gradient(linear, right bottom, left top, color-stop(10%, #7b2124), color-stop(30%, transparent), color-stop(70%, transparent), color-stop(90%, #7b2124));
-     border-image: linear-gradient(to left top, #7b2124 10%, transparent 30%, transparent 70%, #7b2124 90%);
-  border-image-slice: 1;
 }
 
 @media (max-width: 1168px) {
   .wrapper .card-section .card {
-    max-width: 308px;
+    width: 308px;
+  }
+}
+
+@media (max-width: 992px) {
+  .wrapper .card-section .card {
+    width: 280px;
+  }
+}
+
+@media (max-width: 845px) {
+  .wrapper .card-section .card {
+    width: 220px;
   }
 }
 
@@ -612,8 +762,17 @@
   .wrapper .card-section .card {
     padding: 15px;
     margin-top: 20px;
-    max-width: 240px;
-    height: 275px;
+    max-width: 180px;
+    height: 194px;
+  }
+}
+
+@media (max-width: 697px) {
+  .wrapper .card-section .card {
+    padding: 15px;
+    margin-top: 20px;
+    width: 140px;
+    height: 194px;
   }
 }
 
@@ -1611,11 +1770,11 @@
   -webkit-box-shadow: -9px 30px 25px 4px #222222;
           box-shadow: -9px 30px 25px 4px #222222;
   background-color: #262727;
-  border: 2px solid transparent;
-  -o-border-image: linear-gradient(to left top, #7b2124 10%, transparent 30%, transparent 70%, #7b2124 90%);
-     border-image: -webkit-gradient(linear, right bottom, left top, color-stop(10%, #7b2124), color-stop(30%, transparent), color-stop(70%, transparent), color-stop(90%, #7b2124));
-     border-image: linear-gradient(to left top, #7b2124 10%, transparent 30%, transparent 70%, #7b2124 90%);
-  border-image-slice: 1;
+  border: 1px solid transparent;
+  -o-border-image: linear-gradient(to top, transparent 8%, transparent 22%, #7b2124 76%);
+     border-image: -webkit-gradient(linear, left bottom, left top, color-stop(8%, transparent), color-stop(22%, transparent), color-stop(76%, #7b2124));
+     border-image: linear-gradient(to top, transparent 8%, transparent 22%, #7b2124 76%);
+  border-image-slice: 23;
 }
 
 @media (max-width: 768px) {
