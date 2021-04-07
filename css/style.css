@@ -34,6 +34,7 @@
 }
 
 .wrapper .header-section .nav-block .nav-link {
+  font-family: 'Poppins', sans-serif;
   z-index: 1200000;
   position: relative;
   display: block;
@@ -2106,25 +2107,13 @@
   /* Style for "5 000₽" */
   margin-top: 60px;
   color: #ffffff;
-  font-family: "GT Eesti Pro Display - Ultra Bold";
+  font-family: 'Poppins', sans-serif;
   font-size: 28px;
   font-weight: 900;
   font-style: normal;
   letter-spacing: normal;
   line-height: 95.06px;
   text-align: center;
-  /* Text style for "5 000" */
-  font-family: "GT Eesti Pro Display - Ultra Bold";
-  font-weight: 700;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  /* Text style for "₽" */
-  font-family: "GT Eesti Pro Display";
-  font-weight: 700;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
 }
 
 @media (max-width: 768px) {
