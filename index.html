@@ -46,12 +46,11 @@
             <div class="col-xl-12 col-lg-12 col-sm-12 col-md-12">
 				<div class="back">
 					<div class="nav-block">
-						<a class="nav-link active" aria-current="page" href="#">Программа</a>
-						<a class="nav-link" href="#">Спикеры</a>
-						<a class="nav-link" href="#">Купить билет</a>
-						<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Стать партнером</a>
-					</div>
-
+						<a class="nav-link active" aria-current="page" href="javascript:void(0)" onclick="scrollDownUp('#programm');">Программа</a>
+						<a class="nav-link" href="javascript:void(0)" onclick="scrollDownUp('#speakers');">Спикеры</a>
+						<a class="nav-link" href="javascript:void(0)" onclick="scrollDownUp('#tickets');">Купить билет</a>
+						<a href="#" class="nav-link" tabindex="-1" aria-disabled="true">Стать партнером</a>
+				ticketes
 					<!-- Header-Burger -->
 
 					<div class="burger">
@@ -64,13 +63,13 @@
 									<span></span>
 								</div>
 								<li>
-									<a class="nav-link active" aria-current="page" href="#">Программа</a>
+									<a class="nav-link active" aria-current="page" href="javascript:void(0)" onclick="scrollDownUp('#programm');">Программа</a>
 								</li>
 								<li>
-									<a class="nav-link" href="#">Спикеры</a>
+									<a class="nav-link" href="javascript:void(0)" onclick="scrollDownUp('#speakers');">Спикеры</a>
 								</li>
 								<li>
-									<a class="nav-link" href="#">Купить билет</a>
+									<a class="nav-link" href="javascript:void(0)" onclick="scrollDownUp('#tickets');">Купить билет</a>
 								</li>
 								<li>
 									<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Стать партнером</a>
@@ -164,7 +163,7 @@
 						
 						<span>Купить билет</span>
 					   </button>
-					   <div class="block__play d-flex flex-row  mt-5">
+					   <div class="block__play d-flex flex-row  mt-5 mb-4">
 						   <div class="play d-flex justify-content-center align-items-center">
 								<a href="#">
 									<img class="play__button" src="img/play-button-arrowhead.png" alt="">
@@ -201,8 +200,8 @@
 
 	  <section class="card-section">
 		  <div class="container">
-			  <div class="row">
-				  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+			  <div class="row card__display">
+				  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
 					  <div class="card">
 						  <div class="text">
 							<p>
@@ -215,7 +214,7 @@
 						  </div>
 					  </div>
 				  </div>
-				   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+				   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
 					  <div class="card card__border">
 						  <div class="text">
 							  <p>
@@ -227,7 +226,7 @@
 						  </div>
 					  </div>
 				  </div>
-				  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+				  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
 					<div class="card">
 						<div class="text">
 							<p>
@@ -241,8 +240,8 @@
 					</div>
 				</div>
 			  </div>
-			  <div class="row">
-				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+			  <div class="row card__display">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
 					<div class="card card__border">
 						<div class="text">
 							<p>
@@ -255,7 +254,7 @@
 						</div>
 					</div>
 				</div>
-				 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+				 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
 					<div class="card" >
 						<div class="text">
 							<p>
@@ -267,7 +266,7 @@
 						</div>
 					</div>
 				</div> 
-				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
 				  <div class="card card__border">
 					<div class="text">
 						<p>
@@ -286,7 +285,7 @@
 
 			<div class="row">
 
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 				<div class="block__text d-flex flex-row">
 					
 						<div class="text__">
@@ -338,7 +337,7 @@
 	  </section>
 
 
-	  <section class="section-getters">
+	  <section class="section-getters" id="programm">
 		  <div class="container">
 			 <div class="row">
 				 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -492,7 +491,7 @@
 	
 
 
-	  <section class="speakers-section">
+	  <section class="speakers-section" id="speakers">
 		  <div class="container">
 			  <div class="row">
 				  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 offset-sm-1 offset-md-1 offset-lg-2 offset-xl-2">
@@ -645,31 +644,31 @@
 <section class="partners-card-section">
 	<div class="container">
 		<div class="row">
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
 				<img src="img/card-partn1.png" alt="">
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
 				<img src="img/card-partn2.png" alt="">
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
 				<img src="img/card-partn1.png" alt="">
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
 				<img src="img/card-partn2.png" alt="">
 			</div>
 		</div>
 
 		<div class="row mt-5">
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
 				<img src="img/card-partn1.png" alt="">
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
 				<img src="img/card-partn2.png" alt="">
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
 				<img src="img/card-partn1.png" alt="">
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
 				<img src="img/card-partn2.png" alt="">
 			</div>
 		</div>
@@ -742,7 +741,7 @@
 
 
 
-<section class="tickets-section">
+<section class="tickets-section" >
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 offset-sm-2 offset-md-2 offset-lg-2 offset-xl-2">
@@ -755,7 +754,7 @@
 
 
 
-<section class="buy-card-section">
+<section class="buy-card-section" id="tickets">
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
@@ -828,17 +827,17 @@
 <section class="footer-section">
 	<div class="container">
 		<div class="row">
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-5">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-5 col-12">
 				<img class="logo__footer" src="img/marafon__footer.png" alt="">
 			</div>
-			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12">
 				<div class="block__partners__footer">
 					<img src="img/card-partn1.png" alt="">
 					<img src="img/card-partn2.png" alt="">
 					<img src="img/card-partn2.png" alt="">
 				</div>
 			</div>
-			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-5">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-12">
 				<div class="block__contact__footer">
 					<div class="phone__block">
 						<div class="bl__img">
