@@ -34,13 +34,13 @@
 }
 
 .wrapper .header-section .nav-block .nav-link {
-  font-family: 'Poppins', sans-serif;
   z-index: 1200000;
   position: relative;
   display: block;
   padding: .5rem 1rem;
   color: white;
   margin-left: 70px;
+  font-weight: 500;
 }
 
 .wrapper .header-section .nav-block .nav-link:after {
@@ -208,7 +208,6 @@
 .wrapper .header-section .city__block {
   /* Style for "Новосибирс" */
   color: #ffffff;
-  font-family: "GT Eesti Pro Display - Thin";
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
@@ -237,7 +236,6 @@
   margin-left: 22px;
   /* Style for "Новосибирс" */
   color: #f1f1f1;
-  font-family: "GT Eesti Pro Display - Thin";
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
@@ -526,7 +524,6 @@
 .wrapper .ruvim-pro-section .block__ruvim .btn span {
   /* Style for "Купить бил" */
   color: #ffffff;
-  font-family: "GT Eesti Pro Display";
   font-size: 18px;
   font-weight: 700;
   font-style: normal;
@@ -581,7 +578,6 @@
 .wrapper .ruvim-pro-section .block__ruvim .text {
   /* Style for "Расскажем" */
   color: #ffffff;
-  font-family: "GT Eesti Pro Display";
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
@@ -1054,7 +1050,6 @@
 .wrapper .card-section .block__text .main {
   /* Style for "4 спикера" */
   color: #888888;
-  font-family: "GT Eesti Pro Display";
   font-size: 31px;
   font-weight: 700;
   font-style: normal;
@@ -1077,7 +1072,6 @@
   /* Style for "Рувим Бойк" */
   color: #888888;
   margin-left: 20px;
-  font-family: "GT Eesti Pro Display - Thin";
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
@@ -1381,7 +1375,6 @@
   background-image: linear-gradient(to bottom, #f95043 0%, #d63529 100%);
   /* Style for "Подробная" */
   color: #ffffff;
-  font-family: "GT Eesti Pro Display";
   font-size: 18px;
   font-weight: 700;
   font-style: normal;
@@ -2084,9 +2077,8 @@
 .wrapper .buy-card-section .main__block__card .item__text {
   margin-top: 20px;
   color: #d0cece;
-  font-family: "GT Eesti Pro Display";
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   letter-spacing: normal;
   line-height: 24px;
@@ -2119,6 +2111,7 @@
 @media (max-width: 768px) {
   .wrapper .buy-card-section .main__block__card .item__price {
     font-size: 20px;
+    margin-top: 8px;
   }
 }
 
@@ -2157,6 +2150,13 @@
   .wrapper .buy-card-section .main__block__card .item__button .btn {
     max-width: 140px;
     height: 47px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper .buy-card-section .main__block__card .item__button {
+    margin-top: 0px;
   }
 }
 
@@ -2164,7 +2164,7 @@
   z-index: 190;
   padding: 30px;
   /* Style for "Прямоуголь" */
-  width: 378px;
+  width: 340px;
   min-height: 340px;
   -webkit-box-shadow: -9px 30px 25px 4px #222222;
           box-shadow: -9px 30px 25px 4px #222222;
@@ -2179,6 +2179,7 @@
 @media (max-width: 768px) {
   .wrapper .buy-card-section .card {
     max-width: 230px;
+    min-height: 306px;
   }
 }
 
@@ -2304,7 +2305,6 @@
 .wrapper .footer-section .block__contact__footer .phone__block .phone .txt__number {
   /* Style for "+7 927 566" */
   color: #cdcdcd;
-  font-family: "GT Eesti Pro Display";
   font-size: 22px;
   font-weight: 300;
   font-style: normal;
@@ -2351,7 +2351,6 @@
 .wrapper .footer-section .block__contact__footer .mail__block .txt__mail {
   /* Style for "maraphon@m" */
   color: #cdcdcd;
-  font-family: "GT Eesti Pro Display";
   font-size: 22px;
   font-weight: 300;
   font-style: normal;
@@ -2392,7 +2391,6 @@
   margin-top: 10px;
   /* Style for "Публичная" */
   color: #949494;
-  font-family: "GT Eesti Pro Display";
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
