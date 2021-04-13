@@ -33,8 +33,7 @@
 
 </head>
 <body>
-	
-  
+
   
   <!-- wrapper - Обертка всего содержимого  -->
     <div class="wrapper">
@@ -49,7 +48,7 @@
 						<a class="nav-link active" aria-current="page" href="javascript:void(0)" onclick="scrollDownUp('#programm');">Программа</a>
 						<a class="nav-link" href="javascript:void(0)" onclick="scrollDownUp('#speakers');">Спикеры</a>
 						<a class="nav-link" href="javascript:void(0)" onclick="scrollDownUp('#tickets');">Купить билет</a>
-						<a href="#" class="nav-link" tabindex="-1" aria-disabled="true">Стать партнером</a>
+						<a class="nav-link" href="javascript:void(0)" onclick="scrollDownUp('#partners');">Стать партнером</a>
 				ticketes
 					<!-- Header-Burger -->
 
@@ -72,7 +71,7 @@
 									<a class="nav-link" href="javascript:void(0)" onclick="scrollDownUp('#tickets');">Купить билет</a>
 								</li>
 								<li>
-									<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Стать партнером</a>
+									<a class="nav-link" href="javascript:void(0)" onclick="scrollDownUp('#partners');">Стать партнером</a>
 								</li>
 							</ul>
 						</div>
@@ -82,6 +81,14 @@
 
 
 				</div>
+
+
+
+				
+
+
+
+
 			
 				
 
@@ -135,6 +142,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 	  <section class="marafon-title-section">
 		  <img src="img/marafon__title.png" alt="">
 	  </section>
@@ -156,13 +172,78 @@
 				<div class="col-xl-4 col-lg-4 col-sm-4 col-md-4 offset-sm-3 offset-md-3 offset-lg-3 offset-xl-3">
 				   <div class="block__ruvim ">
 					   <h1>
-						  Ruvim.PRO &
-						  Shadoof Design
+						 на порядок <br> выше
 					   </h1>
-					   <button class="btn">
-						
+
+					   
+<!-- Button trigger modal -->
+
+					   <button class="btn" data-toggle="modal" data-target="#buy__ticket__modal">
 						<span>Купить билет</span>
 					   </button>
+
+
+
+<!-- Modal Ticket-->
+
+<div class="modal fade" id="buy__ticket__modal" data-backdrop="static" data-keyboard="false" tabindex="-1"  aria-hidden="true">
+  <div class="modal-dialog">
+	  <div class="modal-content">
+		  <div class="modal-header">
+			<img src="img/state__partn__img.png" alt="">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <form action="">
+			  <div class="modal-body">
+				  <p class="individual">Заполни данные о себе, пиши только
+					  <br>
+					 реальную информацию
+				 </p>
+	 
+	 
+	 
+				
+				  <div class="container">
+					  <div class="input__group">
+						  <input class="inp" type="name" placeholder="Имя*">
+						  <input class="inp" type="email" placeholder="E-mail*">
+						  <input class="inp" type="number" placeholder="Телефон*">
+						  <input class="inp" type="text" placeholder="Сфера деятельности*">
+						  <input class="inp" type="text" placeholder="Расскажи о себе">
+					  </div>
+				  </div>
+				
+	 
+	 
+	 
+				 <p class="field">
+					 * обозначены поля
+					 <br>
+	 обязательные к заполнению
+				 </p>
+				 </div>
+				 <div class="modal-footer">
+				   <button type="button" class="btn__modal">Купить билет</button>
+				 </div>
+		  </form>
+		</div>
+  </div>
+</div>
+
+<!-- End Modal Ticket -->
+
+
+
+
+
+
+
+
+
+
+
 					   <div class="block__play d-flex flex-row  mt-5 mb-4">
 						   <div class="play d-flex justify-content-center align-items-center">
 								<a href="#">
@@ -628,11 +709,78 @@
 
 	
 
-	  <section class="partners-section">
+	  <section class="partners-section" id="partners">
 		  <div class="container-fluid">
 			  <div class="row">
-				  <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
-					  <img src="img/section-partners.png" alt="">
+				  <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 flex__wrapp">
+					
+					  <img src="img/section-partners-new.png" alt="">
+
+					  <div class="state__partners">
+						<p class="partners__state__text">более 1 500 <br> участников</p>
+
+
+
+						<!-- Button trigger modal -->
+
+						<button class="btn" data-toggle="modal" data-target="#state__partn__modal">Стать партнером</button>
+
+  
+  <!-- Modal Partners-->
+
+  <div class="modal fade" id="state__partn__modal" data-backdrop="static" data-keyboard="false" tabindex="-1"  aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+			  <img src="img/state__partn__img.png" alt="">
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<form action="">
+				<div class="modal-body">
+					<p class="individual">Заполни данные о себе, пиши только
+						<br>
+					   реальную информацию
+				   </p>
+	   
+	   
+	   
+				  
+					<div class="container">
+						<div class="input__group">
+							<input class="inp" type="name" placeholder="Имя*">
+							<input class="inp" type="email" placeholder="E-mail*">
+							<input class="inp" type="number" placeholder="Телефон*">
+							<input class="inp" type="text" placeholder="Бренд*">
+							<input class="inp" type="text" placeholder="Комментарии">
+						</div>
+					</div>
+				  
+	   
+	   
+	   
+				   <p class="field">
+					   * обозначены поля
+					   <br>
+	   обязательные к заполнению
+				   </p>
+				   </div>
+				   <div class="modal-footer">
+					 <button type="button" class="btn__modal">Купить билет</button>
+				   </div>
+			</form>
+		  </div>
+	</div>
+  </div>
+
+ <!-- End Modal Partners -->
+
+
+
+					  </div>
+
+					  
 				  </div>
 			  </div>
 		  </div>
@@ -829,24 +977,40 @@
 		<div class="row">
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-5 col-12">
 				<img class="logo__footer" src="img/marafon__footer.png" alt="">
-			</div>
-			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12">
-				<div class="block__partners__footer">
-					<img src="img/card-partn1.png" alt="">
-					<img src="img/card-partn2.png" alt="">
-					<img src="img/card-partn2.png" alt="">
+				<div class="block__card__partn">
+					<div class="item__card">
+						<img class="partn__img" src="img/card-partn1.png" alt="">
+						<div class="social__icon">
+							<a href="#"><img src="img/instagram.png" alt=""></a>
+							<a href="#"><img src="img/vkontakte.png" alt=""></a>
+						</div>
+					</div>
+					<div class="item__card">
+						<img class="partn__img" src="img/card-partn2.png" alt="">
+						<div class="social__icon">
+							<a href="#"><img src="img/instagram.png" alt=""></a>
+							<a href="#"><img src="img/vkontakte.png" alt=""></a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-12">
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 mt-3">
+				<div class="block__partners__footer">
+					<a href="#" class="footer__txt__partners">стать партнером
+						мероприятия
+					</a>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-12 mt-3">
 				<div class="block__contact__footer">
 					<div class="phone__block">
 						<div class="bl__img">
-							<img src="img/red__stilus.png" alt="">
+							<img class="footer__line" src="img/footer__line.png" alt="">
 						</div>
 						<div class="phone">
 							<img class="img__phone" src="img/phone.png" alt="">
 							<p class="txt__number">
-								+7 927 566 45 45
+								+7 927 566 45 45	
 							</p>
 						</div>
 					</div>
