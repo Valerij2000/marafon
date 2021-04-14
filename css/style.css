@@ -267,6 +267,7 @@
 }
 
 .wrapper .marafon-title-section img {
+  z-index: 501;
   max-width: 100%;
   height: auto;
 }
@@ -499,7 +500,7 @@
   }
 }
 
-@media (max-width: 1545px) {
+@media (max-width: 1725px) {
   .wrapper .ruvim-pro-section .img__angle__fon {
     max-width: 445px;
     left: 70px;
