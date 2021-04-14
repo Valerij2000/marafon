@@ -14,7 +14,7 @@
 }
 
 .wrapper .header-section .nav-block {
-  z-index: 10000;
+  z-index: 500;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,7 +34,7 @@
 }
 
 .wrapper .header-section .nav-block .nav-link {
-  z-index: 1200000;
+  z-index: 500;
   position: relative;
   display: block;
   padding: .5rem 1rem;
