@@ -276,81 +276,81 @@
   height: auto;
 }
 
-.wrapper .tickets-section {
+.wrapper .raspiasnie-tickets-section {
   margin-top: -84px;
 }
 
 @media (max-width: 1386px) {
-  .wrapper .tickets-section img {
+  .wrapper .raspiasnie-tickets-section img {
     margin-top: 30px;
     margin-left: -180px;
   }
 }
 
 @media (max-width: 1271px) {
-  .wrapper .tickets-section img {
+  .wrapper .raspiasnie-tickets-section img {
     margin-top: 30px;
     margin-left: -270px;
   }
 }
 
 @media (max-width: 930px) {
-  .wrapper .tickets-section img {
+  .wrapper .raspiasnie-tickets-section img {
     margin-top: 30px;
   }
 }
 
 @media (max-width: 596px) {
-  .wrapper .tickets-section img {
+  .wrapper .raspiasnie-tickets-section img {
     display: none;
   }
 }
 
 @media (max-width: 1783px) {
-  .wrapper .tickets-section img {
+  .wrapper .raspiasnie-tickets-section img {
     max-width: 1100px;
   }
 }
 
 @media (max-width: 1515px) {
-  .wrapper .tickets-section img {
+  .wrapper .raspiasnie-tickets-section img {
     max-width: 950px;
   }
 }
 
 @media (max-width: 1386px) {
-  .wrapper .tickets-section img {
+  .wrapper .raspiasnie-tickets-section img {
     margin-left: 120px;
     max-width: 750px;
   }
 }
 
 @media (max-width: 1082px) {
-  .wrapper .tickets-section img {
+  .wrapper .raspiasnie-tickets-section img {
     max-width: 700px;
   }
 }
 
 @media (max-width: 1018px) {
-  .wrapper .tickets-section img {
+  .wrapper .raspiasnie-tickets-section img {
     max-width: 600px;
   }
 }
 
 @media (max-width: 992px) {
-  .wrapper .tickets-section img {
+  .wrapper .raspiasnie-tickets-section img {
     max-width: 500px;
   }
 }
 
 @media (max-width: 768px) {
-  .wrapper .tickets-section img {
+  .wrapper .raspiasnie-tickets-section img {
     max-width: 400px;
   }
 }
 
 @media (max-width: 654px) {
-  .wrapper .tickets-section img {
+  .wrapper .raspiasnie-tickets-section img {
     max-width: 330px;
   }
 }
