@@ -431,6 +431,7 @@
 .wrapper .ruvim-pro-section .img__build__fon {
   max-width: 774px;
   position: relative;
+  opacity: 0.3;
   top: -376px;
 }
 
@@ -496,7 +497,8 @@
 @media (max-width: 1939px) {
   .wrapper .ruvim-pro-section .img__angle__fon {
     max-width: 645px;
-    left: 100px;
+    left: 271px;
+    top: -71px;
   }
 }
 
@@ -750,6 +752,7 @@
   position: relative;
   bottom: 800px;
   left: -54px;
+  max-width: 60%;
 }
 
 @media (max-width: 1545px) {
