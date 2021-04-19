@@ -1695,6 +1695,7 @@
   margin-top: 10px;
   color: white;
   padding-left: 20px;
+  outline: none;
 }
 
 .wrapper .partners-section .input__group .inp::-webkit-input-placeholder {
@@ -2388,7 +2389,7 @@
 
 .wrapper .buy-card-section .input__group .inp {
   /* Style for "Поле ввода" */
-  border: 1px solid #ffffff;
+  border: 1px solid;
   /* Style for "Поле ввода" */
   width: 296px;
   height: 47px;
@@ -2398,6 +2399,7 @@
   margin-top: 10px;
   color: white;
   padding-left: 20px;
+  outline: none;
 }
 
 .wrapper .buy-card-section .input__group .inp::-webkit-input-placeholder {
