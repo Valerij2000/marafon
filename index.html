@@ -176,63 +176,17 @@
 					   </h1>
 
 					   
-<!-- Button trigger modal -->
-
-					   <button class="btn" data-toggle="modal" data-target="#buy__ticket__modal">
-						<span>Купить билет</span>
-					   </button>
 
 
+					   <a href="javascript:void(0)" onclick="scrollDownUp('#buy__ticket__button');">
+						<button class="btn">
+							<span>Купить билет</span>
+						   </button>
+					   </a>
 
-<!-- Modal Ticket-->
 
-<div class="modal fade" id="buy__ticket__modal" data-backdrop="static" data-keyboard="false" tabindex="-1"  aria-hidden="true">
-  <div class="modal-dialog">
-	  <div class="modal-content">
-		  <div class="modal-header">
-			<img src="img/state__partn__img.png" alt="">
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			  <span aria-hidden="true">&times;</span>
-			</button>
-		  </div>
-		  <form action="">
-			  <div class="modal-body">
-				  <p class="individual">Заполни данные о себе, пиши только
-					  <br>
-					 реальную информацию
-				 </p>
-	 
-	 
-	 
-				
-				  <div class="container">
-					  <div class="input__group">
-						  <input class="inp" type="name" placeholder="Имя*">
-						  <input class="inp" type="email" placeholder="E-mail*">
-						  <input class="inp" type="tel" placeholder="Телефон*">
-						  <input class="inp" type="text" placeholder="Сфера деятельности*">
-						  <input class="inp" type="text" placeholder="Расскажи о себе">
-					  </div>
-				  </div>
-				
-	 
-	 
-	 
-				 <p class="field">
-					 * обозначены поля
-					 <br>
-	 обязательные к заполнению
-				 </p>
-				 </div>
-				 <div class="modal-footer">
-				   <button type="button" class="btn__modal">Купить билет</button>
-				 </div>
-		  </form>
-		</div>
-  </div>
-</div>
 
-<!-- End Modal Ticket -->
+
 
 
 
@@ -890,7 +844,7 @@
 
 
 
-<section class="tickets-section" >
+<section class="tickets-section" id="tickets">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 offset-sm-2 offset-md-2 offset-lg-2 offset-xl-2">
@@ -903,7 +857,7 @@
 
 
 
-<section class="buy-card-section">
+<section class="buy-card-section" id="buy__ticket__button">
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1">
@@ -925,12 +879,69 @@
 						</div>
 	
 						<div class="item__button">
-							<button class="btn">
+							<button class="btn" data-toggle="modal" data-target="#buy__ticket__modal__1">
 								<span>
 									Купить билет
 								</span>
 							</button>
 						</div>
+
+
+<!-- Modal Ticket 1 -->
+
+<div class="modal fade" id="buy__ticket__modal__1" data-backdrop="static" data-keyboard="false" tabindex="-1"  aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header mb-5">
+			 
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<form action="">
+				<div class="modal-body">
+					<p class="individual">Заполни данные о себе, пиши только
+						<br>
+					   реальную информацию
+				   </p>
+	   
+	   
+	   
+				  
+					<div class="container">
+						<div class="input__group">
+							<input class="inp" type="name" placeholder="Имя*">
+							<input class="inp" type="email" placeholder="E-mail*">
+							<input class="inp" type="tel" placeholder="Телефон*">
+							<input class="inp" type="text" placeholder="Сфера деятельности*">
+							<input class="inp" type="text" placeholder="Расскажи о себе">
+						</div>
+					</div>
+				  
+	   
+	   
+	   
+				   <p class="field">
+					   * обозначены поля
+					   <br>
+	   обязательные к заполнению
+				   </p>
+				   </div>
+				   <div class="modal-footer">
+					 <button type="button" class="btn__modal">Купить билет</button>
+				   </div>
+			</form>
+		  </div>
+	</div>
+  </div>
+  
+  <!-- End Modal Ticket 1 -->
+
+
+
+
+
+
 					</div>
 				</div>
 			</div>
@@ -956,12 +967,70 @@
 						</div>
 	
 						<div class="item__button">
-							<button class="btn">
+							<button class="btn" data-toggle="modal" data-target="#buy__ticket__modal__2">
 								<span>
 									Купить билет
 								</span>
 							</button>
 						</div>
+
+
+
+<!-- Modal Ticket 2 -->
+
+<div class="modal fade" id="buy__ticket__modal__2" data-backdrop="static" data-keyboard="false" tabindex="-1"  aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header mb-5">
+			 
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<form action="">
+				<div class="modal-body">
+					<p class="individual">Заполни данные о себе, пиши только
+						<br>
+					   реальную информацию
+				   </p>
+	   
+	   
+	   
+				  
+					<div class="container">
+						<div class="input__group">
+							<input class="inp" type="name" placeholder="Имя*">
+							<input class="inp" type="email" placeholder="E-mail*">
+							<input class="inp" type="tel" placeholder="Телефон*">
+							<input class="inp" type="text" placeholder="Сфера деятельности*">
+							<input class="inp" type="text" placeholder="Расскажи о себе">
+						</div>
+					</div>
+				  
+	   
+	   
+	   
+				   <p class="field">
+					   * обозначены поля
+					   <br>
+	   обязательные к заполнению
+				   </p>
+				   </div>
+				   <div class="modal-footer">
+					 <button type="button" class="btn__modal">Купить билет</button>
+				   </div>
+			</form>
+		  </div>
+	</div>
+  </div>
+  
+  <!-- End Modal Ticket 2 -->
+
+
+
+
+
+
 					</div>
 				</div>
 			</div>

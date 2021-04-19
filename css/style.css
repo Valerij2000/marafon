@@ -276,152 +276,6 @@
   min-height: 300px;
 }
 
-.wrapper .ruvim-pro-section .modal {
-  z-index: 9000000000000 !important;
-}
-
-.wrapper .ruvim-pro-section .modal-header {
-  padding-left: 45px;
-  border-bottom: none;
-  border: 2px solid transparent;
-  -o-border-image: linear-gradient(to top, transparent 8%, transparent 22%, #7b2124 76%);
-     border-image: -webkit-gradient(linear, left bottom, left top, color-stop(8%, transparent), color-stop(22%, transparent), color-stop(76%, #7b2124));
-     border-image: linear-gradient(to top, transparent 8%, transparent 22%, #7b2124 76%);
-  border-image-slice: 23;
-}
-
-.wrapper .ruvim-pro-section .modal-header .close {
-  color: white;
-}
-
-.wrapper .ruvim-pro-section .modal-title {
-  /* Style for "стать парт" */
-  border: 1px solid #bf5fe7;
-  text-shadow: 0 35px 49px rgba(31, 31, 31, 0.27);
-  color: #fefefe;
-  font-family: "Muller Black";
-  font-size: 38px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 37.19px;
-  text-align: left;
-  text-transform: uppercase;
-  /* Text style for "стать , па" */
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-}
-
-.wrapper .ruvim-pro-section .individual {
-  margin-left: 81px;
-  /* Style for "Заполни да" */
-  color: #888888;
-  font-size: 15px;
-  text-align: left;
-  font-weight: 300;
-  margin-top: -86px;
-}
-
-.wrapper .ruvim-pro-section .modal-body {
-  margin-bottom: -23px;
-}
-
-.wrapper .ruvim-pro-section .field {
-  color: #888888;
-  font-size: 15px;
-  text-align: center;
-  font-weight: 300;
-  margin-top: 20px;
-}
-
-.wrapper .ruvim-pro-section .input__group {
-  margin-left: 62px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-.wrapper .ruvim-pro-section .input__group .inp {
-  /* Style for "Поле ввода" */
-  border: 1px solid #ffffff;
-  /* Style for "Поле ввода" */
-  width: 296px;
-  height: 47px;
-  border-radius: 23px;
-  border-color: #4f4f4f;
-  background-color: #282828;
-  margin-top: 10px;
-  color: white;
-  padding-left: 20px;
-}
-
-.wrapper .ruvim-pro-section .input__group .inp::-webkit-input-placeholder {
-  color: #ffffff;
-  font-weight: 200;
-}
-
-.wrapper .ruvim-pro-section .input__group .inp:-ms-input-placeholder {
-  color: #ffffff;
-  font-weight: 200;
-}
-
-.wrapper .ruvim-pro-section .input__group .inp::-ms-input-placeholder {
-  color: #ffffff;
-  font-weight: 200;
-}
-
-.wrapper .ruvim-pro-section .input__group .inp::placeholder {
-  color: #ffffff;
-  font-weight: 200;
-}
-
-.wrapper .ruvim-pro-section .modal-content {
-  background-color: #282828;
-}
-
-.wrapper .ruvim-pro-section .modal-footer {
-  border-top: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.wrapper .ruvim-pro-section .modal-footer .btn__modal {
-  /* Style for "Кнопка" */
-  width: 241px;
-  height: 55px;
-  color: white;
-  font-weight: 500;
-  -webkit-box-shadow: -1px 7px 32px rgba(9, 9, 9, 0.13), inset 0 3px 0 rgba(0, 0, 0, 0.18), 0 0 24px rgba(211, 101, 94, 0.15);
-          box-shadow: -1px 7px 32px rgba(9, 9, 9, 0.13), inset 0 3px 0 rgba(0, 0, 0, 0.18), 0 0 24px rgba(211, 101, 94, 0.15);
-  border-radius: 27px;
-  background-color: #2c3a48;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f95043), to(#d63529));
-  background-image: linear-gradient(to bottom, #f95043 0%, #d63529 100%);
-  margin-bottom: 20px;
-}
-
-.wrapper .ruvim-pro-section .modal-footer .btn__modal:focus {
-  outline: none;
-}
-
 .wrapper .ruvim-pro-section .txt__round__white {
   position: absolute;
   left: -100px;
@@ -2457,6 +2311,152 @@
   min-height: 500px;
 }
 
+.wrapper .buy-card-section .modal {
+  z-index: 9000000000000 !important;
+}
+
+.wrapper .buy-card-section .modal-header {
+  padding-left: 45px;
+  border-bottom: none;
+  border: 2px solid transparent;
+  -o-border-image: linear-gradient(to top, transparent 8%, transparent 22%, #7b2124 76%);
+     border-image: -webkit-gradient(linear, left bottom, left top, color-stop(8%, transparent), color-stop(22%, transparent), color-stop(76%, #7b2124));
+     border-image: linear-gradient(to top, transparent 8%, transparent 22%, #7b2124 76%);
+  border-image-slice: 23;
+}
+
+.wrapper .buy-card-section .modal-header .close {
+  color: white;
+}
+
+.wrapper .buy-card-section .modal-title {
+  /* Style for "стать парт" */
+  border: 1px solid #bf5fe7;
+  text-shadow: 0 35px 49px rgba(31, 31, 31, 0.27);
+  color: #fefefe;
+  font-family: "Muller Black";
+  font-size: 38px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 37.19px;
+  text-align: left;
+  text-transform: uppercase;
+  /* Text style for "стать , па" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .buy-card-section .individual {
+  margin-left: 81px;
+  /* Style for "Заполни да" */
+  color: #888888;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 300;
+  margin-top: -86px;
+}
+
+.wrapper .buy-card-section .modal-body {
+  margin-bottom: -23px;
+}
+
+.wrapper .buy-card-section .field {
+  color: #888888;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.wrapper .buy-card-section .input__group {
+  margin-left: 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.wrapper .buy-card-section .input__group .inp {
+  /* Style for "Поле ввода" */
+  border: 1px solid #ffffff;
+  /* Style for "Поле ввода" */
+  width: 296px;
+  height: 47px;
+  border-radius: 23px;
+  border-color: #4f4f4f;
+  background-color: #282828;
+  margin-top: 10px;
+  color: white;
+  padding-left: 20px;
+}
+
+.wrapper .buy-card-section .input__group .inp::-webkit-input-placeholder {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.wrapper .buy-card-section .input__group .inp:-ms-input-placeholder {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.wrapper .buy-card-section .input__group .inp::-ms-input-placeholder {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.wrapper .buy-card-section .input__group .inp::placeholder {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.wrapper .buy-card-section .modal-content {
+  background-color: #282828;
+}
+
+.wrapper .buy-card-section .modal-footer {
+  border-top: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .buy-card-section .modal-footer .btn__modal {
+  /* Style for "Кнопка" */
+  width: 241px;
+  height: 55px;
+  color: white;
+  font-weight: 500;
+  -webkit-box-shadow: -1px 7px 32px rgba(9, 9, 9, 0.13), inset 0 3px 0 rgba(0, 0, 0, 0.18), 0 0 24px rgba(211, 101, 94, 0.15);
+          box-shadow: -1px 7px 32px rgba(9, 9, 9, 0.13), inset 0 3px 0 rgba(0, 0, 0, 0.18), 0 0 24px rgba(211, 101, 94, 0.15);
+  border-radius: 27px;
+  background-color: #2c3a48;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f95043), to(#d63529));
+  background-image: linear-gradient(to bottom, #f95043 0%, #d63529 100%);
+  margin-bottom: 20px;
+}
+
+.wrapper .buy-card-section .modal-footer .btn__modal:focus {
+  outline: none;
+}
+
 @media (max-width: 900px) {
   .wrapper .buy-card-section {
     margin-top: 45px;
@@ -2598,7 +2598,6 @@
 }
 
 .wrapper .buy-card-section .card {
-  z-index: 190;
   padding: 30px;
   /* Style for "Прямоуголь" */
   width: 340px;
