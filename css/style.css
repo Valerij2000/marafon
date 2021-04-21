@@ -1667,6 +1667,10 @@
   margin-top: 20px;
 }
 
+.wrapper .partners-section .inp__message {
+  height: 100px;
+}
+
 .wrapper .partners-section .input__group {
   margin-left: 62px;
   display: -webkit-box;
@@ -1698,21 +1702,25 @@
   outline: none;
 }
 
+f
 .wrapper .partners-section .input__group .inp::-webkit-input-placeholder {
   color: #ffffff;
   font-weight: 200;
 }
 
+f
 .wrapper .partners-section .input__group .inp:-ms-input-placeholder {
   color: #ffffff;
   font-weight: 200;
 }
 
+f
 .wrapper .partners-section .input__group .inp::-ms-input-placeholder {
   color: #ffffff;
   font-weight: 200;
 }
 
+f
 .wrapper .partners-section .input__group .inp::placeholder {
   color: #ffffff;
   font-weight: 200;
