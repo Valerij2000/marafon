@@ -1449,15 +1449,16 @@
 
 @media (max-width: 410px) {
   .wrapper .section-getters img {
-    max-width: 290px;
+    max-width: 365px;
     margin-top: 20px;
-    margin-left: 20px; 
+    margin-left: -10px;
   }
 }
 
 @media (max-width: 322px) {
   .wrapper .section-getters img {
-    max-width: 240px;
+    max-width: 320px;
+    margin-left: -16px;
   }
 }
 
@@ -1495,9 +1496,18 @@
   }
 }
 
+@media (max-width: 322px) {
+  .trc {
+    width: 490px;
+    overflow: hidden;
+    margin-left: -12px;
+  }
+}
+
 @media (max-width: 576px) {
   .section-useful__img--2 {
     display: block;
+    width: 420px;
   }
 }
 
@@ -1577,9 +1587,17 @@
   }
 }
 
-@media (max-width: 373px) {
+@media (max-width: 376px) {
   .wrapper .section-useful img {
-    max-width: 280px;
+    max-width: 460px;
+  margin-left: 0;
+
+  }
+}
+
+@media (max-width: 322px) {
+  .wrapper .section-useful img {
+    max-width: 460px;
   margin-left: 0;
 
   }
