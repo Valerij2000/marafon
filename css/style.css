@@ -1496,13 +1496,6 @@
   }
 }
 
-@media (max-width: 322px) {
-  .trc {
-    width: 490px;
-    overflow: hidden;
-    margin-left: -12px;
-  }
-}
 
 @media (max-width: 576px) {
   .section-useful__img--2 {
