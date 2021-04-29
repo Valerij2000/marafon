@@ -3436,7 +3436,7 @@ max-width: 679px;
 
 @media (max-width: 768px) {
   .wrapper .buy-card-section .main__block__card .item__text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -3545,6 +3545,13 @@ max-width: 679px;
   .wrapper .buy-card-section .card {
     max-width: 230px;
     min-height: 306px;
+  }
+}
+
+@media (max-width: 568px) {
+  .wrapper .buy-card-section .card {
+    max-width: 270px;
+    padding: 18px;
   }
 }
 
@@ -3842,7 +3849,7 @@ max-width: 679px;
 
 @media (max-width: 576px) {
   .wrapper .footer-section .block__contact__footer .footer__links {
-    margin-top: 10px;
+    display: none;
   }
 }
 
