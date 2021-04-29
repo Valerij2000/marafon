@@ -1276,17 +1276,6 @@
 }
 
 
-
-
-
-
-
-/* @media (max-width: 322px) {
-  .wrapper .card-section .card {
-    margin-left: -25px;
-  }
-} */
-
 .wrapper .card-section .card .text {
   color: #747272;
   text-align: center;
@@ -1386,53 +1375,7 @@
   justify-content: space-between;
 }
 
-/* .block__text__img {
-  display: none;
-}
 
-@media (max-width: 376px) {
-  .block__text__img {
-    display: block;
-    width: 160px;
-    height: 160px;
-    position: absolute;
-    top: -54px;
-    right: -61px;
-  }
-} */
-
-/* @media (max-width: 332px) {
-  .block__text__img {
-    display: block;
-    width: 140px;
-    height: 140px;
-    position: absolute;
-    top: -54px;
-    right: -61px;
-  }
-}
-
-@media (max-width: 376px) {
-  .block__text__img--1 {
-    display: block;
-    width: 140px;
-    height: 140px;
-    position: absolute;
-    top: -110px;
-    right: -56px;
-  }
-}
-
-@media (max-width: 332px) {
-  .block__text__img--1 {
-    display: block;
-    width: 140px;
-    height: 140px;
-    position: absolute;
-    top: -110px;
-    right: -56px;
-  }
-} */
 
 @media (max-width: 410px) {
   .wrapper .card-section .block__text {
@@ -1969,6 +1912,31 @@
   margin-left: -55px;
 }
 
+
+
+
+.link__more__info {
+  margin-left: 380px;
+}
+
+.link__more__info:focus {
+  outline: none;
+}
+
+@media (max-width: 410px) {
+  .link__more__info {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 376px) {
+  .link__more__info {
+    margin-left: 10px;
+  }
+}
+
+
+
 .days-section__btn {
   margin: 40px auto;
   display: inline-block;
@@ -1995,6 +1963,8 @@
     background-image: -webkit-gradient( linear, left top, left bottom, from(#f95043), to(#d63529) );
     background-image: linear-gradient(to bottom, #f95043 0%, #d63529 100%);
 }
+
+
 
 .days-section__btn > span {
   color: #ffffff;
@@ -2197,12 +2167,17 @@
 }
 }
 
-
 .wrapper .map-section .block__map .go__map {
   z-index: 800;
   position: relative;
   left: 217px;
   top: -289px;
+}
+
+@media (min-width: 768px) {
+  .wrapper .map-section .block__map .go__map {
+  width: 75% !important;
+  }
 }
 
 
@@ -2215,6 +2190,7 @@
     height: 400px;
   }
 }
+
 
 @media (min-width: 410px) {
   .wrapper .map-section .block__map .go__map {
@@ -2239,6 +2215,8 @@
     left: -4px;
   }
 }
+
+
 
 .wrapper .partners-section {
   margin-top: -505px;
