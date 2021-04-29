@@ -960,7 +960,7 @@
 .wrapper .themes-section .img__fon__theme__text {
   position: relative;
   top: -266px;
-  left: 345px;
+  left: 380px;
 }
 
 @media (max-width: 1074px) {
@@ -1032,7 +1032,7 @@
 }
 
 .wrapper .card-section {
-  margin-top: -650px;
+  margin-top: -647px;
   min-height: 280px;
 }
 
@@ -1226,8 +1226,8 @@
 
 .wrapper .card-section .round__text {
   position: relative;
-  left: 981px;
-  top: -240px;
+  left: 215px;
+  top: -120px;
   z-index: 220;
 }
 
@@ -1247,8 +1247,8 @@
 
 .wrapper .card-section .apost {
   position: relative;
-  top: -380px;
-  left: 917px;
+  top: -274px;
+  left: 181px;
   z-index: 1;
 }
 
