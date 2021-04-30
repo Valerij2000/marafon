@@ -50,6 +50,7 @@
   color: white;
   margin-left: 70px;
   font-weight: 500;
+  font-family: "GT Eesti Pro Display";
 }
 
 .nav-link:hover {
@@ -1659,7 +1660,7 @@ text-align: center;
 
 @media (max-width: 322px) {
   .wrapper .section-getters img {
-    max-width: 320px;
+    max-width: 316px;
     margin-left: -16px;
   }
 }
