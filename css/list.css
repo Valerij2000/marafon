@@ -477,6 +477,20 @@
   }
 }
 
+@media (max-width: 575px) {
+  .wrapper .card-section {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 410px) {
+  .wrapper .card-section {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
 @media (max-width: 476px) {
   .wrapper .card-section .card__display {
     display: -webkit-box;
@@ -553,7 +567,7 @@
   .wrapper .card-section .card {
     padding: 15px;
     margin-top: 20px;
-    max-width: 180px;
+    width: 180px;
     height: 194px;
   }
 }
@@ -570,15 +584,16 @@
 @media (max-width: 576px) {
   .wrapper .card-section .card {
     width: 400px;
-    margin-left: 100px;
+    margin-left: 43px;
     padding: 5px;
+    height: 120px;
   }
 }
 
 @media (max-width: 476px) {
   .wrapper .card-section .card {
     padding: 5px;
-    max-width: 400px;
+    width: 400px;
     height: 90px;
     text-align: center;
     margin-left: 5px;
@@ -588,7 +603,7 @@
 @media (max-width: 410px) {
   .wrapper .card-section .card {
     padding: 5px;
-    max-width: 310px;
+    width: 310px;
     height: 90px;
     text-align: center;
     margin-left: 15px;
@@ -599,7 +614,7 @@
 @media (max-width: 376px) {
   .wrapper .card-section .card {
     padding: 5px;
-    max-width: 310px;
+    width: 310px;
     height: 90px;
     text-align: center;
     margin-left: 15px;
@@ -610,7 +625,7 @@
   .wrapper .card-section .card {
     padding: 5px;
     margin-top: 20px;
-    max-width: 260px;
+    width: 260px;
     height: 90px;
   }
 }
@@ -620,6 +635,12 @@
   font-family: "GT Eesti Pro Display";
   font-size: 16px;
   font-weight: 300;
+}
+
+@media (max-width: 576px) {
+  .wrapper .card-section .card .text p {
+    font-size: 18px;
+  }
 }
 
 
@@ -656,6 +677,12 @@
 @media (max-width: 1168px) {
   .wrapper .card-section .card span {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrapper .card-section .card span {
+    font-size: 18px;
   }
 }
 
@@ -727,13 +754,42 @@
  margin-left: 353px;
  margin-top: 40px;
 }
+
+@media (max-width: 575px) {
+  .wrapper .days-title-section img {
+   margin-left: -7px;
+   width: 100%;
+   margin-top: -40px;
+  }
+}
 .wrapper .card__days__section .second__days {
   margin-left: -107px;
+}
+
+@media (max-width: 1271px) {
+  .wrapper .card__days__section .second__days {
+    margin-left: 0;
+  }
 }
 
 .wrapper .card__days__section .third__days {
   margin-left: -107px;
 }
+
+@media (max-width: 1271px) {
+  .wrapper .card__days__section .third__days {
+    margin-left: 0;
+  }
+}
+
+
+@media (max-width: 1271px) {
+  .wrapper .card__days__section img{
+    width: 100%;
+  }
+}
+
+
 
 .wrapper .raspiasnie-tickets-section {
   margin-top: 41px;
@@ -819,6 +875,7 @@
   min-height: 500px;
   margin-left: 230px;
 }
+
 
 
 
@@ -1002,21 +1059,11 @@
 
 @media (max-width: 576px) {
   .wrapper .buy-card-section {
-    margin-top: -93px;
+    margin-top: 0;
+    margin-left: 0;
   }
 }
 
-@media (max-width: 410px) {
-  .wrapper .buy-card-section {
-    margin-top: 60px;
-  }
-}
-
-@media (max-width: 322px) {
-  .wrapper .buy-card-section {
-    margin-top: 130px;
-  }
-}
 
 .wrapper .buy-card-section .main__block__card {
   display: -webkit-box;
@@ -1241,6 +1288,12 @@
   }
 }
 
+@media (max-width: 576px) {
+  .wrapper .footer-section .block__card__partn {
+    margin-top: 34px;
+  }
+}
+
 .wrapper .footer-section .block__card__partn .partn__img {
   max-width: 165px;
   height: 60px;
@@ -1327,6 +1380,14 @@
 
 .wrapper .footer-section .block__partners__footer {
   display: flex;
+}
+
+@media (max-width: 575px) {
+  .wrapper .footer-section .block__partners__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .wrapper .footer-section .block__partners__footer .footer__txt__partners {
@@ -1484,7 +1545,7 @@
 
 @media (max-width: 576px) {
   .wrapper .footer-section .block__contact__footer .footer__links {
-    margin-top: 10px;
+    display: none;
   }
 }
 
