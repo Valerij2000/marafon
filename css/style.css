@@ -296,6 +296,12 @@
     padding: 13px;
   }
 
+  @media (max-width: 410px) {
+    .city__block__dropdown  {
+      width: 380px;
+    }
+  }
+
 .wrapper .header-section .img_point_field_drop {
   width: 55px;
   height: 55px;
@@ -1244,7 +1250,7 @@
     max-width: 310px;
     height: 90px;
     text-align: center;
-    margin-left: 15px;
+    margin-left: 30px;
   }
 }
 
@@ -1559,7 +1565,7 @@
   .wrapper .section-getters img {
     max-width: 365px;
     margin-top: 20px;
-    margin-left: -10px;
+    margin-left: 10px;
   }
 }
 
@@ -1931,9 +1937,16 @@
 
 @media (max-width: 376px) {
   .link__more__info {
-    margin-left: 10px;
+    margin-left: 40px;
   }
 }
+
+@media (max-width: 320px) {
+  .link__more__info {
+    margin-left: 20px;
+  }
+}
+
 
 
 
@@ -3568,14 +3581,20 @@ max-width: 679px;
   }
 }
 
+@media (max-width: 577px) {
+  .wrapper .footer-section .block__card__partn {
+    margin-top: 20px;
+  }
+}
+
 .wrapper .footer-section .block__card__partn .partn__img {
-  max-width: 120px;
-  height: 70px;
+  max-width: 165px;
+  height: 60px;
 }
 
 @media (max-width: 768px) {
   .wrapper .footer-section .block__card__partn .partn__img {
-    max-width: 80px;
+    max-width: 160px;
     height: 40px;
   }
 }
@@ -3646,9 +3665,22 @@ max-width: 679px;
   }
 }
 
-@media (max-width: 345px) {
+/* @media (max-width: 345px) {
   .wrapper .footer-section .logo__footer {
     max-width: 230px;
+  }
+} */
+
+.wrapper .footer-section .block__partners__footer {
+  display: flex;
+}
+
+@media (max-width: 577px) {
+  .wrapper .footer-section .block__partners__footer  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
   }
 }
 
@@ -3681,7 +3713,8 @@ max-width: 679px;
 
 @media (max-width: 577px) {
   .wrapper .footer-section .block__partners__footer .footer__txt__partners {
-    font-size: 16px;
+    font-size: 20px;
+    margin-top: 0;
   }
 }
 
@@ -3766,6 +3799,7 @@ max-width: 679px;
     font-size: 17px;
   }
 }
+
 
 .wrapper .footer-section .block__contact__footer .mail__block {
   display: -webkit-box;
