@@ -50,7 +50,7 @@
   color: white;
   margin-left: 70px;
   font-weight: 500;
-  font-family: "GT Eesti Pro Display";
+  
 }
 
 .nav-link:hover {
@@ -1328,7 +1328,6 @@
 
 .wrapper .card-section .card .text p {
   color: #fff;
-  font-family: "GT Eesti Pro Display";
   font-size: 16px;
   font-weight: 300;
 }
@@ -1983,7 +1982,6 @@ text-align: center;
 
 .days-section__title {
   color: #ffffff;
-  font-family: "GT Eesti Pro Display";
   font-size: 16px;
   font-weight: 700;
   font-style: normal;
@@ -2002,7 +2000,6 @@ text-align: center;
 }
 .days-section__text {
   color: #9e9e9e;
-  font-family: "GT Eesti Pro Display";
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
@@ -2671,15 +2668,7 @@ margin-top: -48px;
   }
 }
 
-@media (min-width: 411px) and  (min-width: 471px){
-  .wrapper .partners-section .state__partners .btn {
-    max-width: 200px;
-    height: 60px;
-    margin-top: 12px;
-    font-size: 16px;
-    margin-left: 90px;
-  }
-}
+
 
 @media (max-width: 376px) {
   .wrapper .partners-section .state__partners .btn {
@@ -2920,7 +2909,6 @@ line-height: normal;
   .wrapper .youtube-section .block__txt .header__txt h2 {
 display: block !important;
 color: #c41b22;
-font-family: "GT Eesti Pro Display";
 font-size: 30px;
 font-weight: 700;
 font-style: normal;
@@ -3581,7 +3569,6 @@ max-width: 679px;
 .item__text > p {
   margin-bottom: 0.5rem;
   color: #fff;
-  font-family: "GT Eesti Pro Display";
   font-size: 16px;
   font-weight: 400;
 }

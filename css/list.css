@@ -632,7 +632,6 @@
 
 .wrapper .card-section .card .text p {
   color: #fff;
-  font-family: "GT Eesti Pro Display";
   font-size: 16px;
   font-weight: 300;
 }
@@ -836,7 +835,7 @@
 
 @media (max-width: 1386px) {
   .wrapper .raspiasnie-tickets-section img {
-    margin-left: 120px;
+    margin-left: -120px;
     max-width: 750px;
   }
 }
@@ -1127,7 +1126,6 @@
 .item__text > p {
   margin-bottom: 0.5rem;
   color: #fff;
-  font-family: "GT Eesti Pro Display";
   font-size: 16px;
   font-weight: 400;
 }
