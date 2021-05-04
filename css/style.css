@@ -3677,6 +3677,14 @@ margin-left: -30px;
   align-items: center;
 }
 
+.header-text {
+  margin-top: -70px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 576px) {
   .wrapper .buy-card-section .main__block__card {
     margin-bottom: 20px;
