@@ -32,6 +32,12 @@
   }
 }
 
+@media (max-width: 577px) {
+  .wrapper .header-section .nav-block {
+margin-left: -20px;
+  }
+}
+
 .wrapper .header-section .nav-block .nav-link {
   z-index: 500;
   position: relative;
@@ -639,7 +645,7 @@
 
 @media (max-width: 576px) {
   .wrapper .card-section .card .text p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -753,6 +759,14 @@
  margin-top: 40px;
 }
 
+@media (max-width: 767px) {
+  .wrapper .days-title-section img {
+   margin-left: -7px;
+   width: 100%;
+   margin-top: 40px;
+  }
+}
+
 @media (max-width: 575px) {
   .wrapper .days-title-section img {
    margin-left: -7px;
@@ -859,7 +873,9 @@
 
 @media (max-width: 768px) {
   .wrapper .raspiasnie-tickets-section img {
-    max-width: 400px;
+    max-width: 620px;
+  margin-left: -290px;
+
   }
 }
 
@@ -871,6 +887,13 @@
 
 .wrapper .buy-card-section {
   min-height: 500px;
+}
+
+@media (max-width: 767px) {
+  .wrapper .buy-card-section {
+    margin-left: 0px;
+
+  }
 }
 
 
@@ -1404,6 +1427,7 @@
 @media (max-width: 769px) {
   .wrapper .footer-section .block__partners__footer .footer__txt__partners {
     font-size: 14px;
+    margin-top: 0;
   }
 }
 
