@@ -1375,7 +1375,6 @@ text-align: center;
 
 .wrapper .card-section .card span {
   color: white;
-  font-family: "GT Eesti Pro Display - Bold";
   font-weight: 700;
   font-size: 16px;
 }
@@ -1403,8 +1402,7 @@ text-align: center;
 @media (max-width: 1300px) {
   .wrapper .card-section .round__text {
     max-width: 180px;
-    left: 921px;
-    top: -229px;
+    top: -103px;
   }
 }
 
@@ -1431,23 +1429,16 @@ text-align: center;
   .wrapper .card-section .apost {
     top: -340px;
     max-width: 170px;
-    left: 987px;
+    left: 0px;
   }
 }
 
 @media (max-width: 1200px) {
   .wrapper .card-section .apost {
-    top: -140px;
-    max-width: 110px;
-    left: 825px;
-  }
-}
-
-@media (max-width: 1051px) {
-  .wrapper .card-section .apost {
     display: none;
   }
 }
+
 
 .wrapper .card-section .block__text {
   margin-top: 50px;

@@ -675,7 +675,6 @@ margin-left: -20px;
 
 .wrapper .card-section .card span {
   color: white;
-  font-family: "GT Eesti Pro Display - Bold";
   font-weight: 700;
   font-size: 16px;
 }
@@ -730,7 +729,6 @@ margin-left: -20px;
   .wrapper .card-section .apost {
     top: -340px;
     max-width: 170px;
-    left: 987px;
   }
 }
 
@@ -889,7 +887,13 @@ margin-left: -20px;
 
 .wrapper .buy-card-section {
   min-height: 500px;
-  margin-left: 230px;
+}
+
+@media (max-width: 767px) {
+  .wrapper .buy-card-section {
+    margin-left: 0px;
+
+  }
 }
 
 @media (max-width: 767px) {
