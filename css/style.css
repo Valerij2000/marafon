@@ -2425,6 +2425,14 @@ text-align: center;
   border-image-slice: 23;
 }
 
+@media (max-width: 575px) {
+  .wrapper .partners-section .modal-header img {
+margin-left: -85px;
+
+  }
+}
+
+
 .wrapper .partners-section .modal-header .close {
   color: white;
 }
@@ -2458,6 +2466,12 @@ text-align: center;
   margin-top: -86px;
 }
 
+@media (max-width: 567px){
+  .wrapper .partners-section .individual {
+    margin-left: 24px;
+}
+}
+
 .wrapper .partners-section .modal-body {
   margin-bottom: -23px;
 }
@@ -2488,6 +2502,12 @@ text-align: center;
   justify-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
+}
+
+@media (max-width: 567px){
+  .wrapper .partners-section .input__group {
+    margin-left: 0px;
+  }
 }
 
 .wrapper .partners-section .input__group .inp {
@@ -2531,7 +2551,7 @@ f .wrapper .partners-section .input__group .inp::placeholder {
 
 @media (max-width: 567px){
   .wrapper .partners-section .modal-content {
-    align-items: flex-end;
+    align-items: center;
   }
 }
 
@@ -3296,7 +3316,7 @@ line-height: normal;
 
 @media (max-width: 471px) {
   .wrapper .tickets-section__mobile img {
-max-width: 679px;
+max-width: 664px;
   }
 }
 
@@ -3403,6 +3423,13 @@ max-width: 679px;
   margin-top: -86px;
 }
 
+@media (max-width: 576px) {
+  .wrapper .buy-card-section .individual {
+    margin-left: 12px;
+    margin-top: -68px;
+  }
+}
+
 .wrapper .buy-card-section .modal-body {
   margin-bottom: -23px;
 }
@@ -3464,6 +3491,12 @@ max-width: 679px;
 .wrapper .buy-card-section .input__group .inp::placeholder {
   color: #ffffff;
   font-weight: 200;
+}
+
+@media (max-width: 575px) {
+  .wrapper .buy-card-section .input__group {
+margin-left: -30px;
+  }
 }
 
 .wrapper .buy-card-section .modal-content {
