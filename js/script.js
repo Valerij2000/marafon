@@ -1,5 +1,4 @@
 // Scroll Yakor
-
 function scrollDownUp(id){
   var offset = 0;
   $('html, body').animate({
@@ -7,18 +6,7 @@ function scrollDownUp(id){
   }, 500);
   return false;
 };
-
-
-
-
-
-
-
-
 // Burger Menu
-
-
-
 $(document).ready(function(){
   $('.header__burger').click(function () {
     $('.header__burger, .header__menu').toggleClass('active');
