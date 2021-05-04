@@ -669,7 +669,6 @@
 
 .wrapper .card-section .card span {
   color: white;
-  font-family: "GT Eesti Pro Display - Bold";
   font-weight: 700;
   font-size: 16px;
 }
@@ -724,7 +723,6 @@
   .wrapper .card-section .apost {
     top: -340px;
     max-width: 170px;
-    left: 987px;
   }
 }
 
@@ -873,7 +871,6 @@
 
 .wrapper .buy-card-section {
   min-height: 500px;
-  margin-left: 230px;
 }
 
 
