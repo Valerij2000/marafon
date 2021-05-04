@@ -987,11 +987,11 @@
   }
 }
 
-@media (max-width: 411px) {
+@media (max-width: 412px) {
   .wrapper .ruvim-pro-section .img__speakers {
     left: 12px;
     bottom: 820px;
-    max-width: 280px;
+    max-width: 334px;
   }
 }
 
