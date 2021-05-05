@@ -3435,7 +3435,6 @@ display: none;
 @media (max-width: 575px) {
   .mobile__img {
 display: block !important;
-
   }
 }
 
