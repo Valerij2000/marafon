@@ -474,32 +474,32 @@ margin-left: -20px;
   }
 }
 
-.wrapper .card-section {
+.wrapper .card-posp-section {
   min-height: 280px;
 }
 
 @media (max-width: 1077px) {
-  .wrapper .card-section {
+  .wrapper .card-posp-section {
     margin-top: 40px;
   }
 }
 
 @media (max-width: 575px) {
-  .wrapper .card-section {
+  .wrapper .card-posp-section {
     margin-left: 0;
     margin-top: 20px;
   }
 }
 
 @media (max-width: 410px) {
-  .wrapper .card-section {
+  .wrapper .card-posp-section {
     margin-left: 0;
     margin-top: 20px;
   }
 }
 
 @media (max-width: 476px) {
-  .wrapper .card-section .card__display {
+  .wrapper .card-posp-section .card__display {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -516,7 +516,7 @@ margin-left: -20px;
   }
 }
 
-.wrapper .card-section .card__border {
+.wrapper .card-posp-section .card__border {
   border: 1px solid transparent;
   -o-border-image: linear-gradient(
     to top,
@@ -541,7 +541,7 @@ margin-left: -20px;
   border-image-slice: 23;
 }
 
-.wrapper .card-section .card {
+.wrapper .card-posp-section .card {
   z-index: 190;
   padding: 30px;
   /* Style for "Прямоуголь" */
@@ -553,25 +553,25 @@ margin-left: -20px;
 }
 
 @media (max-width: 1168px) {
-  .wrapper .card-section .card {
+  .wrapper .card-posp-section .card {
     width: 308px;
   }
 }
 
 @media (max-width: 992px) {
-  .wrapper .card-section .card {
+  .wrapper .card-posp-section .card {
     width: 280px;
   }
 }
 
 @media (max-width: 845px) {
-  .wrapper .card-section .card {
+  .wrapper .card-posp-section .card {
     width: 220px;
   }
 }
 
 @media (max-width: 768px) {
-  .wrapper .card-section .card {
+  .wrapper .card-posp-section .card {
     padding: 15px;
     margin-top: 20px;
     width: 180px;
@@ -580,7 +580,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 697px) {
-  .wrapper .card-section .card {
+  .wrapper .card-posp-section .card {
     padding: 15px;
     margin-top: 20px;
     width: 140px;
@@ -589,7 +589,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 576px) {
-  .wrapper .card-section .card {
+  .wrapper .card-posp-section .card {
     width: 400px;
     margin-left: 43px;
     padding: 5px;
@@ -598,7 +598,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 476px) {
-  .wrapper .card-section .card {
+  .wrapper .card-posp-section .card {
     padding: 5px;
     width: 400px;
     height: 90px;
@@ -608,7 +608,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 410px) {
-  .wrapper .card-section .card {
+  .wrapper .card-posp-section .card {
     padding: 5px;
     width: 310px;
     height: 90px;
@@ -619,7 +619,7 @@ margin-left: -20px;
 
 
 @media (max-width: 376px) {
-  .wrapper .card-section .card {
+  .wrapper .card-posp-section .card {
     padding: 5px;
     width: 310px;
     height: 90px;
@@ -629,7 +629,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 322px) {
-  .wrapper .card-section .card {
+  .wrapper .card-posp-section .card {
     padding: 5px;
     margin-top: 20px;
     width: 260px;
@@ -637,61 +637,61 @@ margin-left: -20px;
   }
 }
 
-.wrapper .card-section .card .text p {
+.wrapper .card-posp-section .card .text p {
   color: #fff;
   font-size: 16px;
   font-weight: 300;
 }
 
 @media (max-width: 576px) {
-  .wrapper .card-section .card .text p {
+  .wrapper .card-posp-section .card .text p {
     font-size: 16px;
   }
 }
 
 
-.wrapper .card-section .card .text {
+.wrapper .card-posp-section .card .text {
   color: #747272;
   text-align: center;
 }
 
 @media (max-width: 1168px) {
-  .wrapper .card-section .card .text {
+  .wrapper .card-posp-section .card .text {
     font-size: 14px;
   }
 }
 
 @media (max-width: 768px) {
-  .wrapper .card-section .card .text {
+  .wrapper .card-posp-section .card .text {
     text-align: left;
   }
 }
 
 @media (max-width: 568px) {
-  .wrapper .card-section .card .text {
+  .wrapper .card-posp-section .card .text {
     text-align: center;
   }
 }
 
-.wrapper .card-section .card span {
+.wrapper .card-posp-section .card span {
   color: white;
   font-weight: 700;
   font-size: 16px;
 }
 
 @media (max-width: 1168px) {
-  .wrapper .card-section .card span {
+  .wrapper .card-posp-section .card span {
     font-size: 14px;
   }
 }
 
 @media (max-width: 576px) {
-  .wrapper .card-section .card span {
+  .wrapper .card-posp-section .card span {
     font-size: 18px;
   }
 }
 
-.wrapper .card-section .round__text {
+.wrapper .card-posp-section .round__text {
   position: relative;
   left: 977px;
   top: -120px;
@@ -699,7 +699,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 1300px) {
-  .wrapper .card-section .round__text {
+  .wrapper .card-posp-section .round__text {
     max-width: 180px;
     left: 921px;
     top: -229px;
@@ -707,12 +707,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 1200px) {
-  .wrapper .card-section .round__text {
+  .wrapper .card-posp-section .round__text {
     display: none;
   }
 }
 
-.wrapper .card-section .apost {
+.wrapper .card-posp-section .apost {
   position: relative;
   top: -274px;
   left: 947px;
@@ -720,20 +720,20 @@ margin-left: -20px;
 }
 
 @media (max-width: 1384px) {
-  .wrapper .card-section .apost {
+  .wrapper .card-posp-section .apost {
     max-width: 250px;
   }
 }
 
 @media (max-width: 1300px) {
-  .wrapper .card-section .apost {
+  .wrapper .card-posp-section .apost {
     top: -340px;
     max-width: 170px;
   }
 }
 
 @media (max-width: 1200px) {
-  .wrapper .card-section .apost {
+  .wrapper .card-posp-section .apost {
     top: -140px;
     max-width: 110px;
     left: 825px;
@@ -741,7 +741,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 1051px) {
-  .wrapper .card-section .apost {
+  .wrapper .card-posp-section .apost {
     display: none;
   }
 }
@@ -885,19 +885,19 @@ margin-left: -20px;
   }
 }
 
-.wrapper .buy-card-section {
+.wrapper .buy-card-posp-section {
   min-height: 500px;
 }
 
 @media (max-width: 767px) {
-  .wrapper .buy-card-section {
+  .wrapper .buy-card-posp-section {
     margin-left: 0px;
 
   }
 }
 
 @media (max-width: 767px) {
-  .wrapper .buy-card-section {
+  .wrapper .buy-card-posp-section {
     margin-left: 0px;
 
   }
@@ -906,11 +906,11 @@ margin-left: -20px;
 
 
 
-.wrapper .buy-card-section .modal {
+.wrapper .buy-card-posp-section .modal {
   z-index: 9000000000000 !important;
 }
 
-.wrapper .buy-card-section .modal-header {
+.wrapper .buy-card-posp-section .modal-header {
   padding-left: 45px;
   border-bottom: none;
   border: 2px solid transparent;
@@ -937,11 +937,11 @@ margin-left: -20px;
   border-image-slice: 23;
 }
 
-.wrapper .buy-card-section .modal-header .close {
+.wrapper .buy-card-posp-section .modal-header .close {
   color: white;
 }
 
-.wrapper .buy-card-section .modal-title {
+.wrapper .buy-card-posp-section .modal-title {
   /* Style for "стать парт" */
   border: 1px solid #bf5fe7;
   text-shadow: 0 35px 49px rgba(31, 31, 31, 0.27);
@@ -960,7 +960,7 @@ margin-left: -20px;
   line-height: normal;
 }
 
-.wrapper .buy-card-section .individual {
+.wrapper .buy-card-posp-section .individual {
   margin-left: 81px;
   /* Style for "Заполни да" */
   color: #888888;
@@ -970,11 +970,11 @@ margin-left: -20px;
   margin-top: -86px;
 }
 
-.wrapper .buy-card-section .modal-body {
+.wrapper .buy-card-posp-section .modal-body {
   margin-bottom: -23px;
 }
 
-.wrapper .buy-card-section .field {
+.wrapper .buy-card-posp-section .field {
   color: #888888;
   font-size: 15px;
   text-align: center;
@@ -982,7 +982,7 @@ margin-left: -20px;
   margin-top: 20px;
 }
 
-.wrapper .buy-card-section .input__group {
+.wrapper .buy-card-posp-section .input__group {
   margin-left: 62px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -998,7 +998,7 @@ margin-left: -20px;
   align-content: center;
 }
 
-.wrapper .buy-card-section .input__group .inp {
+.wrapper .buy-card-posp-section .input__group .inp {
   /* Style for "Поле ввода" */
   border: 1px solid;
   /* Style for "Поле ввода" */
@@ -1013,31 +1013,31 @@ margin-left: -20px;
   outline: none;
 }
 
-.wrapper .buy-card-section .input__group .inp::-webkit-input-placeholder {
+.wrapper .buy-card-posp-section .input__group .inp::-webkit-input-placeholder {
   color: #ffffff;
   font-weight: 200;
 }
 
-.wrapper .buy-card-section .input__group .inp:-ms-input-placeholder {
+.wrapper .buy-card-posp-section .input__group .inp:-ms-input-placeholder {
   color: #ffffff;
   font-weight: 200;
 }
 
-.wrapper .buy-card-section .input__group .inp::-ms-input-placeholder {
+.wrapper .buy-card-posp-section .input__group .inp::-ms-input-placeholder {
   color: #ffffff;
   font-weight: 200;
 }
 
-.wrapper .buy-card-section .input__group .inp::placeholder {
+.wrapper .buy-card-posp-section .input__group .inp::placeholder {
   color: #ffffff;
   font-weight: 200;
 }
 
-.wrapper .buy-card-section .modal-content {
+.wrapper .buy-card-posp-section .modal-content {
   background-color: #282828;
 }
 
-.wrapper .buy-card-section .modal-footer {
+.wrapper .buy-card-posp-section .modal-footer {
   border-top: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1051,7 +1051,7 @@ margin-left: -20px;
   justify-content: center;
 }
 
-.wrapper .buy-card-section .modal-footer .btn__modal {
+.wrapper .buy-card-posp-section .modal-footer .btn__modal {
   /* Style for "Кнопка" */
   width: 241px;
   height: 55px;
@@ -1074,25 +1074,25 @@ margin-left: -20px;
   margin-bottom: 20px;
 }
 
-.wrapper .buy-card-section .modal-footer .btn__modal:focus {
+.wrapper .buy-card-posp-section .modal-footer .btn__modal:focus {
   outline: none;
 }
 
 @media (max-width: 900px) {
-  .wrapper .buy-card-section {
+  .wrapper .buy-card-posp-section {
     margin-top: 45px;
   }
 }
 
 @media (max-width: 576px) {
-  .wrapper .buy-card-section {
+  .wrapper .buy-card-posp-section {
     margin-top: 0;
     margin-left: 0;
   }
 }
 
 
-.wrapper .buy-card-section .main__block__card {
+.wrapper .buy-card-posp-section .main__block__card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1109,12 +1109,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 576px) {
-  .wrapper .buy-card-section .main__block__card {
+  .wrapper .buy-card-posp-section .main__block__card {
     margin-bottom: 20px;
   }
 }
 
-.wrapper .buy-card-section .main__block__card .title {
+.wrapper .buy-card-posp-section .main__block__card .title {
   margin-bottom: 10px;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -1131,12 +1131,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .buy-card-section .main__block__card .title {
+  .wrapper .buy-card-posp-section .main__block__card .title {
     font-size: 40px;
   }
 }
 
-.wrapper .buy-card-section .main__block__card .item__text {
+.wrapper .buy-card-posp-section .main__block__card .item__text {
   margin-top: 20px;
   color: #d0cece;
   font-size: 16px;
@@ -1159,12 +1159,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .buy-card-section .main__block__card .item__text {
+  .wrapper .buy-card-posp-section .main__block__card .item__text {
     font-size: 16px;
   }
 }
 
-.wrapper .buy-card-section .main__block__card .item__price {
+.wrapper .buy-card-posp-section .main__block__card .item__price {
   /* Style for "5 000₽" */
   margin-top: 60px;
   color: #ffffff;
@@ -1178,13 +1178,13 @@ margin-left: -20px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .buy-card-section .main__block__card .item__price {
+  .wrapper .buy-card-posp-section .main__block__card .item__price {
     font-size: 20px;
     margin-top: 8px;
   }
 }
 
-.wrapper .buy-card-section .main__block__card .item__button {
+.wrapper .buy-card-posp-section .main__block__card .item__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1201,7 +1201,7 @@ margin-left: -20px;
   margin-top: 50px;
 }
 
-.wrapper .buy-card-section .main__block__card .item__button .btn {
+.wrapper .buy-card-posp-section .main__block__card .item__button .btn {
   /* Style for "Кнопка" */
   width: 217px;
   height: 67px;
@@ -1220,7 +1220,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .buy-card-section .main__block__card .item__button .btn {
+  .wrapper .buy-card-posp-section .main__block__card .item__button .btn {
     max-width: 140px;
     height: 47px;
     margin-top: 0px;
@@ -1228,12 +1228,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .buy-card-section .main__block__card .item__button {
+  .wrapper .buy-card-posp-section .main__block__card .item__button {
     margin-top: 0px;
   }
 }
 
-.wrapper .buy-card-section .card {
+.wrapper .buy-card-posp-section .card {
   padding: 30px;
   /* Style for "Прямоуголь" */
   width: 340px;
@@ -1266,25 +1266,25 @@ margin-left: -20px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .buy-card-section .card {
+  .wrapper .buy-card-posp-section .card {
     max-width: 230px;
     min-height: 306px;
   }
 }
 
 @media (max-width: 568px) {
-  .wrapper .buy-card-section .card {
+  .wrapper .buy-card-posp-section .card {
     max-width: 270px;
     padding: 18px;
   }
 }
 
-.wrapper .buy-card-section .card .text {
+.wrapper .buy-card-posp-section .card .text {
   color: #747272;
   text-align: center;
 }
 
-.wrapper .buy-card-section .card span {
+.wrapper .buy-card-posp-section .card span {
   color: white;
 }
 
@@ -1599,7 +1599,5 @@ margin-left: -20px;
   }
 }
 
-.wrapper .footer-section .footer__img__round_text {
-  position: relative;
-}
+
 /*# sourceMappingURL=list.css.map */

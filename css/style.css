@@ -274,7 +274,18 @@
   letter-spacing: 1.39px;
   line-height: normal;
   margin-left: -90px;
+  display: flex;
+  justify-content: space-around;
 }
+
+
+
+@media (min-width: 575px){
+  .wrapper .header-section .city__block {
+    flex-wrap: wrap;
+   }
+}
+
 
 .wrapper .header-section .btn:focus {
   outline: 0;
@@ -2501,6 +2512,8 @@ overflow: hidden;
   }
 }
 
+
+
 @media (max-width: 376px) {
   .wrapper .map-section .block__map .go__map {
     max-width: 360px;
@@ -2575,16 +2588,26 @@ overflow: hidden;
 }
 
 @media (max-width: 575px) {
-  .wrapper .partners-section .modal-header img {
-margin-left: -85px;
-
+  
+  .wrapper .partners-section .modal-header {
+    border: none;
   }
+
 }
 
 
 .wrapper .partners-section .modal-header .close {
   color: white;
 }
+
+  @media (max-width: 576px) {
+  .wrapper .partners-section .modal-header .txt_modal_state_partn {
+    max-width: 290px;
+    margin-top: 10px;
+    margin-left: -51px;
+    }
+  }
+
 
 .wrapper .partners-section .modal-title {
   /* Style for "стать парт" */
@@ -2741,6 +2764,9 @@ f .wrapper .partners-section .input__group .inp::placeholder {
   background-image: linear-gradient(to bottom, #f95043 0%, #d63529 100%);
   margin-bottom: 20px;
 }
+
+
+
 
 
 .wrapper .partners-section .modal-footer .btn__modal:focus {
@@ -3628,8 +3654,14 @@ display: block !important;
 }
 
 .wrapper .buy-card-section .modal-header .close {
-  color: white;
+  color: #a79c9c;
 }
+
+
+
+
+
+
 
 .wrapper .buy-card-section .modal-title {
   /* Style for "стать парт" */

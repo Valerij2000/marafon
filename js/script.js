@@ -13,11 +13,7 @@ $(document).ready(function(){
   })
 })
 
-
 /**Modal state partners */
-
-
-
   
 var state__partn__modal = new bootstrap.Modal(document.getElementById('state__partn__modal'), {
   keyboard: false
@@ -33,7 +29,6 @@ state_partners_open_modal.addEventListener('click', function (event) {
 })  
 
 const btn_modal_partners = document.querySelector('#btn_modal_partners');
-
 
 /**
 *   btn_modal_partners.addEventListener('click', () => {
