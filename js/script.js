@@ -51,7 +51,7 @@ btn_modal_partners.addEventListener('click', () => {
 
 /**Modal state partners */
 
-$( document ).ready(function() {
+
 
   
   var state__partn__modal = new bootstrap.Modal(document.getElementById('state__partn__modal'), {
@@ -68,14 +68,15 @@ $( document ).ready(function() {
   })  
   
   const btn_modal_partners = document.querySelector('#btn_modal_partners');
-});
+
 
 /**
- * btn_modal_partners.addEventListener('click', () => {
+ *   btn_modal_partners.addEventListener('click', () => {
   state__partn__modal.hide()
   thanks.show()
 })
  */
+
 
 
 
