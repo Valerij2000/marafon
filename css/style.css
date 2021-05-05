@@ -2432,11 +2432,11 @@ overflow: hidden;
 .wrapper .map-section .block__map .go__map {
   z-index: 800;
   position: relative;
-  left: 217px;
+  /* left: 217px; */
   top: -289px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .wrapper .map-section .block__map .go__map {
   width: 75% !important;
   }
@@ -2449,7 +2449,7 @@ overflow: hidden;
     left: 60px;
     height: 400px;
   }
-}
+} */
 
 @media (min-width: 576px) {
   .wrapper .map-section .block__map .go__map {
@@ -2458,15 +2458,22 @@ overflow: hidden;
   }
 }
 
-
 @media (max-width: 575px){
+  .wrapper .map-section .block__map .go__map {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+
+/* @media (max-width: 575px){
   .wrapper .map-section .block__map .go__map {
     max-width: 460px;
     left: 16px;
   }
-}
+} */
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .wrapper .map-section .block__map .go__map {
     max-width: 456px;
     left: -8px;
@@ -2517,7 +2524,7 @@ overflow: hidden;
     top: -310px;
     left: -14px;
   }
-}
+} */
 
 
 
@@ -3252,6 +3259,14 @@ width: 100%;
     max-width: 440px;
     height: 350px;
     margin-left: -2px;
+  }
+}
+
+@media (max-width: 460px) {
+  .wrapper .youtube-section .block__frame .video .yt {
+    max-width: 412px;
+    height: 350px;
+    margin-left: -13px;
   }
 }
 
