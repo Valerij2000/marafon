@@ -4,16 +4,16 @@
   background-color: #292929;
 }
 
-.wrapper .header-section {
+.wrapper .header-rosp-section {
   min-height: 180px;
 }
 
-.wrapper .header-section .building {
+.wrapper .header-rosp-section .building {
   position: relative;
   left: -300px;
 }
 
-.wrapper .header-section .nav-block {
+.wrapper .header-rosp-section .nav-block {
   z-index: 500;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,19 +26,19 @@
 }
 
 @media (max-width: 992px) {
-  .wrapper .header-section .nav-block {
+  .wrapper .header-rosp-section .nav-block {
     -ms-flex-pack: distribute;
     justify-content: flex-start;
   }
 }
 
 @media (max-width: 577px) {
-  .wrapper .header-section .nav-block {
+  .wrapper .header-rosp-section .nav-block {
 margin-left: -20px;
   }
 }
 
-.wrapper .header-section .nav-block .nav-link {
+.wrapper .header-rosp-section .nav-block .nav-link {
   z-index: 500;
   position: relative;
   display: block;
@@ -52,7 +52,7 @@ margin-left: -20px;
   color: red !important;
 }
 
-.wrapper .header-section .nav-block .nav-link:after {
+.wrapper .header-rosp-section .nav-block .nav-link:after {
   top: 52px;
   margin-left: 12.9px;
   display: block;
@@ -71,20 +71,20 @@ margin-left: -20px;
   /*задаём время анимации*/
 }
 
-/* .wrapper .header-section .nav-block .nav-link:hover:after,
-.wrapper .header-section .nav-block .nav-link:focus:after {
+/* .wrapper .header-rosp-section .nav-block .nav-link:hover:after,
+.wrapper .header-rosp-section .nav-block .nav-link:focus:after {
   width: 80%;
 } */
 /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
 
 @media (max-width: 992px) {
-  .wrapper .header-section .nav-block .nav-link {
+  .wrapper .header-rosp-section .nav-block .nav-link {
     margin-left: 0px;
   }
 }
 
 @media (max-width: 576px) {
-  .wrapper .header-section .nav-block .nav-link {
+  .wrapper .header-rosp-section .nav-block .nav-link {
     display: none;
   }
 }
@@ -95,11 +95,11 @@ margin-left: -20px;
   }
 }
 
-.wrapper .header-section .nav-block .nav-link:focus {
+.wrapper .header-rosp-section .nav-block .nav-link:focus {
   color: #f0222c;
 }
 
-.wrapper .header-section .back {
+.wrapper .header-rosp-section .back {
   width: 90%;
   border: 2px solid transparent;
   -o-border-image: linear-gradient(
@@ -127,28 +127,28 @@ margin-left: -20px;
 }
 
 @media (max-width: 899px) {
-  .wrapper .header-section .back {
+  .wrapper .header-rosp-section .back {
     width: 100%;
   }
 }
 
-.wrapper .header-section .back .burger {
+.wrapper .header-rosp-section .back .burger {
   display: none;
 }
 
 @media (max-width: 576px) {
-  .wrapper .header-section .back .burger {
+  .wrapper .header-rosp-section .back .burger {
     display: block;
     margin-left: 60px;
 
   }
-  .wrapper .header-section .back .burger .header__menu.active {
+  .wrapper .header-rosp-section .back .burger .header__menu.active {
     top: 0px;
     left: 0;
     -webkit-transition: ease-in-out 0.5s;
     transition: ease-in-out 0.5s;
   }
-  .wrapper .header-section .back .burger .header__menu {
+  .wrapper .header-rosp-section .back .burger .header__menu {
     background-color: #2c2e2f;
     position: fixed;
     left: 0;
@@ -159,23 +159,23 @@ margin-left: -20px;
     height: 70%;
     z-index: 900000;
   }
-  .wrapper .header-section .back .burger .active:before {
+  .wrapper .header-rosp-section .back .burger .active:before {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     top: 11px !important;
     -webkit-transition: ease-in-out 0.3s;
     transition: ease-in-out 0.3s;
   }
-  .wrapper .header-section .back .burger .active span {
+  .wrapper .header-rosp-section .back .burger .active span {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -webkit-transition: ease-in-out 0.2s;
     transition: ease-in-out 0.2s;
   }
-  .wrapper .header-section .back .burger .header__list li {
+  .wrapper .header-rosp-section .back .burger .header__list li {
     list-style-type: none;
   }
-  .wrapper .header-section .back .burger .header__list .nav-link {
+  .wrapper .header-rosp-section .back .burger .header__list .nav-link {
     position: relative;
     display: block;
     padding: 0.5rem 1rem;
@@ -183,7 +183,7 @@ margin-left: -20px;
     margin-left: 70px;
     font-size: 23px;
   }
-  .wrapper .header-section .back .burger .header__list .nav-link:after {
+  .wrapper .header-rosp-section .back .burger .header__list .nav-link:after {
     margin-left: 20px;
     display: block;
     position: absolute;
@@ -200,18 +200,18 @@ margin-left: -20px;
     transition: width 0.3s ease-out;
     /*задаём время анимации*/
   }
-  .wrapper .header-section .back .burger .header__list .nav-link:hover:after,
-  .wrapper .header-section .back .burger .header__list .nav-link:focus:after {
+  .wrapper .header-rosp-section .back .burger .header__list .nav-link:hover:after,
+  .wrapper .header-rosp-section .back .burger .header__list .nav-link:focus:after {
     width: 20%;
     /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
   }
-  .wrapper .header-section .back .burger .header__burger {
+  .wrapper .header-rosp-section .back .burger .header__burger {
     position: relative;
     width: 30px;
     height: 20px;
     top: 20px;
   }
-  .wrapper .header-section .back .burger .header__burger span {
+  .wrapper .header-rosp-section .back .burger .header__burger span {
     background-color: white;
     position: absolute;
     width: 100%;
@@ -221,8 +221,8 @@ margin-left: -20px;
     -webkit-transition: ease-in-out 0.2s;
     transition: ease-in-out 0.2s;
   }
-  .wrapper .header-section .back .burger .header__burger::before,
-  .wrapper .header-section .back .burger .header__burger ::after {
+  .wrapper .header-rosp-section .back .burger .header__burger::before,
+  .wrapper .header-rosp-section .back .burger .header__burger ::after {
     content: "";
     background-color: white;
     position: absolute;
@@ -230,18 +230,18 @@ margin-left: -20px;
     height: 2px;
     left: 0;
   }
-  .wrapper .header-section .back .burger .header__burger::before {
+  .wrapper .header-rosp-section .back .burger .header__burger::before {
     top: 20px;
     -webkit-transition: ease-in-out 0.3s;
     transition: ease-in-out 0.3s;
   }
-  .wrapper .header-section .back .burger .header__burger::after {
+  .wrapper .header-rosp-section .back .burger .header__burger::after {
     bottom: 0px;
   }
 }
 
 @media (max-width: 576px) {
-  .wrapper .header-section .back {
+  .wrapper .header-rosp-section .back {
     border: none;
     -o-border-image: none;
     border-image: none;
@@ -249,7 +249,7 @@ margin-left: -20px;
   }
 }
 
-.wrapper .header-section .city__block {
+.wrapper .header-rosp-section .city__block {
   /* Style for "Новосибирс" */
   color: #ffffff;
   font-size: 18px;
@@ -264,7 +264,7 @@ margin-left: -20px;
   margin-left: -90px;
 }
 
-.wrapper .header-section .btn:focus {
+.wrapper .header-rosp-section .btn:focus {
   outline: 0;
   box-shadow: none;
 }
@@ -294,31 +294,31 @@ margin-left: -20px;
     padding: 13px;
   }
 
-.wrapper .header-section .img_point_field_drop {
+.wrapper .header-rosp-section .img_point_field_drop {
   width: 55px;
   height: 55px;
 }
 
-.wrapper .header-section .dropdown {
+.wrapper .header-rosp-section .dropdown {
   z-index: 200;
 }
 
 
-.wrapper .header-section .btn:focus {
+.wrapper .header-rosp-section .btn:focus {
   outline: 0;
   box-shadow: none;
 }
 
-.wrapper .header-section .dropdown-menu.show {
+.wrapper .header-rosp-section .dropdown-menu.show {
   margin-top: -10px;
 }
 
-.wrapper .header-section .btn:hover {
+.wrapper .header-rosp-section .btn:hover {
   color: #ffffff;
   text-decoration: none;
 }
 
-.wrapper .header-section .block__city__item {
+.wrapper .header-rosp-section .block__city__item {
     color: white;
     display: flex;
     flex-direction: row;
@@ -333,31 +333,31 @@ margin-left: -20px;
 
 
 @media (max-width: 1271px) {
-  .wrapper .header-section .city__block {
+  .wrapper .header-rosp-section .city__block {
     margin-left: 0px;
   }
 }
 
 @media (max-width: 768px) {
-  .wrapper .header-section .city__block {
+  .wrapper .header-rosp-section .city__block {
     margin-top: 1rem !important;
   }
 }
 
 @media (max-width: 576px) {
-  .wrapper .header-section .city__block {
+  .wrapper .header-rosp-section .city__block {
     display: none !important;
   }
 }
 
 
 @media (max-width: 576px) {
-  .wrapper .header-section .city__block {
+  .wrapper .header-rosp-section .city__block {
     display: none;
   }
 }
 
-.wrapper .header-section .city__block span {
+.wrapper .header-rosp-section .city__block span {
   margin-left: 15px;
   /* Style for "Новосибирс" */
   color: #f1f1f1;
@@ -451,55 +451,55 @@ margin-left: -20px;
 }
 
 @media (max-width: 1271px) {
-  .wrapper .header-section .city__block span {
+  .wrapper .header-rosp-section .city__block span {
     margin-left: 12px;
   }
 }
 
 @media (max-width: 1200px) {
-  .wrapper .header-section .city__block span {
+  .wrapper .header-rosp-section .city__block span {
     margin-left: 0px;
   }
 }
 
 @media (max-width: 768px) {
-  .wrapper .header-section .city__block span {
+  .wrapper .header-rosp-section .city__block span {
     font-size: 14px;
   }
 
   @media (max-width: 768px) {
-    .wrapper .header-section .city__block {
+    .wrapper .header-rosp-section .city__block {
       flex-wrap: wrap;
     }
   }
 }
 
-.wrapper .card-section {
+.wrapper .card-rosp-section {
   min-height: 280px;
 }
 
 @media (max-width: 1077px) {
-  .wrapper .card-section {
+  .wrapper .card-rosp-section {
     margin-top: 40px;
   }
 }
 
 @media (max-width: 575px) {
-  .wrapper .card-section {
+  .wrapper .card-rosp-section {
     margin-left: 0;
     margin-top: 20px;
   }
 }
 
 @media (max-width: 410px) {
-  .wrapper .card-section {
+  .wrapper .card-rosp-section {
     margin-left: 0;
     margin-top: 20px;
   }
 }
 
 @media (max-width: 476px) {
-  .wrapper .card-section .card__display {
+  .wrapper .card-rosp-section .card__display {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -516,7 +516,7 @@ margin-left: -20px;
   }
 }
 
-.wrapper .card-section .card__border {
+.wrapper .card-rosp-section .card__border {
   border: 1px solid transparent;
   -o-border-image: linear-gradient(
     to top,
@@ -541,7 +541,7 @@ margin-left: -20px;
   border-image-slice: 23;
 }
 
-.wrapper .card-section .card {
+.wrapper .card-rosp-section .card {
   z-index: 190;
   padding: 30px;
   /* Style for "Прямоуголь" */
@@ -553,25 +553,25 @@ margin-left: -20px;
 }
 
 @media (max-width: 1168px) {
-  .wrapper .card-section .card {
+  .wrapper .card-rosp-section .card {
     width: 308px;
   }
 }
 
 @media (max-width: 992px) {
-  .wrapper .card-section .card {
+  .wrapper .card-rosp-section .card {
     width: 280px;
   }
 }
 
 @media (max-width: 845px) {
-  .wrapper .card-section .card {
+  .wrapper .card-rosp-section .card {
     width: 220px;
   }
 }
 
 @media (max-width: 768px) {
-  .wrapper .card-section .card {
+  .wrapper .card-rosp-section .card {
     padding: 15px;
     margin-top: 20px;
     width: 180px;
@@ -580,7 +580,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 697px) {
-  .wrapper .card-section .card {
+  .wrapper .card-rosp-section .card {
     padding: 15px;
     margin-top: 20px;
     width: 140px;
@@ -589,7 +589,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 576px) {
-  .wrapper .card-section .card {
+  .wrapper .card-rosp-section .card {
     width: 400px;
     margin-left: 43px;
     padding: 5px;
@@ -598,7 +598,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 476px) {
-  .wrapper .card-section .card {
+  .wrapper .card-rosp-section .card {
     padding: 5px;
     width: 400px;
     height: 90px;
@@ -608,7 +608,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 410px) {
-  .wrapper .card-section .card {
+  .wrapper .card-rosp-section .card {
     padding: 5px;
     width: 310px;
     height: 90px;
@@ -619,7 +619,7 @@ margin-left: -20px;
 
 
 @media (max-width: 376px) {
-  .wrapper .card-section .card {
+  .wrapper .card-rosp-section .card {
     padding: 5px;
     width: 310px;
     height: 90px;
@@ -629,7 +629,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 322px) {
-  .wrapper .card-section .card {
+  .wrapper .card-rosp-section .card {
     padding: 5px;
     margin-top: 20px;
     width: 260px;
@@ -637,61 +637,61 @@ margin-left: -20px;
   }
 }
 
-.wrapper .card-section .card .text p {
+.wrapper .card-rosp-section .card .text p {
   color: #fff;
   font-size: 16px;
   font-weight: 300;
 }
 
 @media (max-width: 576px) {
-  .wrapper .card-section .card .text p {
+  .wrapper .card-rosp-section .card .text p {
     font-size: 16px;
   }
 }
 
 
-.wrapper .card-section .card .text {
+.wrapper .card-rosp-section .card .text {
   color: #747272;
   text-align: center;
 }
 
 @media (max-width: 1168px) {
-  .wrapper .card-section .card .text {
+  .wrapper .card-rosp-section .card .text {
     font-size: 14px;
   }
 }
 
 @media (max-width: 768px) {
-  .wrapper .card-section .card .text {
+  .wrapper .card-rosp-section .card .text {
     text-align: left;
   }
 }
 
 @media (max-width: 568px) {
-  .wrapper .card-section .card .text {
+  .wrapper .card-rosp-section .card .text {
     text-align: center;
   }
 }
 
-.wrapper .card-section .card span {
+.wrapper .card-rosp-section .card span {
   color: white;
   font-weight: 700;
   font-size: 16px;
 }
 
 @media (max-width: 1168px) {
-  .wrapper .card-section .card span {
+  .wrapper .card-rosp-section .card span {
     font-size: 14px;
   }
 }
 
 @media (max-width: 576px) {
-  .wrapper .card-section .card span {
+  .wrapper .card-rosp-section .card span {
     font-size: 18px;
   }
 }
 
-.wrapper .card-section .round__text {
+.wrapper .card-rosp-section .round__text {
   position: relative;
   left: 977px;
   top: -120px;
@@ -699,7 +699,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 1300px) {
-  .wrapper .card-section .round__text {
+  .wrapper .card-rosp-section .round__text {
     max-width: 180px;
     left: 921px;
     top: -229px;
@@ -707,12 +707,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 1200px) {
-  .wrapper .card-section .round__text {
+  .wrapper .card-rosp-section .round__text {
     display: none;
   }
 }
 
-.wrapper .card-section .apost {
+.wrapper .card-rosp-section .apost {
   position: relative;
   top: -274px;
   left: 947px;
@@ -720,20 +720,20 @@ margin-left: -20px;
 }
 
 @media (max-width: 1384px) {
-  .wrapper .card-section .apost {
+  .wrapper .card-rosp-section .apost {
     max-width: 250px;
   }
 }
 
 @media (max-width: 1300px) {
-  .wrapper .card-section .apost {
+  .wrapper .card-rosp-section .apost {
     top: -340px;
     max-width: 170px;
   }
 }
 
 @media (max-width: 1200px) {
-  .wrapper .card-section .apost {
+  .wrapper .card-rosp-section .apost {
     top: -140px;
     max-width: 110px;
     left: 825px;
@@ -741,7 +741,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 1051px) {
-  .wrapper .card-section .apost {
+  .wrapper .card-rosp-section .apost {
     display: none;
   }
 }
@@ -885,19 +885,19 @@ margin-left: -20px;
   }
 }
 
-.wrapper .buy-card-section {
+.wrapper .buy-card-rosp-section {
   min-height: 500px;
 }
 
 @media (max-width: 767px) {
-  .wrapper .buy-card-section {
+  .wrapper .buy-card-rosp-section {
     margin-left: 0px;
 
   }
 }
 
 @media (max-width: 767px) {
-  .wrapper .buy-card-section {
+  .wrapper .buy-card-rosp-section {
     margin-left: 0px;
 
   }
@@ -906,11 +906,11 @@ margin-left: -20px;
 
 
 
-.wrapper .buy-card-section .modal {
+.wrapper .buy-card-rosp-section .modal {
   z-index: 9000000000000 !important;
 }
 
-.wrapper .buy-card-section .modal-header {
+.wrapper .buy-card-rosp-section .modal-header {
   padding-left: 45px;
   border-bottom: none;
   border: 2px solid transparent;
@@ -937,11 +937,11 @@ margin-left: -20px;
   border-image-slice: 23;
 }
 
-.wrapper .buy-card-section .modal-header .close {
+.wrapper .buy-card-rosp-section .modal-header .close {
   color: white;
 }
 
-.wrapper .buy-card-section .modal-title {
+.wrapper .buy-card-rosp-section .modal-title {
   /* Style for "стать парт" */
   border: 1px solid #bf5fe7;
   text-shadow: 0 35px 49px rgba(31, 31, 31, 0.27);
@@ -960,7 +960,7 @@ margin-left: -20px;
   line-height: normal;
 }
 
-.wrapper .buy-card-section .individual {
+.wrapper .buy-card-rosp-section .individual {
   margin-left: 81px;
   /* Style for "Заполни да" */
   color: #888888;
@@ -970,11 +970,11 @@ margin-left: -20px;
   margin-top: -86px;
 }
 
-.wrapper .buy-card-section .modal-body {
+.wrapper .buy-card-rosp-section .modal-body {
   margin-bottom: -23px;
 }
 
-.wrapper .buy-card-section .field {
+.wrapper .buy-card-rosp-section .field {
   color: #888888;
   font-size: 15px;
   text-align: center;
@@ -982,7 +982,7 @@ margin-left: -20px;
   margin-top: 20px;
 }
 
-.wrapper .buy-card-section .input__group {
+.wrapper .buy-card-rosp-section .input__group {
   margin-left: 62px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -998,7 +998,7 @@ margin-left: -20px;
   align-content: center;
 }
 
-.wrapper .buy-card-section .input__group .inp {
+.wrapper .buy-card-rosp-section .input__group .inp {
   /* Style for "Поле ввода" */
   border: 1px solid;
   /* Style for "Поле ввода" */
@@ -1013,31 +1013,31 @@ margin-left: -20px;
   outline: none;
 }
 
-.wrapper .buy-card-section .input__group .inp::-webkit-input-placeholder {
+.wrapper .buy-card-rosp-section .input__group .inp::-webkit-input-placeholder {
   color: #ffffff;
   font-weight: 200;
 }
 
-.wrapper .buy-card-section .input__group .inp:-ms-input-placeholder {
+.wrapper .buy-card-rosp-section .input__group .inp:-ms-input-placeholder {
   color: #ffffff;
   font-weight: 200;
 }
 
-.wrapper .buy-card-section .input__group .inp::-ms-input-placeholder {
+.wrapper .buy-card-rosp-section .input__group .inp::-ms-input-placeholder {
   color: #ffffff;
   font-weight: 200;
 }
 
-.wrapper .buy-card-section .input__group .inp::placeholder {
+.wrapper .buy-card-rosp-section .input__group .inp::placeholder {
   color: #ffffff;
   font-weight: 200;
 }
 
-.wrapper .buy-card-section .modal-content {
+.wrapper .buy-card-rosp-section .modal-content {
   background-color: #282828;
 }
 
-.wrapper .buy-card-section .modal-footer {
+.wrapper .buy-card-rosp-section .modal-footer {
   border-top: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1051,7 +1051,7 @@ margin-left: -20px;
   justify-content: center;
 }
 
-.wrapper .buy-card-section .modal-footer .btn__modal {
+.wrapper .buy-card-rosp-section .modal-footer .btn__modal {
   /* Style for "Кнопка" */
   width: 241px;
   height: 55px;
@@ -1074,25 +1074,25 @@ margin-left: -20px;
   margin-bottom: 20px;
 }
 
-.wrapper .buy-card-section .modal-footer .btn__modal:focus {
+.wrapper .buy-card-rosp-section .modal-footer .btn__modal:focus {
   outline: none;
 }
 
 @media (max-width: 900px) {
-  .wrapper .buy-card-section {
+  .wrapper .buy-card-rosp-section {
     margin-top: 45px;
   }
 }
 
 @media (max-width: 576px) {
-  .wrapper .buy-card-section {
+  .wrapper .buy-card-rosp-section {
     margin-top: 0;
     margin-left: 0;
   }
 }
 
 
-.wrapper .buy-card-section .main__block__card {
+.wrapper .buy-card-rosp-section .main__block__card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1109,12 +1109,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 576px) {
-  .wrapper .buy-card-section .main__block__card {
+  .wrapper .buy-card-rosp-section .main__block__card {
     margin-bottom: 20px;
   }
 }
 
-.wrapper .buy-card-section .main__block__card .title {
+.wrapper .buy-card-rosp-section .main__block__card .title {
   margin-bottom: 10px;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -1131,12 +1131,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .buy-card-section .main__block__card .title {
+  .wrapper .buy-card-rosp-section .main__block__card .title {
     font-size: 40px;
   }
 }
 
-.wrapper .buy-card-section .main__block__card .item__text {
+.wrapper .buy-card-rosp-section .main__block__card .item__text {
   margin-top: 20px;
   color: #d0cece;
   font-size: 16px;
@@ -1159,12 +1159,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .buy-card-section .main__block__card .item__text {
+  .wrapper .buy-card-rosp-section .main__block__card .item__text {
     font-size: 16px;
   }
 }
 
-.wrapper .buy-card-section .main__block__card .item__price {
+.wrapper .buy-card-rosp-section .main__block__card .item__price {
   /* Style for "5 000₽" */
   margin-top: 60px;
   color: #ffffff;
@@ -1178,13 +1178,13 @@ margin-left: -20px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .buy-card-section .main__block__card .item__price {
+  .wrapper .buy-card-rosp-section .main__block__card .item__price {
     font-size: 20px;
     margin-top: 8px;
   }
 }
 
-.wrapper .buy-card-section .main__block__card .item__button {
+.wrapper .buy-card-rosp-section .main__block__card .item__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1201,7 +1201,7 @@ margin-left: -20px;
   margin-top: 50px;
 }
 
-.wrapper .buy-card-section .main__block__card .item__button .btn {
+.wrapper .buy-card-rosp-section .main__block__card .item__button .btn {
   /* Style for "Кнопка" */
   width: 217px;
   height: 67px;
@@ -1220,7 +1220,7 @@ margin-left: -20px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .buy-card-section .main__block__card .item__button .btn {
+  .wrapper .buy-card-rosp-section .main__block__card .item__button .btn {
     max-width: 140px;
     height: 47px;
     margin-top: 0px;
@@ -1228,12 +1228,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .buy-card-section .main__block__card .item__button {
+  .wrapper .buy-card-rosp-section .main__block__card .item__button {
     margin-top: 0px;
   }
 }
 
-.wrapper .buy-card-section .card {
+.wrapper .buy-card-rosp-section .card {
   padding: 30px;
   /* Style for "Прямоуголь" */
   width: 340px;
@@ -1266,34 +1266,34 @@ margin-left: -20px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .buy-card-section .card {
+  .wrapper .buy-card-rosp-section .card {
     max-width: 230px;
     min-height: 306px;
   }
 }
 
 @media (max-width: 568px) {
-  .wrapper .buy-card-section .card {
+  .wrapper .buy-card-rosp-section .card {
     max-width: 270px;
     padding: 18px;
   }
 }
 
-.wrapper .buy-card-section .card .text {
+.wrapper .buy-card-rosp-section .card .text {
   color: #747272;
   text-align: center;
 }
 
-.wrapper .buy-card-section .card span {
+.wrapper .buy-card-rosp-section .card span {
   color: white;
 }
 
-.wrapper .footer-section {
+.wrapper .footer-rosp-section {
   margin-top: 110px;
   min-height: 350px;
 }
 
-.wrapper .footer-section .block__card__partn {
+.wrapper .footer-rosp-section .block__card__partn {
   margin-left: -30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1309,30 +1309,30 @@ margin-left: -20px;
 }
 
 @media (max-width: 992px) {
-  .wrapper .footer-section .block__card__partn {
+  .wrapper .footer-rosp-section .block__card__partn {
     margin-left: 8px;
   }
 }
 
 @media (max-width: 576px) {
-  .wrapper .footer-section .block__card__partn {
+  .wrapper .footer-rosp-section .block__card__partn {
     margin-top: 34px;
   }
 }
 
-.wrapper .footer-section .block__card__partn .partn__img {
+.wrapper .footer-rosp-section .block__card__partn .partn__img {
   max-width: 165px;
   height: 60px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .footer-section .block__card__partn .partn__img {
+  .wrapper .footer-rosp-section .block__card__partn .partn__img {
     max-width: 80px;
     height: 40px;
   }
 }
 
-.wrapper .footer-section .block__card__partn .item__card {
+.wrapper .footer-rosp-section .block__card__partn .item__card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1347,7 +1347,7 @@ margin-left: -20px;
       align-content: center;
 }
 
-.wrapper .footer-section .block__card__partn .item__card .social__icon {
+.wrapper .footer-rosp-section .block__card__partn .item__card .social__icon {
   margin-top: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1363,60 +1363,60 @@ margin-left: -20px;
 }
 
 @media (max-width: 768px) {
-  .wrapper .footer-section {
+  .wrapper .footer-rosp-section {
     margin-top: 0px;
   }
 }
 
 @media (max-width: 576px) {
-  .wrapper .footer-section {
+  .wrapper .footer-rosp-section {
     margin-top: 60px;
   }
 }
 
 @media (max-width: 1200px) {
-  .wrapper .footer-section .logo__footer {
+  .wrapper .footer-rosp-section .logo__footer {
     max-width: 450px;
   }
 }
 
 @media (max-width: 992px) {
-  .wrapper .footer-section .logo__footer {
+  .wrapper .footer-rosp-section .logo__footer {
     max-width: 350px;
   }
 }
 
 @media (max-width: 768px) {
-  .wrapper .footer-section .logo__footer {
+  .wrapper .footer-rosp-section .logo__footer {
     max-width: 200px;
   }
 }
 
 @media (max-width: 576px) {
-  .wrapper .footer-section .logo__footer {
+  .wrapper .footer-rosp-section .logo__footer {
     max-width: 330px;
   }
 }
 
 @media (max-width: 345px) {
-  .wrapper .footer-section .logo__footer {
+  .wrapper .footer-rosp-section .logo__footer {
     max-width: 230px;
   }
 }
 
-.wrapper .footer-section .block__partners__footer {
+.wrapper .footer-rosp-section .block__partners__footer {
   display: flex;
 }
 
 @media (max-width: 575px) {
-  .wrapper .footer-section .block__partners__footer {
+  .wrapper .footer-rosp-section .block__partners__footer {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
 
-.wrapper .footer-section .block__partners__footer .footer__txt__partners {
+.wrapper .footer-rosp-section .block__partners__footer .footer__txt__partners {
   margin-top: 20px;
   /* Style for "стать парт" */
   color: #f7f7f7;
@@ -1426,37 +1426,37 @@ margin-left: -20px;
 }
 
 @media (max-width: 1200px) {
-  .wrapper .footer-section .block__partners__footer .footer__txt__partners {
+  .wrapper .footer-rosp-section .block__partners__footer .footer__txt__partners {
     font-size: 17px;
   }
 }
 
 @media (max-width: 769px) {
-  .wrapper .footer-section .block__partners__footer .footer__txt__partners {
+  .wrapper .footer-rosp-section .block__partners__footer .footer__txt__partners {
     font-size: 14px;
     margin-top: 0;
   }
 }
 
 @media (max-width: 769px) {
-  .wrapper .footer-section .block__partners__footer .footer__txt__partners {
+  .wrapper .footer-rosp-section .block__partners__footer .footer__txt__partners {
     font-size: 14px;
   }
 }
 
 @media (max-width: 577px) {
-  .wrapper .footer-section .block__partners__footer .footer__txt__partners {
+  .wrapper .footer-rosp-section .block__partners__footer .footer__txt__partners {
     font-size: 16px;
   }
 }
 
 @media (max-width: 576px) {
-  .wrapper .footer-section .block__contact__footer {
+  .wrapper .footer-rosp-section .block__contact__footer {
     margin-top: 35px;
   }
 }
 
-.wrapper .footer-section .block__contact__footer .phone__block {
+.wrapper .footer-rosp-section .block__contact__footer .phone__block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1466,7 +1466,7 @@ margin-left: -20px;
           flex-direction: row;
 }
 
-.wrapper .footer-section .block__contact__footer .phone__block .phone {
+.wrapper .footer-rosp-section .block__contact__footer .phone__block .phone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1477,7 +1477,7 @@ margin-left: -20px;
   margin-top: 6px;
 }
 
-.wrapper .footer-section .block__contact__footer .phone__block .phone .img__phone {
+.wrapper .footer-rosp-section .block__contact__footer .phone__block .phone .img__phone {
   margin-left: 22px;
   margin-right: 22px;
   max-width: 30px;
@@ -1485,13 +1485,13 @@ margin-left: -20px;
 }
 
 @media (max-width: 992px) {
-  .wrapper .footer-section .block__contact__footer .phone__block .phone .img__phone {
+  .wrapper .footer-rosp-section .block__contact__footer .phone__block .phone .img__phone {
     max-width: 15px;
     height: 15px;
   }
 }
 
-.wrapper .footer-section .block__contact__footer .phone__block .phone .txt__number {
+.wrapper .footer-rosp-section .block__contact__footer .phone__block .phone .txt__number {
   /* Style for "+7 927 566" */
   color: #cdcdcd;
   font-size: 22px;
@@ -1507,12 +1507,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 992px) {
-  .wrapper .footer-section .block__contact__footer .phone__block .phone .txt__number {
+  .wrapper .footer-rosp-section .block__contact__footer .phone__block .phone .txt__number {
     font-size: 17px;
   }
 }
 
-.wrapper .footer-section .block__contact__footer .mail__block {
+.wrapper .footer-rosp-section .block__contact__footer .mail__block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1523,7 +1523,7 @@ margin-left: -20px;
   margin-top: -29px;
 }
 
-.wrapper .footer-section .block__contact__footer .mail__block .img__mail {
+.wrapper .footer-rosp-section .block__contact__footer .mail__block .img__mail {
   margin-left: 22px;
   margin-right: 22px;
   max-width: 30px;
@@ -1531,13 +1531,13 @@ margin-left: -20px;
 }
 
 @media (max-width: 992px) {
-  .wrapper .footer-section .block__contact__footer .mail__block .img__mail {
+  .wrapper .footer-rosp-section .block__contact__footer .mail__block .img__mail {
     max-width: 15px;
     height: 15px;
   }
 }
 
-.wrapper .footer-section .block__contact__footer .mail__block .txt__mail {
+.wrapper .footer-rosp-section .block__contact__footer .mail__block .txt__mail {
   /* Style for "maraphon@m" */
   color: #cdcdcd;
   font-size: 22px;
@@ -1553,12 +1553,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 992px) {
-  .wrapper .footer-section .block__contact__footer .mail__block .txt__mail {
+  .wrapper .footer-rosp-section .block__contact__footer .mail__block .txt__mail {
     font-size: 17px;
   }
 }
 
-.wrapper .footer-section .block__contact__footer .footer__links {
+.wrapper .footer-rosp-section .block__contact__footer .footer__links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1571,12 +1571,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 576px) {
-  .wrapper .footer-section .block__contact__footer .footer__links {
+  .wrapper .footer-rosp-section .block__contact__footer .footer__links {
     display: none;
   }
 }
 
-.wrapper .footer-section .block__contact__footer .footer__links .item_link {
+.wrapper .footer-rosp-section .block__contact__footer .footer__links .item_link {
   margin-top: 10px;
   /* Style for "Публичная" */
   color: #949494;
@@ -1594,12 +1594,12 @@ margin-left: -20px;
 }
 
 @media (max-width: 992px) {
-  .wrapper .footer-section .block__contact__footer .footer__links .item_link {
+  .wrapper .footer-rosp-section .block__contact__footer .footer__links .item_link {
     font-size: 12px;
   }
 }
 
-.wrapper .footer-section .footer__img__round_text {
+.wrapper .footer-rosp-section .footer__img__round_text {
   position: relative;
 }
 /*# sourceMappingURL=list.css.map */
