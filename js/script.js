@@ -51,24 +51,31 @@ btn_modal_partners.addEventListener('click', () => {
 
 /**Modal state partners */
 
-var state__partn__modal = new bootstrap.Modal(document.getElementById('state__partn__modal'), {
-  keyboard: false
-})
+$( document ).ready(function() {
 
-var thanks = new bootstrap.Modal(document.getElementById('thanks'), {
-  keyboard: false
-})
+  
+  var state__partn__modal = new bootstrap.Modal(document.getElementById('state__partn__modal'), {
+    keyboard: false
+  })
+  
+  var thanks = new bootstrap.Modal(document.getElementById('thanks'), {
+    keyboard: false
+  })
+  
+  const state_partners_open_modal = document.querySelector('#state_partners_open_modal');
+  state_partners_open_modal.addEventListener('click', function (event) {
+    state__partn__modal.show()
+  })  
+  
+  const btn_modal_partners = document.querySelector('#btn_modal_partners');
+});
 
-const state_partners_open_modal = document.querySelector('#state_partners_open_modal');
-state_partners_open_modal.addEventListener('click', function (event) {
-  state__partn__modal.show()
-})  
-
-const btn_modal_partners = document.querySelector('#btn_modal_partners');
-btn_modal_partners.addEventListener('click', () => {
+/**
+ * btn_modal_partners.addEventListener('click', () => {
   state__partn__modal.hide()
   thanks.show()
 })
+ */
 
 
 
