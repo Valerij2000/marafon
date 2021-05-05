@@ -3205,7 +3205,7 @@ line-height: normal;
   }
 }
 
-@media (max-width: 1160px) {
+/* @media (max-width: 1160px) {
   .wrapper .youtube-section .block__frame .video .yt {
     max-width: 470px;
   }
@@ -3237,7 +3237,7 @@ line-height: normal;
     max-width: 240px;
     height: 140px;
   }
-}
+} */
 
 
 @media (min-width: 576px) {
@@ -3247,6 +3247,14 @@ width: 100%;
 }
 
 @media (max-width: 575px) {
+  .wrapper .youtube-section .block__frame .video .yt {
+  width: 90%;
+  margin-left: 5%;
+  }
+}
+
+
+/* @media (max-width: 575px) {
   .wrapper .youtube-section .block__frame .video .yt {
     max-width: 480px;
     height: 350px;
@@ -3302,7 +3310,7 @@ width: 100%;
     max-width: 316px;
     height: 260px;
   }
-}
+} */
 
 .wrapper .youtube-section .block__frame .video .stilus {
   position: relative;
