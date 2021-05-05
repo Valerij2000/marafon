@@ -3807,6 +3807,13 @@ display: block !important;
   align-content: center;
 }
 
+.header-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .wrapper .buy-card-section .input__group .inp {
   /* Style for "Поле ввода" */
   border: 1px solid;
