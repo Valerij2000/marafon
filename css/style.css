@@ -2742,6 +2742,7 @@ f .wrapper .partners-section .input__group .inp::placeholder {
   margin-bottom: 20px;
 }
 
+
 .wrapper .partners-section .modal-footer .btn__modal:focus {
   outline: none;
 }
