@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1265,4 +1266,1297 @@
 
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- Корректное отображение для мобильных устройств -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Ключевые слова поиска -->
+	<meta name="keywords" content="Макет, Макет-описание, HTML макет, Пример макета сайта">
+	<!-- Сниппет страницы (краткое описание страницы) при поиске -->
+	<meta name="description" content="Эта страница рассказывает о структуре макета сайта">
+
+
+	<title>Marafon</title>
+
+
+
+	<!-- Подключаем Bootstrap -->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+
+	<!-- Стили и скрипты  -->
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- MyScript JS -->
+
+	<script src="js/script.js" defer></script>
+
+
+</head>
+
+<body>
+
+
+	<!-- wrapper - Обертка всего содержимого  -->
+	<div class="wrapper">
+
+
+		<section class="header-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-sm-12 col-md-12">
+						<div class="back">
+							<div class="nav-block">
+								<a class="nav-link active" aria-current="page" href="javascript:void(0)"
+									onclick="scrollDownUp('#programm');">Программа</a>
+								<a class="nav-link" href="javascript:void(0)"
+									onclick="scrollDownUp('#speakers');">Спикеры</a>
+								<a class="nav-link" href="javascript:void(0)" onclick="scrollDownUp('#tickets');">Купить
+									билет</a>
+								<a class="nav-link" href="javascript:void(0)" onclick="scrollDownUp('#partners');">Стать
+									партнером</a>
+								ticketes
+								<!-- Header-Burger -->
+
+								<div class="burger">
+									<div class="header__burger">
+										<span></span>
+									</div>
+									<div class="header__menu">
+										<ul class="header__list">
+											<div class="header__burger">
+												<span></span>
+											</div>
+											<li>
+												<a class="nav-link active" aria-current="page" href="javascript:void(0)"
+													onclick="scrollDownUp('#programm');">Программа</a>
+											</li>
+											<li>
+												<a class="nav-link" href="javascript:void(0)"
+													onclick="scrollDownUp('#speakers');">Спикеры</a>
+											</li>
+											<li>
+												<a class="nav-link" href="javascript:void(0)"
+													onclick="scrollDownUp('#tickets');">Купить билет</a>
+											</li>
+											<li>
+												<a class="nav-link" href="javascript:void(0)"
+													onclick="scrollDownUp('#partners');">Стать партнером</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+								<!--End Header-Burger -->
+
+
+							</div>
+
+						</div>
+
+						<div class="dropdown">
+
+
+							<button  class="btn drop__tringle dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img class="img_point_field_drop" src="img/filled-point.png" alt="">
+							  Список  городов
+							</button>
+							
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								<div class="city__block__dropdown">
+
+									<p class="city__marafon">
+										<img src="img/filled-point.png" alt="">
+									<div class="block__city__item">
+										<span>Новосибирск</span>
+										<span class="city__marafon__1">1-3 июня</span>
+									</div>
+		
+		
+									<div class="block__city__item">
+										<span>Екатиренбург </span>
+										<span class="city__marafon__2">7-9 июня</span>
+									</div>
+		
+									<div class="block__city__item">
+										<span>Казань</span>
+										<span class="city__marafon__3">11-13 июня</span>
+									</div>
+									<div class="block__city__item">
+										<span>Санкт-Петербург</span>
+										<span class="city__marafon__4">16-18 июня</span>
+									</div>
+		
+									<div class="block__city__item">
+										<span>Москва</span>
+										<span class="city__marafon__5">21-23 июня</span>
+									</div>
+		
+									<div class="block__city__item">
+										<span>Ростов-на-Дону</span>
+										<span class="city__marafon__6">26-28 июня</span>
+									</div>
+		
+									<div class="block__city__item">
+										<span>Сочи</span>
+										<span class="city__marafon__7">1-3 июля</span>
+									</div>
+		
+									</p>
+								</div>
+							</div>
+						  </div>
+
+						<div class="d-flex justify-content-around mt-5 city__block">
+
+							<p class="city__marafon">
+								<img src="img/filled-point.png" alt="">
+							<div class="block__city__item">
+								<span>Новосибирск <span class="stick">|</span></span>
+								<span class="city__marafon__1">1-3 июня</span>
+							</div>
+
+
+							<div class="block__city__item">
+								<span>Екатиренбург <span class="stick">|</span></span>
+								<span class="city__marafon__2">7-9 июня</span>
+							</div>
+
+							<div class="block__city__item">
+								<span>Казань <span class="stick">|</span></span>
+								<span class="city__marafon__3">11-13 июня</span>
+							</div>
+							<div class="block__city__item">
+								<span>Санкт-Петербург <span class="stick">|</span></span>
+								<span class="city__marafon__4">16-18 июня</span>
+							</div>
+
+							<div class="block__city__item">
+								<span>Москва <span class="stick">|</span></span>
+								<span class="city__marafon__5">21-23 июня</span>
+							</div>
+
+							<div class="block__city__item">
+								<span>Ростов-на-Дону <span class="stick">|</span></span>
+								<span class="city__marafon__6">26-28 июня</span>
+							</div>
+
+							<div class="block__city__item">
+								<span>Сочи</span>
+								<span class="city__marafon__7">1-3 июля</span>
+							</div>
+
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<section class="marafon-title-section">
+			<img src="img/3-layers.png" alt="">
+		</section>
+
+
+
+		<section class="ruvim-pro-section">
+			<div class="container-fluid">
+
+				<!-- <img class="txt__round__white" src="img/round__text__white.png" alt=""> -->
+
+				<img class="img__build__fon"
+					src="img/low-angle-shot-of-a-modern-business-building-touching-the-clear-sky.png" alt="">
+
+
+				<img class="img__angle__fon" src="img/angle-shot-build.png" alt="">
+
+
+				<div class="row">
+					<div class="col-xl-4 col-lg-4 col-sm-4 col-md-4 offset-sm-3 offset-md-3 offset-lg-3 offset-xl-3">
+						<div class="block__ruvim ">
+							<h1>
+								на порядок <br> выше
+							</h1>
+
+
+							<a href="javascript:void(0)" onclick="scrollDownUp('#buy__ticket__button');">
+								<button class="btn">
+									<span>Купить билет</span>
+								</button>
+							</a>
+
+
+							<div class="block__play d-flex flex-row  mt-5 mb-4">
+								<div class="play d-flex justify-content-center align-items-center">
+									<a href="#">
+										<img class="play__button" src="img/play-button-arrowhead.png" alt="">
+									</a>
+								</div>
+								<div class="text d-flex justify-content-center align-items-center ml-4">
+									Расскажем о мероприятии
+									<br>
+									за 2 минуты
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+						<img class="img__speakers" src="img/8-layers.png" alt="">
+					</div>
+				</div>
+
+
+			</div>
+		</section>
+
+
+		<section class="themes-section">
+			<div class="container-fluid">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+					<img class="img__fon__theme" src="img/themes.png" alt="">
+					<img class="img__fon__theme__text" src="img/text-thems-plus.png" alt="">
+					<img class="img__fon__round__red" src="img/shadow__red.png" alt="">
+				</div>
+			</div>
+		</section>
+
+
+		<section class="card-section">
+			<div class="container">
+				<div class="row card__display">
+					<div class="col-xl-4 col-lg-4  col-md-4 col-sm-4">
+						<div class="card">
+							<div class="text">
+								<p>
+									<span>
+										Заказчик друг или враг? -
+									</span> <br> варианты диалога с заказчиком
+									на разных этапах сотрудничества -
+									от знакомства до рекламации
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+						<div class="card card__border">
+							<div class="text">
+								<p>
+									<span>
+										Из ремесла в Личный бренд -
+									</span> <br> новый уровень продвижения
+									своих услуг
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4  col-md-4 col-sm-4">
+						<div class="card">
+							<div class="text">
+								<p>
+									
+
+									<span>
+										Олдскул или инновации -
+									</span> <br> современные системы Slott и
+									Kraab в строительстве и отделке
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row card__display">
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+						<div class="card card__border">
+							<div class="text">
+								<p>
+									ПЕРЕ-стройка  
+									<span>
+										- систематизация бизнеса
+									</span> и мобильные программы управления
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+						<div class="card">
+							<div class="text">
+								<p>
+									
+									<span>
+										«Квадратная» цена за метр -
+									</span> <br> как составлять прайс на свои услуги и
+									не загибать цены
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+						<div class="card card__border">
+							<div class="text">
+								<p>
+									<span>
+										Конкуренты, которых не существуют -
+									</span> <br> как отстроиться от
+									массовой жизни
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+
+					<div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12">
+						<div class="block__text d-flex flex-row">
+
+			
+
+							<div class="text__sp">
+								<p class="main">
+									4 спикера
+								</p>
+							</div>
+
+
+
+							<div class="">
+								<p class="txt__suranme">
+									Сергей Крааб
+
+								</p>
+
+								<p class="txt__suranme">
+									Иван Журавлёв
+								</p>
+							</div>
+
+
+
+
+							<div class="text__">
+								<p class="txt__suranme">
+									Рувим Бойко
+
+								</p>
+
+								<p class="txt__suranme">
+									Александр Трушов
+								</p>
+							</div>
+
+
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+						<img class="round__text" src="img/Марафон__2021__На_порядок_выше”_-.png" alt="">
+						<img class="apost" src="img/appost.png" alt="">
+					</div>
+
+				</div>
+
+
+			</div>
+		</section>
+
+
+		<section class="section-getters" id="programm">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<img class="section-getters__img--1" src="img/22-layers.png" alt="">
+						<img class="section-getters__img--2" src="img/99-layers.png" alt="">
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="section-useful">
+			<div class="container">
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+					<img class="section-useful__img--1" src="img/9-layers.png" alt="">
+					<img class="section-useful__img--2" src="img/98-layers.png" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section class="days-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<img class="days-section__img--1" src="img/15-layers.png" alt="">
+						<img class="days-section__mobile" src="img/80-layers.png" alt="">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<img class="days-section__img--2" src="img/10-layers.png" alt="">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+						<div class="days-section__card">
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									“Встречают по одежке”
+								</h4>
+
+								<p class="days-section__text">
+									- Рабочее место гипсокартонщика
+								</p>
+							</div>
+
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									«СЕМЬ РАЗ ОТМЕРЬ ОДИН РАЗ ОТРЕЖЬ»
+								</h4>
+
+								<p class="days-section__text">
+									- Основы замера и построения модели в scetchup, быстрая теория фрезерования
+									гипсокартона
+									<br>
+									- Современные инструменты
+
+								</p>
+							</div>
+
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									«10 МИНУТ ПРОЕКТИРОВАНИЯ
+									ЭКОНОМЯТ 10 ЧАСОВ РАБОТЫ»
+								</h4>
+
+								<p class="days-section__text">
+									- Основы моделирования в SketchUP и примеры переноса размеров в трёхмерное
+									пространство
+									<br>
+									- Разговор о поиске кадров для проектировки
+
+								</p>
+							</div>
+
+							<div class="days-section__img">
+								<img src="img/Станция_1.png" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+						<div class="days-section__card">
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									«БЕЛЯШИ С ИЗЮМОМ»
+								</h4>
+
+								<p class="days-section__text">
+									- Демпферная революция в натяжных потолках
+									<br>
+									- Трековый и линейный свет без вставок и окантовок, устройство и технология монтажа,
+									сборка торцов и примыканий, особенности заправки
+
+								</p>
+							</div>
+
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									«ТОРЦОВКА ВСЕМУ ГОЛОВА»
+								</h4>
+
+								<p class="days-section__text">
+									- Выбор и настройка хорошей торцовки
+									<br>
+									- Диаметр диска, нужна ли с протягом, пильный диск и его обслуживание
+								</p>
+							</div>
+
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									«МАСТЕР-ЯСЛИ»
+								</h4>
+
+								<p class="days-section__text">
+									- Сборка простых узлов
+									<br>
+									- Угол 90, торец
+
+								</p>
+							</div>
+
+							<div class="days-section__img">
+								<img src="img/Станция_2.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<img style="margin-top: 40px;"
+							src="img/День_второй____День_второй____День_второй____День_второй____Ден.png" alt="">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+						<div class="days-section__card">
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									«ФИЛОСОФИЯ РАБОТЫ РУКАМИ»
+								</h4>
+
+								<p class="days-section__text">
+									- Обзор необходимых инструментов для фрезерования
+									<br>
+									- Практическое занятие по фрезеровке, создание сложных элементов
+
+								</p>
+							</div>
+
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									«ТОЧНЫЙ ЗАМЕР КАК ИСКУССТВО»
+								</h4>
+
+								<p class="days-section__text">
+									- С чего начинается проект, особенности замера, необходимые знания для правильного
+									снятия размеров.
+									- Обзор зависимостей (какие размеры в приоритете, какие нет)
+									<br>
+									- Разбор главных ошибок при замере
+									<br>
+									- Разбор инструментов и техника использования
+
+
+								</p>
+							</div>
+
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									«МАСТЕРАМИ НЕ РОЖДАЮТСЯ, ИМИ СТАНОВЯТСЯ»
+
+								</h4>
+
+								<p class="days-section__text">
+									- Соединения фрезерованных элементов
+									<br>
+									- Устройство соединения сложных плоскостей, кесонных коробов, парящих примыканий
+
+								</p>
+							</div>
+
+							<div class="days-section__img">
+								<img src="img/Станция_1.png" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+						<div class="days-section__card">
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									Комбинированные узлы или
+									«КАК ВПИХНУТЬ НЕВПИХУЕМОЕ»
+
+								</h4>
+
+								<p class="days-section__text">
+									- Примыкание к стенам: слотт+еврокрааб, слотт+еврослотт
+									<br>
+									- Стыковки нестыкуемых профилей
+
+								</p>
+							</div>
+
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									«Перекрестия НЕ ДЛЯ СЛАБОНЕРВНЫХ»
+								</h4>
+
+								<p class="days-section__text">
+									- Перекрестия слой, перекрестия технолайт
+								</p>
+							</div>
+
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									«Работа с полотном КАТАЕМ НЕСПЕША»
+								</h4>
+
+								<p class="days-section__text">
+									- Заправка или ПРОКАТКА ПВХ полотна
+								</p>
+							</div>
+
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									«РУКОЖОП ОТ БОГА»
+								</h4>
+
+								<p class="days-section__text">
+									- Ремонт порезов и реставрация, порез на пленке ПВХ, порез на Ткани, угловой порез,
+									проверка
+								</p>
+							</div>
+
+							<div class="days-section__item">
+								<h4 class="days-section__title">
+									«ВЕЧНАЯ СВЕТОДИОДКА» или как НЕ
+									ЗАЧАСТИТЬ к клиенту на рекламации
+
+								</h4>
+
+								<p class="days-section__text">
+									- Сборка простых узлов
+									<br>
+									- Угол 90, торец
+								</p>
+							</div>
+
+							<div class="days-section__img">
+								<img src="img/Станция_2.png" alt="">
+							</div>
+						</div>
+					</div>
+
+					
+						<a href="timelist.html" class="link__more__info">
+							<button class="btn days-section__btn">
+								<span>Подробная информация</span>
+							</button>
+						</a>
+					
+					
+
+				</div>
+
+			</div>
+		</section>
+
+
+
+
+
+		<section class="speakers-section" id="speakers">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 offset-sm-1 offset-md-1 offset-lg-2 offset-xl-2">
+						<img class="ml-3" src="img/32-layers.png" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="speakers-photo-section">
+			<div class="container">
+
+				<div class="row" style="background-image: url('img/spekers-fon.png'); background-repeat: no-repeat;">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+						<div class="block__img">
+							<img src="img/71-layers.png" alt="">
+							<p>Инженер-разработчик профильных систем, фронтмен компании Kraab Systems</p>
+						</div>
+
+
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+						<div class="block__img">
+							<img src="img/72-layers.png" alt="">
+							<p>Руководитель строительной компании, строительный блогер </p>
+						</div>
+
+
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+						<div class="block__img">
+							<img src="img/73-layers.png" alt="">
+							<p>Инженер-разработчик профильных систем, фронтмен компании Kraab Systems</p>
+						</div>
+
+
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+						<div class="block__img">
+							<img src="img/74-layers.png" alt="">
+							<p>Руководитель строительной компании, строительный блогер</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="map-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 offset-sm-1 offset-md-1 offset-lg-1 offset-xl-1">
+						<img class="img__city--1" src="img/section-city.png" alt="">
+						<img style="display: none;" class="img__city--2" src="img/2-layers.png" alt="">
+
+						<div class="block__map">
+
+							<iframe class="go__map"
+								src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21684.960434261153!2d39.560292388079205!3d47.204448713580796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1617461653966!5m2!1sru!2sru"
+								width="460" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+
+							</iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section class="partners-section" id="partners">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 flex__wrapp">
+
+						<img src="img/section-partners-new.png" alt="">
+
+
+						<div class="state__partners">
+							<p class="partners__state__text">более 1 500 <br> участников</p>
+
+
+
+							<!-- Button trigger modal -->
+
+							<button class="btn" data-bs-toggle="modal" data-bs-target="#state__partn__modal" type="button" id="state_partners_open_modal">Стать
+								партнером</button>
+
+
+							<!-- Modal Partners-->
+
+							<div class="modal fade" id="state__partn__modal" data-backdrop="static"
+								data-keyboard="false" tabindex="-1" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<img class="txt_modal_state_partn" src="img/state__partn__img.png" alt="">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<button id="close_mobile" type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<form action="">
+											<div class="modal-body">
+												<p class="individual">Заполни данные о себе, пиши только
+													<br>
+													реальную информацию
+												</p>
+
+
+
+
+												<div class="container">
+													<div class="input__group">
+														<input class="inp" type="name" placeholder="ФИО*">
+														<input class="inp" type="tel" placeholder="Номер телефона*">
+														<input class="inp" type="text" placeholder="Компания*">
+														<textarea placeholder="Дополнительно*" class="inp "
+															name="message" style="height: 100px"></textarea>
+													</div>
+												</div>
+
+
+
+
+												<p class="field">
+													* обозначены поля
+													<br>
+													обязательные к заполнению
+												</p>
+											</div>
+											<div class="modal-footer">
+												<button
+												data-target="#thanks" type="button" class="btn__modal" id="btn_modal_partners">Купить билет</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<!-- End Modal Partners -->
+
+
+
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<section class="partners-card-section">
+			<div class="container">
+					<div style="display: none;" class="mobile__img">
+						<img src="img/4-layers.png" alt="">
+					</div>
+			
+				<div class="row test">
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+						<img src="img/card-partn1.png" alt="">
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+						<img src="img/card-partn2.png" alt="">
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+						<img src="img/card-partn1.png" alt="">
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+						<img src="img/card-partn2.png" alt="">
+					</div>
+				</div>
+
+				<div class="row mt-5 test">
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+						<img src="img/card-partn1.png" alt="">
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+						<img src="img/card-partn2.png" alt="">
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+						<img src="img/card-partn1.png" alt="">
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+						<img src="img/card-partn2.png" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+		<section class="youtube-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-3 col-lg-4 col-md-4 col-sm-5  offset-md-1 offset-lg-1 offset-xl-2">
+						<div class="block__txt">
+
+							<div class="header__txt">
+								<h2 style="display: none;">МАРАФОН 2019</h2>
+								<p>
+									как это
+									было?
+								</p>
+							</div>
+
+							<div class="col">
+								<div class="block__descr">
+
+									<div class="icon_block">
+										<img src="img/add-icon.png" alt="">
+									</div>
+
+									<div class="descr__item">
+										<p>
+											В 2019 году команда SHADOOF DESIGN провела серию масштабных мастер-классов
+											по городам Росссии об инновационных технологиях на рынке потолков.
+										</p>
+
+
+										<span class="white__text">
+
+											Как это было - смотрите в ролике!
+										</span>
+
+									</div>
+								</div>
+							</div>
+
+
+
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+						<div class="block__frame">
+
+
+							<div class="video">
+								<img class="stilus" src="img/red__stilus.png" alt="">
+								<iframe class="yt" width="578" height="369"
+									src="https://www.youtube.com/embed/f6QFfmwFT3k" title="YouTube video player"
+									frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen>
+								</iframe>
+							</div>
+
+							<img class="img__youtube" src="img/youtube_icon.png" alt="">
+							<img class="img__audince"
+								src="img/audience-listening-speakers-stage-conference-hall-seminar-meeting.png" alt="">
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<section class="tickets-section" id="tickets">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 offset-sm-2 offset-md-2 offset-lg-2 offset-xl-2">
+						<img src="img/6-layers.png" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section style="display: none;" class="tickets-section__mobile">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 offset-sm-2 offset-md-2 offset-lg-2 offset-xl-2">
+						<img src="img/21-layers.png" alt="">
+						<img src="img/47-layers.png" class="mobile__img" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<section class="buy-card-section" id="buy__ticket__button">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1">
+						<div class="main__block__card">
+							<div class="title">
+								<img src="img/1-й_день.png" alt="">
+							</div>
+							<div class="card">
+
+								<div class="item__text">
+									
+									<p>Лекции от ведущих мастеров</p>
+									<p>Ответы на вопросы</p>
+									<p>Нетворкинг</p>
+									
+								</div>
+
+								<div class="item__price">
+									5 000₽
+								</div>
+
+								<div class="item__button">
+									<button class="btn" data-toggle="modal" data-target="#buy__ticket__modal__1">
+										<span>
+											Купить билет
+										</span>
+									</button>
+								</div>
+
+
+								<!-- Modal Ticket 1 -->
+
+								<div class="modal fade" id="buy__ticket__modal__1" data-backdrop="static"
+									data-keyboard="false" tabindex="-1" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header mb-5">
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<form action="">
+												<div class="modal-body">
+													<p class="individual">Заполни данные о себе, пиши только
+														<br>
+														реальную информацию
+													</p>
+
+
+
+
+													<div class="container">
+														<div class="input__group">
+															<input class="inp" type="name" placeholder="Имя*">
+															<input class="inp" type="email" placeholder="E-mail*">
+															<input class="inp" type="tel" placeholder="Телефон*">
+															<input class="inp" type="text"
+																placeholder="Сфера деятельности*">
+															<input class="inp" type="text"
+																placeholder="Расскажи о себе">
+														</div>
+													</div>
+
+
+
+
+													<p class="field">
+														* обозначены поля
+														<br>
+														обязательные к заполнению
+													</p>
+												</div>
+												<div class="modal-footer">
+													<button
+													data-target="#thanks" type="button" class="btn__modal" id="btn_modal_one">Купить билет</button>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+
+								<!-- End Modal Ticket 1 -->
+
+
+
+
+
+
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 offset-md-1 offset-sm-1">
+						<div class="main__block__card">
+							<div class="title">
+								<img src="img/2-й_и_3-й_день.png" alt="">
+							</div>
+							<div class="card">
+
+								<div class="item__text">
+									<p>Лекции и панельные дискуссии</p>
+									<p>Мастер-классы</p>
+									<p>Ответы на вопросы</p>
+									<p>Нетворкинг</p>
+									<p>Закрытая вечеринка</p>
+								</div>
+
+								<div class="item__price">
+									17 000₽
+								</div>
+
+								<div class="item__button">
+									<button class="btn" data-toggle="modal" data-target="#buy__ticket__modal__2">
+										<span>
+											Купить билет
+										</span>
+									</button>
+								</div>
+
+
+
+								<!-- Modal Ticket 2 -->
+
+								<div class="modal fade" id="buy__ticket__modal__2" data-backdrop="static"
+									data-keyboard="false" tabindex="-1" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header mb-5">
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<form action="">
+												<div class="modal-body">
+													<p class="individual">Заполни данные о себе, пиши только
+														<br>
+														реальную информацию
+													</p>
+
+
+
+
+													<div class="container">
+														<div class="input__group">
+															<input class="inp" type="name" placeholder="Имя*">
+															<input class="inp" type="email" placeholder="E-mail*">
+															<input class="inp" type="tel" placeholder="Телефон*">
+															<input class="inp" type="text"
+																placeholder="Сфера деятельности*">
+															<input class="inp" type="text"
+																placeholder="Расскажи о себе">
+														</div>
+													</div>
+
+
+
+
+													<p class="field">
+														* обозначены поля
+														<br>
+														обязательные к заполнению
+													</p>
+												</div>
+												<div class="modal-footer">
+													<button 
+													 data-target="#thanks" type="button" class="btn__modal" id="btn_modal_two">Купить билет</button>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+
+
+
+								<!--  Modal thanks -->
+								<div class="modal fade" id="thanks" data-backdrop="static"
+								data-keyboard="false" tabindex="-1" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="header-text">
+											<img src="img/thanks.png" alt="">
+										</div>
+											<div class="modal-body">
+												<p class="individual">
+													Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolore minus ab dolor, accusantium nobis libero illum dignissimos veritatis nisi officiis modi sint, iste doloribus tempore delectus explicabo cupiditate excepturi?
+												</p>
+											</div>
+											<div class="modal-footer">
+												<a href="index.html"><button type="button" class="btn__modal">На главную</button></a>
+											</div>
+									</div>
+								</div>
+								</div>
+								<!-- End Modal thanks -->
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+
+		<section class="footer-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12">
+						<div class="block__partners__footer">
+						<img class="logo__footer" src="img/marafon__footer.png" alt="">
+							<a href="#" class="footer__txt__partners">Cтать партнером <br> мероприятия
+							</a>
+						</div>
+						<div class="block__card__partn">
+							<div class="item__card">
+								<img class="partn__img" src="img/card-partn1.png" alt="">
+								<div class="social__icon">
+									<a href="#"><img src="img/instagram.png" alt=""></a>
+									<a href="#"><img src="img/vkontakte.png" alt=""></a>
+								</div>
+							</div>
+							<div class="item__card">
+								<img class="partn__img" src="img/card-partn2.png" alt="">
+								<div class="social__icon">
+									<a href="#"><img src="img/instagram.png" alt=""></a>
+									<a href="#"><img src="img/vkontakte.png" alt=""></a>
+								</div>
+							</div>
+							<div class="item__card item__card--3">
+								<img class="partn__img" src="img/logo-shadoofdesign.png" alt="">
+								<div class="social__icon">
+									<a href="#"><img src="img/instagram.png" alt=""></a>
+									<a href="#"><img src="img/vkontakte.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 mt-3">
+						<div class="block__contact__footer">
+							<div class="phone__block">
+								<div class="bl__img">
+									<img class="footer__line" src="img/footer__line.png" alt="">
+								</div>
+								<div class="phone">
+									<img class="img__phone" src="img/phone.png" alt="">
+									<p class="txt__number">
+										+7 927 566 45 45	
+									</p>
+								</div>
+							</div>
+							<div class="mail__block">
+								<img class="img__mail" src="img/mail__sobaka.png" alt="">
+								<p class="txt__mail"> 
+									maraphon@mail.ru
+								</p>
+							</div>
+		
+							<div class="footer__links">
+								<a href="#" class="item_link">Публичная оферта</a>
+								<a href="#" class="item_link">Реквизиты организатора</a>
+								<a href="#" class="item_link">Политика конфиденциольности</a>
+							</div>
+		
+						</div>
+					</div>		
+				</div>
+		
+		
+				<div class="row">
+					<div class="item__card item__card--33">
+						<img class="partn__img" src="img/logo-shadoofdesign.png" alt="">
+						<div class="social__icon">
+							<a href="#"><img src="img/instagram.png" alt=""></a>
+							<a href="#"><img src="img/vkontakte.png" alt=""></a>
+						</div>
+					</div>
+					<img class="footer__img__round_text" src="img/half__round__txt.png" alt="">
+				</div>
+		
+		
+			</div>
+		</section>
+
+
+
+
+	</div>
+
+
+
+
+	<!-- jQuery -->
+
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+
+</body>
+
+>>>>>>> new_marafon
 </html>
