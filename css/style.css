@@ -1977,14 +1977,14 @@ overflow: hidden;
 @media (max-width: 421px) {
   .wrapper .days-section img {
     max-width: 558px;
-    margin-left: -22px;
+    margin-left: 32px;
   }
 }
 
 @media (max-width: 376px) {
   .wrapper .days-section img {
     max-width: 520px;
-    margin-left: -70px;
+    margin-left: 10px;
   }
 }
 
@@ -2611,6 +2611,13 @@ overflow: hidden;
   }
 }
 
+@media (max-width: 575px) {
+  .wrapper .partners-section .partners-section__img {
+    display: none;
+  }  
+}
+
+
 .wrapper .partners-section .modal {
   z-index: 900000000;
 }
@@ -2864,11 +2871,11 @@ f .wrapper .partners-section .input__group .inp::placeholder {
 @media (max-width: 575px){
   .wrapper .partners-section .state__partners {
     flex-direction: column;
-    margin-top: 24px;
+    margin: 140px auto 0;
 }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .wrapper .partners-section .state__partners {
 flex-direction: column;
 margin-top: 24px;
@@ -2881,9 +2888,9 @@ margin-top: 24px;
 flex-direction: column;
 margin-top: 24px;
   }
-}
+} */
 
-@media (max-width: 376px) {
+/* @media (max-width: 376px) {
   .wrapper .partners-section .state__partners {
 flex-direction: column;
 margin-top: 0px;
@@ -2895,7 +2902,7 @@ margin-top: 0px;
 flex-direction: column;
 margin-top: 0;
   }
-}
+} */
 
 .wrapper .partners-section .state__partners .partners__state__text {
   /* Style for "более 1 50" */
@@ -2914,7 +2921,7 @@ margin-top: 0;
 
 @media (max-width: 575px) {
   .wrapper .partners-section .state__partners .partners__state__text {
-    font-size: 26px;
+    display: none;
   }
 }
 
@@ -3964,6 +3971,49 @@ margin-left: -30px;
     font-size: 40px;
   }
 }
+
+
+/*  */
+
+
+
+
+.wrapper .buy-card-section .main__block__card .sel-label {
+  margin-top: 1em;
+  /* margin-left: 5em; */
+  margin-bottom: 0em;
+  color: #d0d0d0;
+}
+
+.wrapper .buy-card-section .main__block__card .inp {
+  border: 1px solid;
+  width: 296px;
+  height: 47px;
+  border-radius: 23px;
+  border-color:red;
+  background-color: #282828;
+  margin-top: 10px;
+  padding-left: 20px;
+  outline: none;
+  color: white;
+  -webkit-appearance: none;
+}
+
+.wrapper .buy-card-section .main__block__card #city_1:focus,
+.wrapper .buy-card-section .main__block__card #city_2:focus {
+  border-color:green;
+}
+
+@media (max-width: 568px) {
+  .wrapper .buy-card-section .main__block__card .inp > option {
+    width: 20%;
+    height: 47px;
+  }
+}
+
+
+
+
 
 .wrapper .buy-card-section .main__block__card .item__text {
   margin-top: 20px;
