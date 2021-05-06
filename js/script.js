@@ -36,3 +36,19 @@ state__partn__modal.hide()
 thanks.show()
 })
  */
+
+// const selectTag = document.querySelector('#city_1')
+
+
+// function select () {
+
+//   const test = selectTag[0]
+//   console.log(test)
+
+//   //  if(test.innerText === 'Сначала выберите город') {
+//   //   test.innerText.style.color = 'red'
+//   //  }
+//   }
+
+
+//   selectTag.addEventListener('click', select)
