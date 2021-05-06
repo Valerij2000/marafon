@@ -1975,14 +1975,14 @@ overflow: hidden;
 @media (max-width: 421px) {
   .wrapper .days-section img {
     max-width: 558px;
-    margin-left: -22px;
+    margin-left: 32px;
   }
 }
 
 @media (max-width: 376px) {
   .wrapper .days-section img {
     max-width: 520px;
-    margin-left: -70px;
+    margin-left: 10px;
   }
 }
 
@@ -2608,6 +2608,13 @@ overflow: hidden;
     overflow: hidden;
   }
 }
+
+@media (max-width: 575px) {
+  .wrapper .partners-section .partners-section__img {
+    display: none;
+  }  
+}
+
 
 .wrapper .partners-section .modal {
   z-index: 900000000;
