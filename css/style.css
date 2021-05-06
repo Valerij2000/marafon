@@ -3974,6 +3974,8 @@ margin-left: -30px;
 /*  */
 
 
+
+
 .wrapper .buy-card-section .main__block__card .sel-label {
   margin-top: 1em;
   /* margin-left: 5em; */
@@ -3995,7 +3997,8 @@ margin-left: -30px;
   -webkit-appearance: none;
 }
 
-.wrapper .buy-card-section .main__block__card #city_1:focus{
+.wrapper .buy-card-section .main__block__card #city_1:focus,
+.wrapper .buy-card-section .main__block__card #city_2:focus {
   border-color:green;
 }
 
