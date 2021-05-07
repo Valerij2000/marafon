@@ -144,6 +144,7 @@
   .wrapper .header-section .back .burger {
     display: block;
   }
+  
   .wrapper .header-section .back .burger .header__menu.active {
     top: 0px;
     left: 0;
@@ -177,6 +178,20 @@
   .wrapper .header-section .back .burger .header__list li {
     list-style-type: none;
   }
+
+  @media (max-width: 576px) {
+    .wrapper .header-section .back .burger .header__list li {
+      margin-left: -80px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .wrapper .header-section .back .burger .header__list li .active {
+      margin-top: 40px;
+    }
+  }
+
+
   .wrapper .header-section .back .burger .header__list .nav-link {
     position: relative;
     display: block;
@@ -1975,7 +1990,7 @@ overflow: hidden;
 
 @media (max-width: 480px) {
   .wrapper .days-section img {
-    margin-left: -22px;
+    margin-left: 26px;
   }
 }
 
@@ -2394,6 +2409,11 @@ overflow: hidden;
   margin-top: 40px;
 }
 
+@media (max-width: 575px) {
+  .wrapper .map-section {
+    margin-top: 20px;
+  }
+}
 
 
 
