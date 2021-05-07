@@ -872,8 +872,8 @@
 }
 
 .wrapper .ruvim-pro-section .block__ruvim .play__button {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
 }
 
 .wrapper .ruvim-pro-section .block__ruvim .text {
@@ -889,7 +889,7 @@
   font-style: normal;
   letter-spacing: 0.45px;
   line-height: normal;
-  text-decoration: underline;
+  text-decoration: none;
   /* Text style for "о мероприя" */
   font-style: normal;
   letter-spacing: 0.45px;
@@ -1273,13 +1273,13 @@
     left top,
     color-stop(40%, transparent),
     color-stop(22%, transparent),
-    color-stop(76%, #7b2124)
+    color-stop(76%, #c41b22)
   );
   border-image: linear-gradient(
     to top,
     transparent 40%,
     transparent 22%,
-    #7b2124 76%
+    #c41b22 76%
   );
   border-image-slice: 23;
 }
@@ -1956,11 +1956,7 @@ overflow: hidden;
   }
 }
 
-/* @media (max-width: 768px) {
-  .wrapper .days-section img {
-    width: 100%;
-  }
-} */
+
 
 @media (max-width: 768px) {
   .wrapper .days-section img {
@@ -1983,11 +1979,6 @@ overflow: hidden;
   }
 }
 
-@media (max-width: 421px) {
-  .wrapper .days-section img {
-    margin-left: 32px;
-  }
-}
 
 @media (max-width: 376px) {
   .wrapper .days-section img {
@@ -2066,7 +2057,7 @@ overflow: hidden;
     to top,
     transparent 8%,
     transparent 22%,
-    #7b2124 76%
+    #c41b22 76%
   );
   border-image: -webkit-gradient(
     linear,
@@ -2074,13 +2065,13 @@ overflow: hidden;
     left top,
     color-stop(8%, transparent),
     color-stop(22%, transparent),
-    color-stop(76%, #7b2124)
+    color-stop(76%, #c41b22)
   );
   border-image: linear-gradient(
     to top,
     transparent 8%,
     transparent 22%,
-    #7b2124 76%
+    #c41b22 76%
   );
   border-image-slice: 23;
 }
@@ -3912,7 +3903,7 @@ margin-left: -30px;
   width: 296px;
   height: 47px;
   border-radius: 23px;
-  border-color:red;
+  border-color: #c41b22;
   background-color: #282828;
   margin-top: 10px;
   padding-left: 50px;
@@ -4473,7 +4464,7 @@ margin-left: -30px;
   }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .wrapper .footer-section  .footer__links__mobile {
 display: none;
   }
