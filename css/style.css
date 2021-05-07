@@ -4305,6 +4305,75 @@ margin-left: -30px;
   }
 }
 
+@media (min-width: 576px) {
+  .wrapper .footer-section  .footer__links__mobile {
+display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .wrapper .footer-section  .footer__links__mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 128px;
+  }
+}
+
+@media (max-width: 520px) {
+  .wrapper .footer-section  .footer__links__mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 123px;
+  }
+}
+
+
+@media (max-width: 482px) {
+  .wrapper .footer-section  .footer__links__mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 73px;
+  }
+}
+
+@media (max-width: 422px) {
+  .wrapper .footer-section  .footer__links__mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 53px;
+  }
+}
+
+@media (max-width: 322px) {
+  .wrapper .footer-section  .footer__links__mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 3px;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrapper .footer-section .footer__links__mobile .item_link {
+    margin-top: 10px;
+    color: #949494;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-decoration: underline;
+    font-style: normal;
+    letter-spacing: 0.3px;
+    line-height: normal;
+  }
+}
+
 .wrapper .footer-section .block__partners__footer .footer__txt__partners {
   margin-top: 20px;
   /* Style for "стать парт" */
@@ -4339,14 +4408,42 @@ margin-left: -30px;
 @media (max-width: 576px) {
   .wrapper .footer-section .block__contact__footer {
     display: block;
-    margin-top: -210px;
+    margin-top: -200px;
   }
 }
 
-@media (min-width: 377px) and  (max-width: 575px){
+@media (max-width: 520px){
   .wrapper .footer-section .block__contact__footer {
     margin-top: -212px;
-    margin-left: 60px;
+    margin-left: 90px;
+  }
+}
+
+@media (max-width: 480px){
+  .wrapper .footer-section .block__contact__footer {
+    margin-top: -212px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 422px){
+  .wrapper .footer-section .block__contact__footer {
+    margin-top: -212px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 382px){
+  .wrapper .footer-section .block__contact__footer {
+    margin-top: -212px;
+    margin-left: 34px;
+  }
+}
+
+@media (max-width: 322px){
+  .wrapper .footer-section .block__contact__footer {
+    margin-top: -212px;
+    margin-left: 0px;
   }
 }
 
@@ -4491,7 +4588,7 @@ margin-left: -30px;
   }
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .wrapper .footer-section  .footer__links__mobile {
 display: none;
   }
@@ -4521,7 +4618,7 @@ display: none;
     letter-spacing: 0.3px;
     line-height: normal;
   }
-}
+} */
 
 .wrapper .footer-section .block__contact__footer .footer__links .item_link {
   margin-top: 10px;
