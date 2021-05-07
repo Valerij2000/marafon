@@ -600,7 +600,7 @@ margin-left: -20px;
 @media (max-width: 476px) {
   .wrapper .card-rosp-section .card {
     padding: 5px;
-    width: 400px;
+    width: 392px;
     height: 90px;
     text-align: center;
     margin-left: 5px;
@@ -611,7 +611,7 @@ margin-left: -20px;
   .wrapper .card-rosp-section .card {
     padding: 5px;
     width: 310px;
-    height: 90px;
+    height: 107px;
     text-align: center;
     margin-left: 15px;
   }
@@ -622,7 +622,6 @@ margin-left: -20px;
   .wrapper .card-rosp-section .card {
     padding: 5px;
     width: 310px;
-    height: 90px;
     text-align: center;
     margin-left: 15px;
   }
@@ -759,6 +758,22 @@ margin-left: -20px;
  margin-top: 40px;
 }
 
+
+.wrapper .days-title-section img {
+  width: 50%;
+  height: auto;
+  margin-left: 353px;
+  margin-top: 40px;
+  }
+  
+  .wrapper .days-title-section .foure_speakers {
+    width: 26%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 25px;
+    }
+
+
 @media (max-width: 767px) {
   .wrapper .days-title-section img {
    margin-left: -7px;
@@ -773,6 +788,12 @@ margin-left: -20px;
    width: 100%;
    margin-top: -40px;
   }
+  .wrapper .days-title-section .foure_speakers {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    }
+  
 }
 .wrapper .card__days__section .second__days {
   margin-left: -107px;
@@ -805,6 +826,8 @@ margin-left: -20px;
   display: none;
 }
 
+
+
 @media (max-width: 552px) {
   .wrapper .card__days__section {
    display: none;
@@ -813,72 +836,14 @@ margin-left: -20px;
     display: block;
   }
 
-  .wrapper .mobile_card__days__section .third_rosp_day{
-    margin-top: -230px;
+  .wrapper .mobile_card__days__section .total_mobile {
+    position: relative; 
+    width: 122%; 
+    display: flex; 
+    margin: auto; 
+    left: -84px;
+    top: 20px;
   }
-
-  .wrapper .mobile_card__days__section .first_rosp_day{
-    width: 100%;
-    margin-top: 60px;
-  }
-
-.block_list_rosp {
-  display: flex;
-  flex-direction: row;
-  margin-top: 40px;
-  margin-left: 10px;
-}
-
-.time_block {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.block_time_min {
-  width: 95px;
-  height: 26px;
-  border: 1px solid #000105;
-  background-color: #ffffff;
-  color: #292929;
-  font-size: 15px;
-  font-weight: 1000;
-  text-align: center;
-  padding-top: 3px;
-}
-
-.min_time {
-  width: 80%; 
-  margin-top: 10px;
-}
-
-.name_and_title_block {
-  display: flex;
-  flex-direction: row;
-}
-
-.name {
-  /* Style for "Рувим Бойк" */
-color: #6a6a6a;
-font-size: 0.8em;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: left;
-margin-left: 20px;
-}
-
-.title {
-/* Text style for "Зачем нуже" */
-font-weight: 700;
-font-style: normal;
-color: white;
-letter-spacing: normal;
-line-height: normal;
-margin-left: 10px;
-font-size: 0.8em;
-}
 
   .wrapper .mobile_card__days__section .first_day_rosp{
     display: flex;
@@ -892,20 +857,27 @@ font-size: 0.8em;
    width: 100%;
   }
   .wrapper .mobile_card__days__section .days-rosp {
-    width: 100%;
-    position: relative;
-    top: -90px;
+    width: 40%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
   }
 
   .wrapper .mobile_card__days__section .rosp__ {
     position: relative;
-    top: -220px;
+    
   }
 
   .wrapper .mobile_card__days__section .coffee_brake {
     display: flex;
     margin: auto;
-    width: 55%;
+    width: 35%;
+  }
+
+  .wrapper .mobile_card__days__section .result_mentor {
+    display: flex;
+    margin: auto;
+    width: 47%;
   }
 
 }
@@ -1137,6 +1109,12 @@ font-size: 0.8em;
   }
 }
 
+@media (max-width: 350px) {
+  .wrapper .buy-card-rosp-section .input__group .inp{
+    margin-left: -91px;
+  }
+}
+
 .wrapper .buy-card-rosp-section .input__group .inp::-webkit-input-placeholder {
   color: #ffffff;
   font-weight: 200;
@@ -1215,11 +1193,6 @@ font-size: 0.8em;
   }
 }
 
-@media (max-width: 552px) {
-  .wrapper .buy-card-rosp-section {
-    margin-top: -230px;
-  }
-}
 
 
 .wrapper .buy-card-rosp-section .main__block__card {
@@ -1579,6 +1552,7 @@ font-size: 0.8em;
 @media (max-width: 577px) {
   .wrapper .footer-section .block__partners__footer .footer__txt__partners {
     font-size: 16px;
+    text-align: center;
   }
 }
 

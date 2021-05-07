@@ -30,12 +30,12 @@ state_partners_open_modal.addEventListener('click', function (event) {
 
 const btn_modal_partners = document.querySelector('#btn_modal_partners');
 
-/**
- * btn_modal_partners.addEventListener('click', () => {
+
+btn_modal_partners.addEventListener('click', () => {
 state__partn__modal.hide()
 thanks.show()
 })
- */
+ 
 
 let selectOne = document.querySelector('#city_1');
 let selectSecond = document.querySelector('#city_2');
