@@ -1198,15 +1198,13 @@
   .wrapper .themes-section .img__fon__theme__text {
     left: 38px;
     max-width: 340px;
-    margin-top: 160px;
+    margin-top: 90px;
   }
 }
 
 @media (max-width: 410px) {
   .wrapper .themes-section .img__fon__theme__text {
     left: 10px;
-    max-width: 340px;
-    margin-top: 90px;
   }
 }
 
@@ -1376,7 +1374,7 @@
 @media (max-width: 421px) {
   .wrapper .card-section .card {
     padding: 5px;
-    max-width: 310px;
+    max-width: 318px;
     text-align: center;
     margin-left: 30px;
   }
@@ -2343,18 +2341,6 @@ overflow: hidden;
   }
 }
 
-@media (max-width: 421px) {
-  .wrapper .speakers-photo-section .block__img p {
-    font-size: 16px;
-    color: #9e9e9e;
-    width: 175px;
-    height: 90px;
-    text-align: start;
-    margin-left: 124px;
-    margin-top: 10px;
-  }
-}
-
 @media (max-width: 440px) {
   .wrapper .speakers-photo-section .block__img p {
     font-size: 15px;
@@ -2366,6 +2352,19 @@ overflow: hidden;
     margin-top: 10px;
   }
 }
+
+@media (max-width: 421px) {
+  .wrapper .speakers-photo-section .block__img p {
+    font-size: 16px;
+    color: #9e9e9e;
+    width: 175px;
+    height: 90px;
+    text-align: start;
+    margin-left: 130px;
+    margin-top: 10px;
+  }
+}
+
 
 @media (max-width: 382px) {
   .wrapper .speakers-photo-section .block__img p {
