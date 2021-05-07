@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+
 .wrapper {
   background-color: #292929;
 }
@@ -2405,6 +2407,25 @@ overflow: hidden;
   margin-top: 40px;
 }
 
+
+
+
+.opinion_text_map {
+  color: white;
+  position: relative;
+  top: -290px;
+  margin-left: 220px;
+}
+
+@media (max-width: 576px) {
+  .opinion_text_map {
+    color: white;
+    position: relative;
+    top: -290px;
+    margin-left: 20px;
+  }
+}
+
 @media (min-width: 521px) and  (max-width: 567px){
   .wrapper .map-section {
     margin-top: 368px;
@@ -4481,4 +4502,3 @@ margin-left: -30px;
 .wrapper .footer-section .footer__img__round_text {
   position: relative;
 }
-
