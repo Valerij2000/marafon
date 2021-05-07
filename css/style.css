@@ -3541,29 +3541,35 @@ line-height: normal;
 
 @media (max-width: 575px) {
   .wrapper .tickets-section__mobile img {
-    max-width: 692px;
-    margin-left: 14px;
+    margin-left: 250px;
+    margin-top: 120px;
   }
 }
 
 @media (max-width: 480px) {
   .wrapper .tickets-section__mobile img {
-    max-width: 692px;
-    margin-left: 14px;
+    margin-left: 210px;
+    margin-top: 120px;
   }
 }
 
 @media (max-width: 421px) {
   .wrapper .tickets-section__mobile img {
-max-width: 692px;
-margin-left: 14px;
+    margin-left: 190px;
+    margin-top: 120px;
   }
 }
 
 @media (max-width: 376px) {
   .wrapper .tickets-section__mobile img {
-max-width: 664px;
-margin-left: 14px;
+    margin-left: 180px;
+    margin-top: 120px;
+  }
+}
+
+@media (max-width: 322px) {
+  .wrapper .tickets-section__mobile img {
+margin-left: 154px;
   }
 }
 
@@ -3881,6 +3887,7 @@ margin-left: -30px;
 @media (max-width: 576px) {
   .wrapper .buy-card-section .main__block__card {
     margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
 
