@@ -2658,8 +2658,17 @@ overflow: hidden;
   z-index: 900000000;
 }
 
+.state_modal_partners {
+  color: white;
+  margin-top: 15px;
+  font-weight: 1000;
+  font-size: 2.2em;
+  text-shadow: red 1px 1px 0, red -1px -1px 0, 
+  red -1px 1px 0, red 1px -1px 0;
+}
+
 .wrapper .partners-section .modal-header {
-  padding-left: 45px;
+  padding-left: 92px;
   border-bottom: none;
   border: 2px solid transparent;
   -o-border-image: linear-gradient(
@@ -2704,6 +2713,10 @@ overflow: hidden;
     margin-top: 10px;
     margin-left: -51px;
     }
+    .wrapper .partners-section .modal-header .state_modal_partners {
+      margin-left: -56px;
+    }
+
   }
 
 
@@ -2733,7 +2746,6 @@ overflow: hidden;
   font-size: 15px;
   text-align: left;
   font-weight: 300;
-  margin-top: -86px;
 }
 
 @media (max-width: 567px){
