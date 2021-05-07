@@ -40,13 +40,13 @@ thanks.show()
 let selectOne = document.querySelector('#city_1');
 let selectSecond = document.querySelector('#city_2');
 
-const selectFunc = (index, select) => {
-  let sel = document.querySelector(index).selectedIndex;
+const selectFunc = (select) => {
+  let sel = select.selectedIndex;
   sel === 0 ? select.style.borderColor = 'red' : select.style.borderColor = 'green'
 }
 selectOne.addEventListener('change', () => {
-  selectFunc("#city_1", selectOne)
+  selectFunc(selectOne)
 });
 selectSecond.addEventListener('change', () => {
-  selectFunc("#city_2", selectSecond)
+  selectFunc(selectSecond)
 });
