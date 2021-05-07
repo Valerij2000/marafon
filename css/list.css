@@ -611,7 +611,7 @@ margin-left: -20px;
   .wrapper .card-rosp-section .card {
     padding: 5px;
     width: 310px;
-    height: 90px;
+    height: 107px;
     text-align: center;
     margin-left: 15px;
   }
@@ -622,7 +622,6 @@ margin-left: -20px;
   .wrapper .card-rosp-section .card {
     padding: 5px;
     width: 310px;
-    height: 90px;
     text-align: center;
     margin-left: 15px;
   }
@@ -759,6 +758,22 @@ margin-left: -20px;
  margin-top: 40px;
 }
 
+
+.wrapper .days-title-section img {
+  width: 50%;
+  height: auto;
+  margin-left: 353px;
+  margin-top: 40px;
+  }
+  
+  .wrapper .days-title-section .foure_speakers {
+    width: 26%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 25px;
+    }
+
+
 @media (max-width: 767px) {
   .wrapper .days-title-section img {
    margin-left: -7px;
@@ -773,6 +788,12 @@ margin-left: -20px;
    width: 100%;
    margin-top: -40px;
   }
+  .wrapper .days-title-section .foure_speakers {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    }
+  
 }
 .wrapper .card__days__section .second__days {
   margin-left: -107px;
@@ -813,8 +834,11 @@ margin-left: -20px;
     display: block;
   }
 
-  .wrapper .mobile_card__days__section .third_rosp_day{
-    margin-top: -230px;
+
+
+  .block_third4 {
+    position: relative;
+    top: -20px;
   }
 
   .wrapper .mobile_card__days__section .first_rosp_day{
@@ -892,20 +916,27 @@ font-size: 0.8em;
    width: 100%;
   }
   .wrapper .mobile_card__days__section .days-rosp {
-    width: 100%;
-    position: relative;
-    top: -90px;
+    width: 40%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
   }
 
   .wrapper .mobile_card__days__section .rosp__ {
     position: relative;
-    top: -220px;
+    
   }
 
   .wrapper .mobile_card__days__section .coffee_brake {
     display: flex;
     margin: auto;
-    width: 55%;
+    width: 35%;
+  }
+
+  .wrapper .mobile_card__days__section .result_mentor {
+    display: flex;
+    margin: auto;
+    width: 47%;
   }
 
 }
@@ -1217,7 +1248,7 @@ font-size: 0.8em;
 
 @media (max-width: 552px) {
   .wrapper .buy-card-rosp-section {
-    margin-top: -230px;
+    margin-top: -100px;
   }
 }
 
@@ -1579,6 +1610,7 @@ font-size: 0.8em;
 @media (max-width: 577px) {
   .wrapper .footer-section .block__partners__footer .footer__txt__partners {
     font-size: 16px;
+    text-align: center;
   }
 }
 
