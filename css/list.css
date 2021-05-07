@@ -859,11 +859,11 @@ margin-left: -20px;
     top: -260px;
   }
 
-  
 
   .wrapper .mobile_card__days__section .card_rosp {
    width: 100%;
   }
+
   .wrapper .mobile_card__days__section .days-rosp {
     width: 40%;
     display: flex;
@@ -879,7 +879,8 @@ margin-left: -20px;
   .wrapper .mobile_card__days__section .coffee_brake {
     display: flex;
     margin: auto;
-    width: 35%;
+    position: relative; 
+    top: -257px; 
   }
 
   .wrapper .mobile_card__days__section .result_mentor {
