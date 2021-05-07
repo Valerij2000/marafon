@@ -864,14 +864,14 @@
 
 @media (max-width: 992px) {
   .wrapper .ruvim-pro-section .block__ruvim .play {
-    width: 33px;
-    height: 29px;
+    width: 38px;
+    height: 38px;
   }
 }
 
 .wrapper .ruvim-pro-section .block__ruvim .play__button {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
 }
 
 .wrapper .ruvim-pro-section .block__ruvim .text {
@@ -1372,7 +1372,7 @@
 @media (max-width: 376px) {
   .wrapper .card-section .card {
     padding: 5px;
-    max-width: 310px;
+    max-width: 318px;
     height: 90px;
     text-align: center;
     margin-left: 15px;
@@ -1508,7 +1508,7 @@ text-align: center;
   .wrapper .card-section .block__text {
     margin-left: 30px;
     margin-top: 26px;
-    justify-content: space-around;
+    flex-direction: column !important;
   }
 }
 
@@ -1523,7 +1523,6 @@ text-align: center;
 @media (max-width: 410px) {
   .wrapper .card-section .block__text {
     margin-left: 50px;
-    flex-direction: column !important;
     margin-top: 20px;
   }
 }
@@ -1531,7 +1530,6 @@ text-align: center;
 @media (max-width: 376px) {
   .wrapper .card-section .block__text {
     margin-left: 20px;
-    flex-direction: column !important;
     margin-top: 20px;
   }
 }
@@ -1539,7 +1537,6 @@ text-align: center;
 @media (max-width: 332px) {
   .wrapper .card-section .block__text {
     margin-left: 5px;
-    flex-direction: column !important;
     margin-top: 20px;
   }
 }
@@ -1547,7 +1544,6 @@ text-align: center;
 @media (max-width: 332px) {
   .wrapper .card-section .block__text .text__sp {
     margin-left: 18px;
-    
   }
 }
 
@@ -1587,11 +1583,20 @@ text-align: center;
   }
 }
 
-@media (max-width: 295px) {
+@media (max-width: 575px) {
   .wrapper .card-section .block__text .main {
-    font-size: 16px;
+    font-size: 18px;
+    text-align: center;
   }
 }
+
+@media (max-width: 575px) {
+  .txt__surname__block {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 
 .wrapper .card-section .block__text .txt__suranme {
   /* Style for "Рувим Бойк" */
@@ -1611,15 +1616,17 @@ text-align: center;
 
 @media (max-width: 1200px) {
   .wrapper .card-section .block__text .txt__suranme {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
-@media (max-width: 295px) {
+@media (max-width: 575px) {
   .wrapper .card-section .block__text .txt__suranme {
-    font-size: 11px;
+    margin-left: 0;
   }
 }
+
+
 
 .wrapper .section-getters {
   margin-top: -322px;
@@ -1758,7 +1765,7 @@ text-align: center;
 
 @media (max-width: 575px) {
   .wrapper .section-useful {
-    margin-top: 28px;
+    margin-top: 80px;
     overflow: hidden;
   }
 }
@@ -1960,28 +1967,25 @@ overflow: hidden;
 
 @media (max-width: 575px){
   .wrapper .days-section img {
-    max-width: 560px;
+    max-width: 960px;
     margin-left: 0;
   }
 }
 
 @media (max-width: 480px) {
   .wrapper .days-section img {
-    max-width: 558px;
     margin-left: -22px;
   }
 }
 
 @media (max-width: 421px) {
   .wrapper .days-section img {
-    max-width: 558px;
     margin-left: 32px;
   }
 }
 
 @media (max-width: 376px) {
   .wrapper .days-section img {
-    max-width: 520px;
     margin-left: 10px;
   }
 }
@@ -2961,7 +2965,8 @@ margin-top: 0;
   .wrapper .partners-section .state__partners .btn {
     max-width: 225px;
     height: 67px;
-    margin-top: 12px;
+    margin-top: 20px;
+    margin-bottom: 60px;
     font-size: 18px;
     margin-left: 0;
   }
@@ -2973,7 +2978,6 @@ margin-top: 0;
   .wrapper .partners-section .state__partners .btn {
     max-width: 225px;
     height: 67px;
-    margin-top: 12px;
     font-size: 18px;
     margin-left: 0;
   }
@@ -3284,46 +3288,6 @@ line-height: normal;
   }
 }
 
-/* @media (max-width: 1160px) {
-  .wrapper .youtube-section .block__frame .video .yt {
-    max-width: 470px;
-  }
-}
-
-@media (max-width: 992px) {
-  .wrapper .youtube-section .block__frame .video .yt {
-    max-width: 400px;
-    height: 300px;
-  }
-}
-
-@media (max-width: 929px) {
-  .wrapper .youtube-section .block__frame .video .yt {
-    max-width: 330px;
-    height: 220px;
-  }
-}
-
-@media (max-width: 768px) {
-  .wrapper .youtube-section .block__frame .video .yt {
-    max-width: 290px;
-    height: 190px;
-  }
-}
-
-@media (max-width: 640px) {
-  .wrapper .youtube-section .block__frame .video .yt {
-    max-width: 240px;
-    height: 140px;
-  }
-} */
-
-
-/* @media (min-width: 576px) {
-  .wrapper .youtube-section .block__frame .video .yt {
-width: 100%;
-  }
-} */
 
 @media (max-width: 575px) {
   .wrapper .youtube-section .block__frame .video .yt {
@@ -3332,64 +3296,6 @@ width: 100%;
   }
 }
 
-
-/* @media (max-width: 575px) {
-  .wrapper .youtube-section .block__frame .video .yt {
-    max-width: 480px;
-    height: 350px;
-    margin-left: -2px;
-  }
-}
-
-@media (max-width: 480px) {
-  .wrapper .youtube-section .block__frame .video .yt {
-    max-width: 440px;
-    height: 350px;
-    margin-left: -2px;
-  }
-}
-
-@media (max-width: 460px) {
-  .wrapper .youtube-section .block__frame .video .yt {
-    max-width: 412px;
-    height: 350px;
-    margin-left: -13px;
-  }
-}
-
-
-@media (max-width: 421px) {
-  .wrapper .youtube-section .block__frame .video .yt {
-    max-width: 394px;
-    height: 350px;
-    margin-left: -13px;
-  }
-}
-
-@media (max-width: 398px) {
-  .wrapper .youtube-section .block__frame .video .yt {
-    max-width: 372px;
-    height: 350px;
-    margin-left: -13px;
-  }
-}
-
-
-@media (max-width: 376px) {
-  .wrapper .youtube-section .block__frame .video .yt {
-    max-width: 370px;
-    height: 350px;
-    margin-left: -13px;
-  }
-}
-
-
-@media (max-width: 322px) {
-  .wrapper .youtube-section .block__frame .video .yt {
-    max-width: 316px;
-    height: 260px;
-  }
-} */
 
 .wrapper .youtube-section .block__frame .video .stilus {
   position: relative;
@@ -3734,11 +3640,6 @@ display: block !important;
 }
 
 
-
-
-
-
-
 .wrapper .buy-card-section .modal-title {
   /* Style for "стать парт" */
   border: 1px solid #bf5fe7;
@@ -3972,7 +3873,6 @@ margin-left: -30px;
 
 
 /*  */
-
 
 
 
