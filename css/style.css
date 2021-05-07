@@ -1983,6 +1983,7 @@ overflow: hidden;
   .wrapper .days-section img {
     max-width: 960px;
     margin-left: 0;
+    margin-top: 30px;
   }
 }
 
@@ -3936,7 +3937,7 @@ margin-left: -30px;
   color: #d0d0d0;
 }
 
-.wrapper .buy-card-section .main__block__card .inp {
+.wrapper .buy-card-section .main__block__card .inp_select {
   border: 1px solid;
   width: 296px;
   height: 47px;
@@ -3949,6 +3950,8 @@ margin-left: -30px;
   color: white;
   -webkit-appearance: none;
 }
+
+
 
 .wrapper .buy-card-section .main__block__card #city_1:focus,
 .wrapper .buy-card-section .main__block__card #city_2:focus {
@@ -4654,6 +4657,4 @@ display: none;
   }
 }
 
-.wrapper .footer-section .footer__img__round_text {
-  position: relative;
-}
+
