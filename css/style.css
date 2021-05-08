@@ -789,6 +789,10 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
   outline: none;
 }
 
+.wrapper .ruvim-pro-section .modal-dialog {
+  max-width: 1200px;
+}
+
 .video-modal {
   display: flex;
   margin-bottom: 50px;
