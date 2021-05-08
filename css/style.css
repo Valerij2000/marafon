@@ -4262,10 +4262,6 @@ margin-left: -30px;
 
 
 
-.wrapper .buy-card-section .main__block__card #city_1:focus,
-.wrapper .buy-card-section .main__block__card #city_2:focus {
-  border-color:green;
-}
 
 @media (max-width: 568px) {
   .wrapper .buy-card-section .main__block__card .inp > option {

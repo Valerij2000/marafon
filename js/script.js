@@ -41,17 +41,3 @@ state__partn__modal.hide()
 thanks.show()
 })
  
-
-let selectOne = document.querySelector('#city_1');
-let selectSecond = document.querySelector('#city_2');
-
-const selectFunc = (select) => {
-  let sel = select.selectedIndex;
-  sel === 0 ? select.style.borderColor = 'red' : select.style.borderColor = 'green'
-}
-selectOne.addEventListener('change', () => {
-  selectFunc(selectOne)
-});
-selectSecond.addEventListener('change', () => {
-  selectFunc(selectSecond)
-});
