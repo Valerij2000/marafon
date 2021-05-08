@@ -565,7 +565,6 @@
 }
 
 .wrapper .ruvim-pro-section .modal-header {
-  padding-left: 92px;
   border-bottom: none;
   border: 2px solid transparent;
   -o-border-image: linear-gradient(
@@ -602,6 +601,16 @@
 
 .wrapper .ruvim-pro-section .modal-header .close {
   color: white;
+}
+
+@media (max-width: 575px) {
+  
+  .wrapper .ruvim-pro-section .modal-header .close {
+   display: flex;
+    margin: auto;
+   font-size: 40px;
+  }
+
 }
 
   @media (max-width: 576px) {
@@ -782,14 +791,13 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
 
 .video-modal {
   display: flex;
-  margin: auto;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
   overflow: hidden;
 }
 
 .modal_yt {
   width: 100%;
-  height: 30vh;
+  height: 60vh;
 }
 
 
@@ -1096,6 +1104,16 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
   }
 }
 
+.btn:hover {
+  cursor: pointer;
+  box-shadow: inset 2px 2px 140px rgb(154 147 140 / 32%), 1px 1px 27px rgb(238 51 51);
+}
+
+.btn__modal:hover{
+  cursor: pointer;
+  box-shadow: inset 2px 2px 140px rgb(154 147 140 / 32%), 1px 1px 27px rgb(238 51 51);
+}
+
 .wrapper .ruvim-pro-section .block__ruvim .play {
   padding-left: 2px;
   padding-bottom: 3px;
@@ -1116,6 +1134,11 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
     to(#d63529)
   );
   background-image: linear-gradient(to bottom, #f95043 0%, #d63529 100%);
+}
+
+.wrapper .ruvim-pro-section .block__ruvim .play:hover {
+  cursor: pointer;
+  box-shadow: inset 2px 2px 140px rgb(154 147 140 / 32%), 1px 1px 27px rgb(238 51 51);
 }
 
 @media (max-width: 992px) {
@@ -1155,6 +1178,11 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
   font-style: normal;
   letter-spacing: 0.45px;
   line-height: normal;
+}
+
+.wrapper .ruvim-pro-section .block__ruvim .text:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 @media (max-width: 992px) {
@@ -1399,6 +1427,7 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
   position: relative;
   top: -266px;
   left: 380px;
+  z-index: 200;
 }
 
 @media (max-width: 1074px) {
@@ -2989,11 +3018,10 @@ overflow: hidden;
 }
 
 .wrapper .partners-section .individual {
-  margin-left: 81px;
   /* Style for "Заполни да" */
   color: #888888;
   font-size: 15px;
-  text-align: left;
+  text-align: center;
   font-weight: 300;
 }
 
@@ -3125,7 +3153,10 @@ f .wrapper .partners-section .input__group .inp::placeholder {
 }
 
 
-
+.wrapper .partners-section .modal-footer .btn__modal:hover {
+  cursor: pointer;
+  box-shadow: inset 2px 2px 140px rgb(154 147 140 / 32%), 1px 1px 27px rgb(238 51 51);
+}
 
 
 .wrapper .partners-section .modal-footer .btn__modal:focus {
@@ -3143,9 +3174,7 @@ f .wrapper .partners-section .input__group .inp::placeholder {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-left: 30px;
-  margin-top: 242px;
-  margin-bottom: 30px;
+  margin: auto;
 }
 
 @media (max-width: 1347px) {
@@ -3227,6 +3256,7 @@ margin-top: 0;
   /* Style for "Кнопка" */
   width: 217px;
   height: 67px;
+  margin-top: 267px;
   border-radius: 33px;
   background-color: #2c3a48;
   background-image: -webkit-gradient(
@@ -3471,13 +3501,31 @@ margin-top: 0;
   margin-left: 30px;
   color: #fefefe;
   font-size: 68px;
-  font-weight: 900;
+  font-weight: 1000;
   font-style: normal;
   letter-spacing: normal;
   line-height: 66px;
   text-align: left;
   text-transform: uppercase;
 }
+
+.wrapper .youtube-section .block__txt .header__txt h2 {
+  display: block !important;
+  color: #c41b22;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 33.47px;
+  text-align: left;
+  text-transform: uppercase;
+  /* Text style for "МАРАФОН 20" */
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: normal;
+    }
+
+
 
 @media (max-width: 1200px) {
   .wrapper .youtube-section .block__txt .header__txt {
@@ -3960,14 +4008,22 @@ display: block !important;
   line-height: normal;
 }
 
+.individual_request {
+  color: white;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 2.5em;
+  text-shadow: red 1px 1px 0, red -1px -1px 0, red -1px 1px 0, red 1px -1px 0;
+}
+
 .wrapper .buy-card-section .individual {
-  margin-left: 81px;
   /* Style for "Заполни да" */
   color: #888888;
   font-size: 15px;
-  text-align: left;
+  text-align: center;
   font-weight: 300;
   margin-top: -86px;
+  
 }
 
 @media (max-width: 576px) {
@@ -4092,6 +4148,11 @@ margin-left: -30px;
   );
   background-image: linear-gradient(to bottom, #f95043 0%, #d63529 100%);
   margin-bottom: 20px;
+}
+
+.wrapper .buy-card-section .modal-footer .btn__modal:hover {
+  box-shadow: inset 2px 2px 140px rgb(154 147 140 / 32%), 1px 1px 27px rgb(238 51 51);
+  cursor: pointer;
 }
 
 .wrapper .buy-card-section .modal-footer .btn__modal:focus {
@@ -4299,6 +4360,8 @@ margin-left: -30px;
   color: white;
   font-weight: 900;
 }
+
+
 
 @media (max-width: 768px) {
   .wrapper .buy-card-section .main__block__card .item__button .btn {
@@ -4643,6 +4706,9 @@ display: none;
   font-size: 20px;
   font-weight: 300;
   text-decoration: underline;
+}
+.wrapper .footer-section .block__partners__footer .footer__txt__partners:hover {
+cursor: pointer;
 }
 
 @media (max-width: 1200px) {

@@ -28,6 +28,11 @@ state_partners_open_modal.addEventListener('click', function (event) {
   state__partn__modal.show()
 })  
 
+const state_partners_open_modal_footer = document.querySelector('#state_partners_open_modal_footer');
+state_partners_open_modal_footer.addEventListener('click', function (event) {
+  state__partn__modal.show()
+}) 
+
 const btn_modal_partners = document.querySelector('#btn_modal_partners');
 
 
