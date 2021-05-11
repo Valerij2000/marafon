@@ -2,6 +2,7 @@
 
 .wrapper {
   background-color: #292929;
+  -webkit-font-smoothing: subpixel-antialiased !important;
 }
 
 .wrapper .header-section {
@@ -549,6 +550,264 @@
   min-height: 300px;
 }
 
+/*modal */
+
+.wrapper .ruvim-pro-section .modal {
+  z-index: 900000000;
+}
+
+.state_modal_partners {
+  color: white;
+  margin-top: 15px;
+  font-weight: 1000;
+  font-size: 2.2em;
+  text-shadow: red 1px 1px 0, red -1px -1px 0, 
+  red -1px 1px 0, red 1px -1px 0;
+}
+
+.wrapper .ruvim-pro-section .modal-header {
+  border-bottom: none;
+  border: 2px solid transparent;
+  -o-border-image: linear-gradient(
+    to top,
+    transparent 8%,
+    transparent 22%,
+    #7b2124 76%
+  );
+  border-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(8%, transparent),
+    color-stop(22%, transparent),
+    color-stop(76%, #7b2124)
+  );
+  border-image: linear-gradient(
+    to top,
+    transparent 8%,
+    transparent 22%,
+    #7b2124 76%
+  );
+  border-image-slice: 23;
+}
+
+@media (max-width: 575px) {
+  
+  .wrapper .ruvim-pro-section .modal-header {
+    border: none;
+  }
+
+}
+
+
+.wrapper .ruvim-pro-section .modal-header .close {
+  color: white;
+}
+
+@media (max-width: 575px) {
+  
+  .wrapper .ruvim-pro-section .modal-header .close {
+   display: flex;
+    margin: auto;
+   font-size: 40px;
+  }
+
+}
+
+  @media (max-width: 576px) {
+  .wrapper .ruvim-pro-section .modal-header .txt_modal_state_partn {
+    max-width: 290px;
+    margin-top: 10px;
+    margin-left: -51px;
+    }
+    .wrapper .ruvim-pro-section .modal-header .state_modal_partners {
+      margin-left: -56px;
+    }
+
+  }
+
+
+.wrapper .ruvim-pro-section .modal-title {
+  /* Style for "стать парт" */
+  border: 1px solid #bf5fe7;
+  text-shadow: 0 35px 49px rgba(31, 31, 31, 0.27);
+  color: #fefefe;
+  font-family: "Muller Black";
+  font-size: 38px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 37.19px;
+  text-align: left;
+  text-transform: uppercase;
+  /* Text style for "стать , па" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.wrapper .ruvim-pro-section .individual {
+  margin-left: 81px;
+  /* Style for "Заполни да" */
+  color: #888888;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 300;
+}
+
+@media (max-width: 567px){
+  .wrapper .ruvim-pro-section .individual {
+    margin-left: 24px;
+}
+}
+
+.wrapper .ruvim-pro-section .modal-body {
+  margin-bottom: -23px;
+}
+
+.wrapper .ruvim-pro-section .field {
+  color: #888888;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.wrapper .ruvim-pro-section .inp__message {
+  height: 100px;
+}
+
+.wrapper .ruvim-pro-section .input__group {
+  margin-left: 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+@media (max-width: 567px){
+  .wrapper .ruvim-pro-section .input__group {
+    margin-left: 0px;
+  }
+}
+
+.wrapper .ruvim-pro-section .input__group .inp {
+  /* Style for "Поле ввода" */
+  border: 1px solid #ffffff;
+  /* Style for "Поле ввода" */
+  width: 296px;
+  height: 47px;
+  border-radius: 23px;
+  border-color: #4f4f4f;
+  background-color: #282828;
+  margin-top: 10px;
+  color: white;
+  padding-left: 20px;
+  outline: none;
+}
+
+f .wrapper .ruvim-pro-section .input__group .inp::-webkit-input-placeholder {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+f .wrapper .ruvim-pro-section .input__group .inp:-ms-input-placeholder {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+f .wrapper .ruvim-pro-section .input__group .inp::-ms-input-placeholder {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.wrapper .ruvim-pro-section .modal-content {
+  background-color: #282828;
+}
+
+@media (max-width: 567px){
+  .wrapper .ruvim-pro-section .modal-content {
+    align-items: center;
+  }
+}
+
+
+.wrapper .ruvim-pro-section .modal-footer {
+  border-top: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.wrapper .ruvim-pro-section .modal-footer .btn__modal {
+  /* Style for "Кнопка" */
+  width: 241px;
+  height: 55px;
+  color: white;
+  font-weight: 500;
+  -webkit-box-shadow: -1px 7px 32px rgba(9, 9, 9, 0.13),
+    inset 0 3px 0 rgba(0, 0, 0, 0.18), 0 0 24px rgba(211, 101, 94, 0.15);
+  box-shadow: -1px 7px 32px rgba(9, 9, 9, 0.13),
+    inset 0 3px 0 rgba(0, 0, 0, 0.18), 0 0 24px rgba(211, 101, 94, 0.15);
+  border-radius: 27px;
+  background-color: #2c3a48;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f95043),
+    to(#d63529)
+  );
+  background-image: linear-gradient(to bottom, #f95043 0%, #d63529 100%);
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.wrapper .ruvim-pro-section .modal-footer .btn__modal:focus {
+  outline: none;
+}
+
+.wrapper .ruvim-pro-section .modal-dialog {
+  max-width: 1200px;
+}
+
+.video-modal {
+  display: flex;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.modal_yt {
+  width: 100%;
+  height: 60vh;
+}
+
+
+/*modal end*/
+
 /* .wrapper .ruvim-pro-section .txt__round__white {
   position: absolute;
   left: -100px;
@@ -850,6 +1109,16 @@
   }
 }
 
+.btn:hover {
+  cursor: pointer;
+  box-shadow: inset 2px 2px 140px rgb(154 147 140 / 32%), 1px 1px 27px rgb(238 51 51);
+}
+
+.btn__modal:hover{
+  cursor: pointer;
+  box-shadow: inset 2px 2px 140px rgb(154 147 140 / 32%), 1px 1px 27px rgb(238 51 51);
+}
+
 .wrapper .ruvim-pro-section .block__ruvim .play {
   padding-left: 2px;
   padding-bottom: 3px;
@@ -870,6 +1139,11 @@
     to(#d63529)
   );
   background-image: linear-gradient(to bottom, #f95043 0%, #d63529 100%);
+}
+
+.wrapper .ruvim-pro-section .block__ruvim .play:hover {
+  cursor: pointer;
+  box-shadow: inset 2px 2px 140px rgb(154 147 140 / 32%), 1px 1px 27px rgb(238 51 51);
 }
 
 @media (max-width: 992px) {
@@ -911,6 +1185,11 @@
   line-height: normal;
 }
 
+.wrapper .ruvim-pro-section .block__ruvim .text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 @media (max-width: 992px) {
   .wrapper .ruvim-pro-section .block__ruvim .text {
     font-size: 15px;
@@ -930,6 +1209,8 @@
   left: -54px;
   max-width: 60%;
 }
+
+
 
 @media (max-width: 1545px) {
   .wrapper .ruvim-pro-section .img__speakers {
@@ -1151,6 +1432,7 @@
   position: relative;
   top: -266px;
   left: 380px;
+  z-index: 200;
 }
 
 @media (max-width: 1074px) {
@@ -2741,11 +3023,10 @@ overflow: hidden;
 }
 
 .wrapper .partners-section .individual {
-  margin-left: 81px;
   /* Style for "Заполни да" */
   color: #888888;
   font-size: 15px;
-  text-align: left;
+  text-align: center;
   font-weight: 300;
 }
 
@@ -2877,7 +3158,10 @@ f .wrapper .partners-section .input__group .inp::placeholder {
 }
 
 
-
+.wrapper .partners-section .modal-footer .btn__modal:hover {
+  cursor: pointer;
+  box-shadow: inset 2px 2px 140px rgb(154 147 140 / 32%), 1px 1px 27px rgb(238 51 51);
+}
 
 
 .wrapper .partners-section .modal-footer .btn__modal:focus {
@@ -2895,9 +3179,7 @@ f .wrapper .partners-section .input__group .inp::placeholder {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-left: 30px;
-  margin-top: 242px;
-  margin-bottom: 30px;
+  margin: auto;
 }
 
 @media (max-width: 1347px) {
@@ -2979,6 +3261,7 @@ margin-top: 0;
   /* Style for "Кнопка" */
   width: 217px;
   height: 67px;
+  margin-top: 267px;
   border-radius: 33px;
   background-color: #2c3a48;
   background-image: -webkit-gradient(
@@ -3223,13 +3506,31 @@ margin-top: 0;
   margin-left: 30px;
   color: #fefefe;
   font-size: 68px;
-  font-weight: 900;
+  font-weight: 1000;
   font-style: normal;
   letter-spacing: normal;
   line-height: 66px;
   text-align: left;
   text-transform: uppercase;
 }
+
+.wrapper .youtube-section .block__txt .header__txt h2 {
+  display: block !important;
+  color: #c41b22;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 33.47px;
+  text-align: left;
+  text-transform: uppercase;
+  /* Text style for "МАРАФОН 20" */
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: normal;
+    }
+
+
 
 @media (max-width: 1200px) {
   .wrapper .youtube-section .block__txt .header__txt {
@@ -3325,7 +3626,7 @@ line-height: normal;
   position: relative;
   top: -30px;
   left: 63px;
-  z-index: 131313;
+  z-index: 501;
 }
 
 @media (max-width: 576px) {
@@ -3383,7 +3684,7 @@ line-height: normal;
   position: relative;
   left: -202px;
   top: -183px;
-  z-index: 121212;
+  z-index: 500;
 }
 
 @media (max-width: 1783px) {
@@ -3658,7 +3959,7 @@ display: block !important;
 
 
 .wrapper .buy-card-section .modal {
-  z-index: 9000000000000 !important;
+  z-index: 9000 !important;
 }
 
 .wrapper .buy-card-section .modal-header {
@@ -3712,14 +4013,22 @@ display: block !important;
   line-height: normal;
 }
 
+.individual_request {
+  color: white;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 2.5em;
+  text-shadow: red 1px 1px 0, red -1px -1px 0, red -1px 1px 0, red 1px -1px 0;
+}
+
 .wrapper .buy-card-section .individual {
-  margin-left: 81px;
   /* Style for "Заполни да" */
   color: #888888;
   font-size: 15px;
-  text-align: left;
+  text-align: center;
   font-weight: 300;
   margin-top: -86px;
+  
 }
 
 @media (max-width: 576px) {
@@ -3846,6 +4155,11 @@ margin-left: -30px;
   margin-bottom: 20px;
 }
 
+.wrapper .buy-card-section .modal-footer .btn__modal:hover {
+  box-shadow: inset 2px 2px 140px rgb(154 147 140 / 32%), 1px 1px 27px rgb(238 51 51);
+  cursor: pointer;
+}
+
 .wrapper .buy-card-section .modal-footer .btn__modal:focus {
   outline: none;
 }
@@ -3953,10 +4267,6 @@ margin-left: -30px;
 
 
 
-.wrapper .buy-card-section .main__block__card #city_1:focus,
-.wrapper .buy-card-section .main__block__card #city_2:focus {
-  border-color:green;
-}
 
 @media (max-width: 568px) {
   .wrapper .buy-card-section .main__block__card .inp > option {
@@ -4051,6 +4361,8 @@ margin-left: -30px;
   color: white;
   font-weight: 900;
 }
+
+
 
 @media (max-width: 768px) {
   .wrapper .buy-card-section .main__block__card .item__button .btn {
@@ -4395,6 +4707,9 @@ display: none;
   font-size: 20px;
   font-weight: 300;
   text-decoration: underline;
+}
+.wrapper .footer-section .block__partners__footer .footer__txt__partners:hover {
+cursor: pointer;
 }
 
 @media (max-width: 1200px) {

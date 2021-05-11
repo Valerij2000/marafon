@@ -239,17 +239,54 @@
 
 
 							<div class="block__play d-flex flex-row  mt-5 mb-4">
-								<div class="play d-flex justify-content-center align-items-center">
-									<a href="#">
+								<div class="play d-flex justify-content-center align-items-center" data-toggle="modal" data-target="#video_modal">
+									
 										<img class="play__button" src="img/play-button-arrowhead.png" alt="">
-									</a>
+									
 								</div>
-								<div class="text d-flex justify-content-center align-items-center ml-4">
+								<div class="text d-flex justify-content-center align-items-center ml-4" data-toggle="modal" data-target="#video_modal">
 									Расскажем о мероприятии
 									<br>
 									за 30 секунд
 								</div>
 							</div>
+
+
+	<!-- Modal video -->
+
+	<div class="modal fade" id="video_modal" data-backdrop="static"
+	data-keyboard="false" tabindex="-1" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+
+				<button type="button" class="close" data-dismiss="modal"
+					aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+
+			<div class="video-modal">
+				<iframe class="modal_yt" 
+					src="https://www.youtube.com/embed/f6QFfmwFT3k" title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen>
+				</iframe>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<!-- End Modal video -->
+							
+	
+
+
+
+
+
 						</div>
 					</div>
 					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
@@ -781,21 +818,18 @@
 
 						<img class="partners-section__img" src="img/section-partners-new.png" alt="">
 
-
 						<div class="state__partners">
-							<p class="partners__state__text">более 1 500 <br> участников</p>
-
-
-
+							
 							<!-- Button trigger modal -->
-
+	
 							<button class="btn" data-bs-toggle="modal" data-bs-target="#state__partn__modal"
 								type="button" id="state_partners_open_modal">Стать
-								партнером</button>
-
-
+								партнером
+							</button>
+	
+	
 							<!-- Modal Partners-->
-
+	
 							<div class="modal fade" id="state__partn__modal" data-backdrop="static"
 								data-keyboard="false" tabindex="-1" aria-hidden="true">
 								<div class="modal-dialog">
@@ -806,17 +840,17 @@
 												<span aria-hidden="true">&times;</span>
 											</button>
 										</div>
-
+	
 										<form action="">
 											<div class="modal-body">
 												<p class="individual">Заполни данные о себе, пиши только
 													<br>
 													реальную информацию
 												</p>
-
-
-
-
+	
+	
+	
+	
 												<div class="container">
 													<div class="input__group">
 														<input class="inp" type="name" placeholder="ФИО*">
@@ -826,10 +860,10 @@
 															name="message" style="height: 100px"></textarea>
 													</div>
 												</div>
-
-
-
-
+	
+	
+	
+	
 												<p class="field">
 													* обозначены поля
 													<br>
@@ -844,16 +878,19 @@
 									</div>
 								</div>
 							</div>
-
+	
 							<!-- End Modal Partners -->
-
-
-
+	
+	
+	
 						</div>
+						
 					</div>
 
 
 				</div>
+
+				
 			</div>
 
 
@@ -911,7 +948,7 @@
 						<div class="block__txt">
 
 							<div class="header__txt">
-								<h2 style="display: none;">МАРАФОН 2019</h2>
+								<h2 class="marafon_how">МАРАФОН 2019</h2>
 								<p>
 									как это
 									было?
@@ -1207,15 +1244,9 @@
 									tabindex="-1" aria-hidden="true">
 									<div class="modal-dialog">
 										<div class="modal-content">
-											<div class="header-text">
-												<img src="img/thanks.png" alt="">
-											</div>
 											<div class="modal-body">
-												<p class="individual">
-													Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-													dolore minus ab dolor, accusantium nobis libero illum dignissimos
-													veritatis nisi officiis modi sint, iste doloribus tempore delectus
-													explicabo cupiditate excepturi?
+												<p class="individual_request">
+													СПАСИБО <br> ЗА ЗАЯВКУ
 												</p>
 											</div>
 											<div class="modal-footer">
@@ -1245,8 +1276,8 @@
 					<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12">
 						<div class="block__partners__footer">
 							<img class="logo__footer" src="img/marafon__footer.png" alt="">
-							<a href="#" class="footer__txt__partners">Cтать партнером мероприятия
-							</a>
+							<span class="footer__txt__partners" id="state_partners_open_modal_footer">Cтать партнером мероприятия
+							</span>
 						</div>
 
 								<div class="footer__links__mobile">
