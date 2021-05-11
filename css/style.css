@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
 
+* {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+
 .wrapper {
   background-color: #292929;
-  -webkit-font-smoothing: subpixel-antialiased !important;
 }
 
 .wrapper .header-section {
