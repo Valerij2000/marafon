@@ -369,7 +369,7 @@ margin-left: -20px;
 }
 
 .wrapper .header-section .city__block span {
-  margin-left: 15px;
+  margin-left: 30px;
   /* Style for "Новосибирс" */
   color: #f1f1f1;
   font-size: 18px;
@@ -407,7 +407,7 @@ margin-left: -20px;
   }
 }
 
-.city__marafon__1 {
+/* .city__marafon__1 {
   font-size: 13.8px !important;
   color: red !important;
   font-weight: 600 !important;
@@ -428,7 +428,7 @@ margin-left: -20px;
   font-weight: 600 !important;
   margin-top: 12px !important;
   margin-left: -8px !important;
-}
+} */
 
 .city__marafon__4 {
   font-size: 13.8px !important;
