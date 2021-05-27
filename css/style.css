@@ -316,6 +316,7 @@
     display: block;
   }
 
+  
   .dropdown-menu {
     background-color: #212529;
   }
@@ -387,7 +388,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      align-items: flex-end;
+      align-items: center;
     }
   }
 
@@ -484,6 +485,11 @@
   font-weight: 600 !important;
   margin-top: 12px !important;
   margin-left: -8px !important;
+}
+
+.adress_city {
+  margin-top: 20px;
+  font-size: 0.8em;
 }
 
 .city__marafon__5 {
@@ -1112,7 +1118,10 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
     font-size: 15px;
   }
 }
-
+#dropdownMenuButton:hover {
+  cursor: pointer;
+  box-shadow: none;
+}
 .btn:hover {
   cursor: pointer;
   box-shadow: inset 2px 2px 140px rgb(154 147 140 / 32%), 1px 1px 27px rgb(238 51 51);
@@ -1209,7 +1218,7 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
 
 .wrapper .ruvim-pro-section .img__speakers {
   position: relative;
-  bottom: 800px;
+ cc
   left: -54px;
   max-width: 60%;
 }
@@ -1305,7 +1314,7 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
 @media (max-width: 376px) {
   .wrapper .ruvim-pro-section .img__speakers {
     left: 12px;
-    bottom: 820px;
+    bottom: 760px;
     max-width: 280px;
   }
 }
