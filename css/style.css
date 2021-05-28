@@ -305,7 +305,7 @@
 
 
 
-.drop__tringle {
+.city__block__dropdown {
   color: white;
   display: none;
 }
@@ -344,6 +344,7 @@
   @media (max-width: 421px) {
     .city__block__dropdown  {
       width: 368px;
+      margin-bottom: 45px;
     }
   }
 
@@ -418,7 +419,6 @@
 
 
 .wrapper .header-section .city__block span {
-  margin-left: 30px;
   /* Style for "Новосибирс" */
   color: #f1f1f1;
   font-size: 18px;
@@ -1135,6 +1135,12 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
 .block_programm {
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 576px) {
+  .block_programm {
+    margin-top: -307px;
+  }
 }
 
 .wrapper .ruvim-pro-section .block__ruvim .play {
