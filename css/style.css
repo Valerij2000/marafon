@@ -958,11 +958,10 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
 .wrapper .ruvim-pro-section .block__ruvim {
   position: relative;
   bottom: 810px;
-  left: -155px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 @media (max-width: 768px) {
