@@ -955,7 +955,11 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
 .wrapper .ruvim-pro-section .block__ruvim {
   position: relative;
   bottom: 810px;
-  left: -30px;
+  left: -155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -1229,9 +1233,14 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
 
 .wrapper .ruvim-pro-section .img__speakers {
   position: relative;
- cc
   left: -54px;
   max-width: 60%;
+}
+
+@media (min-width: 576px){
+  .wrapper .ruvim-pro-section .img__speakers {
+   bottom: 800px;
+  }
 }
 
 

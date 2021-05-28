@@ -297,13 +297,6 @@ margin-left: -20px;
     background-color: #212529;
   }
 
-  .city__block__dropdown {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-    width: 300px;
-    padding: 13px;
-  }
 
 .wrapper .header-section .img_point_field_drop {
   width: 55px;
