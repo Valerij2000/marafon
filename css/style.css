@@ -390,6 +390,7 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+      margin-top: 15px;
     }
   }
 
@@ -483,20 +484,24 @@
   font-size: 13.8px !important;
   color: red !important;
   font-weight: 600 !important;
-  margin-top: 12px !important;
-  margin-left: -8px !important;
 }
 
 .adress_city {
-  margin-top: 20px;
   font-size: 0.8em;
+  margin-bottom: 0;
+}
+
+@media (min-width: 568px) {
+  .adress_city {
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
 }
 
 .city__marafon__5 {
   font-size: 13.8px !important;
   color: red !important;
   font-weight: 600 !important;
-  margin-top: 12px !important;
   margin-left: -8px !important;
 }
 
@@ -504,7 +509,6 @@
   font-size: 13.8px !important;
   color: red !important;
   font-weight: 600 !important;
-  margin-top: 12px !important;
   margin-left: -8px !important;
 }
 
@@ -512,7 +516,6 @@
   font-size: 13.8px !important;
   color: red !important;
   font-weight: 600 !important;
-  margin-top: 12px !important;
 }
 
 @media (max-width: 1271px) {
