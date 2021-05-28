@@ -1093,7 +1093,7 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
   .wrapper .ruvim-pro-section .block__ruvim .btn {
     width: 242px;
     height: 56px;
-    margin-top: 375px;
+    margin-top: 271px;
   }
 }
 
@@ -1101,7 +1101,7 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
   .wrapper .ruvim-pro-section .block__ruvim .btn {
     width: 242px;
     height: 56px;
-    margin-top: 340px;
+    margin-top: 200px;
   }
 }
 
@@ -1329,7 +1329,7 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
 @media (max-width: 421px) {
   .wrapper .ruvim-pro-section .img__speakers {
     left: 12px;
-    bottom: 854px;
+    bottom: 783px;
     max-width: 340px;
   }
 }
@@ -1337,7 +1337,7 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
 @media (max-width: 376px) {
   .wrapper .ruvim-pro-section .img__speakers {
     left: 12px;
-    bottom: 760px;
+    bottom: 725px;
     max-width: 280px;
   }
 }
@@ -1516,7 +1516,7 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
   .wrapper .themes-section .img__fon__theme__text {
     left: 38px;
     max-width: 340px;
-    margin-top: 90px;
+    margin-top: 200px;
   }
 }
 
@@ -1530,7 +1530,7 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
   .wrapper .themes-section .img__fon__theme__text {
     left: 40px;
     max-width: 220px;
-    margin-top: 40px;
+    margin-top: 140px;
   }
 }
 
