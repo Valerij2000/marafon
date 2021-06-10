@@ -1,22 +1,24 @@
 // Scroll Yakor
-function scrollDownUp(id){
+function scrollDownUp(id) {
   var offset = 0;
-  $('html, body').animate({
-    scrollTop: $(id).offset ().top - offset
-  }, 500);
+  $('html, body').animate(
+    {
+      scrollTop: $(id).offset().top - offset,
+    },
+    500
+  );
   return false;
-};
+}
 // Burger Menu
-$(document).ready(function(){
-
+$(document).ready(function () {
   console.log(document.documentElement.clientWidth);
 
   // yt player plugin
 
   var player;
   let video_width = '700px';
-  if (document.documentElement.clientWidth < 700){
-    video_width = '350px'
+  if (document.documentElement.clientWidth < 700) {
+    video_width = '350px';
   }
 
   function onYouTubeIframeAPIReady() {
@@ -24,31 +26,29 @@ $(document).ready(function(){
       height: video_width,
       width: '100%',
       videoId: 'LkxvQTSIzUs',
-      playerVars: { 'autoplay': 0 },
+      playerVars: { autoplay: 0 },
       events: {
         // 'onReady': onPlayerReady,
-        'onStateChange': onPlayerStateChange
-      }
+        onStateChange: onPlayerStateChange,
+      },
     });
   }
-/*
+  /*
   function onPlayerReady(event) {
     event.target.playVideo();
   }
 */
 
   var done = false;
-  function onPlayerStateChange(event) {
-
-  }
+  function onPlayerStateChange(event) {}
   function stopVideo() {
     player.stopVideo();
   }
 
   setTimeout(onYouTubeIframeAPIReady, 3000);
-  console.log(player)
+  console.log(player);
 
-  $('#close_modal_video_btn').on('click', function (e){
+  $('#close_modal_video_btn').on('click', function (e) {
     stopVideo();
   });
 
@@ -60,34 +60,29 @@ $(document).ready(function(){
 
   /**Modal state partners */
   var state__partn__modal = new bootstrap.Modal(document.getElementById('state__partn__modal'), {
-    keyboard: false
-  })
+    keyboard: false,
+  });
 
   var thanks = new bootstrap.Modal(document.getElementById('thanks'), {
-    keyboard: false
-  })
+    keyboard: false,
+  });
 
   const state_partners_open_modal = document.querySelector('#state_partners_open_modal');
-  if(state_partners_open_modal){
+  if (state_partners_open_modal) {
     state_partners_open_modal.addEventListener('click', function (event) {
-      state__partn__modal.show()
-    })
+      state__partn__modal.show();
+    });
   }
-
 
   const state_partners_open_modal_footer = document.querySelector('#state_partners_open_modal_footer');
   state_partners_open_modal_footer.addEventListener('click', function (event) {
-    state__partn__modal.show()
-  })
+    state__partn__modal.show();
+  });
 
   const btn_modal_partners = document.querySelector('#btn_modal_partners');
 
-
   btn_modal_partners.addEventListener('click', () => {
-    state__partn__modal.hide()
-    thanks.show()
-  })
-})
-
-
- 
+    state__partn__modal.hide();
+    thanks.show();
+  });
+});
