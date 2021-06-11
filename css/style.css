@@ -2809,6 +2809,7 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
 @media (max-width: 575px) {
   .wrapper .partners-section {
     overflow: hidden;
+    margin-top: -100px;
   }
 }
 
@@ -3340,7 +3341,7 @@ margin-top: 0;
 
 @media (max-width: 576px) {
   .wrapper .youtube-section {
-    margin-top: 10px;
+    margin-top: 40px;
   }
 }
 
@@ -4703,12 +4704,15 @@ margin-top: 0;
   margin: -260px 0 0 210px;
 }
 
-.carousel-inner {
-  z-index: 2;
+@media (max-width: 576px) {
+  .carousel {
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
-.carousel-item {
-  object-fit: contain;
+.carousel-inner {
+  z-index: 2;
 }
 
 .cards {
@@ -4720,11 +4724,23 @@ margin-top: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  object-fit: contain;
 }
+
+@media (max-width: 576px) {
+  .item {
+    flex: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    object-fit: contain;
+  }
+}
+
 .item > img {
-  width: 480px;
+  max-width: 480px;
   align-items: center;
-  height: 400px;
+  max-height: 400px;
   margin: 5px;
   border: 1px solid gray;
   object-fit: cover;
@@ -4757,3 +4773,22 @@ margin-top: 0;
 .carousel-control-next {
   right: -50px;
 }
+
+@media (max-width: 576px) {
+  #carouselDesktop {
+    display: none;
+  }
+}
+
+@media (min-width: 577px) {
+  #carouselMobile {
+    display: none;
+  }
+}
+
+/* @media (max-width: 576px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+} */

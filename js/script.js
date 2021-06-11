@@ -86,3 +86,14 @@ $(document).ready(function () {
     thanks.show();
   });
 });
+
+let hammer = new Hammer(document.querySelector('.carousel'));
+
+let $carousel = $('.carousel');
+hammer.get('swipe');
+hammer.on('swipeleft', function () {
+  $carousel.carousel('next');
+});
+hammer.on('swiperight', function () {
+  $carousel.carousel('prev');
+});
