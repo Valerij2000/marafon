@@ -1268,6 +1268,7 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
     left: 12px;
     bottom: 716px;
     max-width: 280px;
+    margin-top: 80px;
   }
 }
 
@@ -1310,12 +1311,6 @@ f .wrapper .ruvim-pro-section .input__group .inp::placeholder {
 @media (max-width: 376px) {
   .wrapper .themes-section {
     margin-top: -410px;
-  }
-}
-
-@media (max-width: 360px) {
-  .wrapper .themes-section {
-    margin-top: -90px;
   }
 }
 
